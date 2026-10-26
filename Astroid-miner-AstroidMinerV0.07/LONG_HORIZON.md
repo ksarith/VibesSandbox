@@ -38,7 +38,7 @@ Redundancy becomes fragile
 Scale amplifies failure instead of resilience
 
 
-The propulsion and ISRU stack (propulsion-economy-isru/) represents the moment where the project shifts from static infrastructure to living system.
+The propulsion and ISRU stack (docs/isru/) represents the moment where the project shifts from static infrastructure to living system.
 
 Key framing:
 

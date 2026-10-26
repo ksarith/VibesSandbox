@@ -171,7 +171,7 @@ Order-of-magnitude estimates:
 - NASA ISRU studies (concentrator-based processing)
 - Space-based solar power demonstrations (ESA SOLARIS)
 - Internal links:
-  - `vision-philosophy/rogue-unit-management.md`
+  - `docs/vision/rogue-unit-management.md`
   - `delta-v_and_reaction_mass_economy.md`
   - `superconductor-interconnect-proposal.md`
 

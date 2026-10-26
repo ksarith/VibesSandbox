@@ -5,7 +5,7 @@ capacity() signature reconciled per DEC-002)
 Changes from original sketch:
 - Added missing imports: `Subsystem` (from the authoritative swarm model) and
   `typing.Dict`.
-- DEC-002 (decisions/DEC-002-subsystem-capacity-protocol.md), option (a):
+- DEC-002 (docs/decisions/DEC-002-subsystem-capacity-protocol.md), option (a):
   capacity() now takes (swarm_mass, params, global_state) matching the
   authoritative ConstraintSolver's calling convention, instead of a bare
   `cycle: int`. The cycle count is read from global_state['cycle'] (added to

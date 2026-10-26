@@ -1,7 +1,7 @@
 """
 MDL-MC-03 — Comparative Monte Carlo asteroid model
 
-*** DEPRECATED per DEC-001 (decisions/DEC-001-silicate-pathway.md) ***
+*** DEPRECATED per DEC-001 (docs/decisions/DEC-001-silicate-pathway.md) ***
 *** Resolved: option (b) — formal deprecation, 2026-08-12 ***
 
 NOT functional: imports `Subsystem` from `replication_constraint_graph_v3`,

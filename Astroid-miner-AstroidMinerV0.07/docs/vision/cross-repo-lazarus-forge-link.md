@@ -57,8 +57,8 @@ vacuum than underground — vacuum eliminates the oxidation problem that complic
 
 - **Nothing is actionable yet.** The source file itself says findings "should be formally
   transferred... at activation" — activation hasn't happened.
-- This repository's own `terraforming-core/`, `propulsion-economy-isru/`, and
-  `power-solar-backbone/` concept documents (including `solar-concentrator-mirror-arrays.md` and
+- This repository's own `docs/terraforming/`, `docs/isru/`, and
+  `docs/power/` concept documents (including `solar-concentrator-mirror-arrays.md` and
   `liquid-metal-rotating-mirrors.md`, V0.04) already independently cover similar territory
   (solar concentration, staged volatile capture, liquid-metal optics) without depending on this
   link. No content was changed in those files as a result of this verification.

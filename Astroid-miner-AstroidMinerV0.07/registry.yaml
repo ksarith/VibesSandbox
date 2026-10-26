@@ -18,14 +18,14 @@
 #   notes: optional free text
 
 entries:
-- path: decisions/DEC-001-silicate-pathway.md
+- path: docs/decisions/DEC-001-silicate-pathway.md
   type: GOVERNANCE
   authority: AUTHORITATIVE-DRAFT
   validation: UNVALIDATED
   executability: N/A
   parameter_status: N/A
   notes: RESOLVED 2026-08-12, option (b), formal deprecation of the silicate pathway.
-- path: decisions/DEC-002-subsystem-capacity-protocol.md
+- path: docs/decisions/DEC-002-subsystem-capacity-protocol.md
   type: GOVERNANCE
   authority: AUTHORITATIVE-DRAFT
   validation: UNVALIDATED
@@ -75,197 +75,197 @@ entries:
   executability: N/A
   parameter_status: N/A
   notes: This file. Self-referential entry so validate_registry.py's coverage check passes.
-- path: architecture-high-level/concepts.md
+- path: docs/architecture/concepts.md
   type: CONCEPT
   authority: EXPLORATORY
   validation: UNVALIDATED
   executability: N/A
   parameter_status: UNPROVENANCED
-- path: architecture-high-level/fault-tolerant-power-control.md
+- path: docs/architecture/fault-tolerant-power-control.md
   type: ENGINEERING
   authority: EXPLORATORY
   validation: UNVALIDATED
   executability: N/A
   parameter_status: UNPROVENANCED
-- path: architecture-high-level/mechanical-structures.md
+- path: docs/architecture/mechanical-structures.md
   type: ENGINEERING
   authority: EXPLORATORY
   validation: UNVALIDATED
   executability: N/A
   parameter_status: UNPROVENANCED
   notes: Generated content injected during V0.02 assembly. No verified provenance from V0.01.
-- path: architecture-high-level/roles-doctrine.md
+- path: docs/architecture/roles-doctrine.md
   type: GOVERNANCE
   authority: AUTHORITATIVE-DRAFT
   validation: UNVALIDATED
   executability: N/A
   parameter_status: N/A
-- path: architecture-high-level/swarm-vs-monolith-vs-hybrid.md
+- path: docs/architecture/swarm-vs-monolith-vs-hybrid.md
   type: CONCEPT
   authority: AUTHORITATIVE-DRAFT
   validation: UNVALIDATED
   executability: N/A
   parameter_status: UNPROVENANCED
-- path: architecture-high-level/system-architecture-overview.md
+- path: docs/architecture/system-architecture-overview.md
   type: CONCEPT
   authority: AUTHORITATIVE-DRAFT
   validation: UNVALIDATED
   executability: N/A
   parameter_status: UNPROVENANCED
-- path: architecture-high-level/uranus-ejector-module.md
+- path: docs/architecture/uranus-ejector-module.md
   type: CONCEPT
   authority: EXPLORATORY
   validation: UNVALIDATED
   executability: N/A
   parameter_status: UNPROVENANCED
-- path: architecture-high-level/zero-spheres-stability.md
+- path: docs/architecture/zero-spheres-stability.md
   type: ENGINEERING
   authority: EXPLORATORY
   validation: UNVALIDATED
   executability: N/A
   parameter_status: UNPROVENANCED
-- path: propulsion-economy-isru/feedstock-characterization.md
+- path: docs/isru/feedstock-characterization.md
   type: ENGINEERING
   authority: AUTHORITATIVE-DRAFT
   validation: PARTIALLY-VALIDATED
   executability: N/A
   parameter_status: PARTIALLY-PROVENANCED
-- path: propulsion-economy-isru/magnetic-drive.md
+- path: docs/isru/magnetic-drive.md
   type: ENGINEERING
   authority: EXPLORATORY
   validation: UNVALIDATED
   executability: N/A
   parameter_status: UNPROVENANCED
-- path: propulsion-economy-isru/low-value-acquisitions-strategy.md
+- path: docs/isru/low-value-acquisitions-strategy.md
   type: CONCEPT
   authority: AUTHORITATIVE-DRAFT
   validation: UNVALIDATED
   executability: N/A
   parameter_status: UNPROVENANCED
-- path: propulsion-economy-isru/module-getm.md
+- path: docs/isru/module-getm.md
   type: ENGINEERING
   authority: EXPLORATORY
   validation: UNVALIDATED
   executability: N/A
   parameter_status: UNPROVENANCED
-- path: propulsion-economy-isru/zero-g-collection-anchoring.md
+- path: docs/isru/zero-g-collection-anchoring.md
   type: ENGINEERING
   authority: AUTHORITATIVE-DRAFT
   validation: UNVALIDATED
   executability: N/A
   parameter_status: PARTIALLY-PROVENANCED
-- path: propulsion-economy-isru/zero-g-fabrication.md
+- path: docs/isru/zero-g-fabrication.md
   type: ENGINEERING
   authority: AUTHORITATIVE-DRAFT
   validation: UNVALIDATED
   executability: N/A
   parameter_status: PARTIALLY-PROVENANCED
-- path: power-solar-backbone/1.5-au-solar-farm-concept.md
+- path: docs/power/1.5-au-solar-farm-concept.md
   type: ENGINEERING
   authority: EXPLORATORY
   validation: UNVALIDATED
   executability: N/A
   parameter_status: UNPROVENANCED
-- path: power-solar-backbone/energy-scaling.md
+- path: docs/power/energy-scaling.md
   type: ENGINEERING
   authority: AUTHORITATIVE-DRAFT
   validation: UNVALIDATED
   executability: N/A
   parameter_status: PARTIALLY-PROVENANCED
-- path: power-solar-backbone/superconductor-interconnect-proposal.md
+- path: docs/power/superconductor-interconnect-proposal.md
   type: ENGINEERING
   authority: EXPLORATORY
   validation: UNVALIDATED
   executability: N/A
   parameter_status: UNPROVENANCED
-- path: power-solar-backbone/solar-concentrator-mirror-arrays.md
+- path: docs/power/solar-concentrator-mirror-arrays.md
   type: CONCEPT
   authority: EXPLORATORY
   validation: UNVALIDATED
   executability: N/A
   parameter_status: UNPROVENANCED
   notes: Secondhand technical analysis from external model, not independently verified (V0.04).
-- path: power-solar-backbone/liquid-metal-rotating-mirrors.md
+- path: docs/power/liquid-metal-rotating-mirrors.md
   type: CONCEPT
   authority: EXPLORATORY
   validation: UNVALIDATED
   executability: N/A
   parameter_status: UNPROVENANCED
   notes: Secondhand technical analysis from external model, not independently verified (V0.04).
-- path: terraforming-core/martian-atmosphere.md
+- path: docs/terraforming/martian-atmosphere.md
   type: CONCEPT
   authority: EXPLORATORY
   validation: UNVALIDATED
   executability: N/A
   parameter_status: UNPROVENANCED
-- path: terraforming-core/ceres-planet-building.md
+- path: docs/terraforming/ceres-planet-building.md
   type: CONCEPT
   authority: EXPLORATORY
   validation: UNVALIDATED
   executability: N/A
   parameter_status: UNPROVENANCED
-- path: terraforming-core/ceres-metabolic-nucleus.md
+- path: docs/terraforming/ceres-metabolic-nucleus.md
   type: CONCEPT
   authority: EXPLORATORY
   validation: UNVALIDATED
   executability: N/A
   parameter_status: UNPROVENANCED
-- path: terraforming-core/mars-atmosphere-bootstrapping.md
+- path: docs/terraforming/mars-atmosphere-bootstrapping.md
   type: CONCEPT
   authority: EXPLORATORY
   validation: UNVALIDATED
   executability: N/A
   parameter_status: UNPROVENANCED
-- path: terraforming-core/mars-core-jumpstart-sketch.md
+- path: docs/terraforming/mars-core-jumpstart-sketch.md
   type: CONCEPT
   authority: EXPLORATORY
   validation: UNVALIDATED
   executability: N/A
   parameter_status: UNPROVENANCED
-- path: terraforming-core/planetary-orbital-conditioning.md
+- path: docs/terraforming/planetary-orbital-conditioning.md
   type: CONCEPT
   authority: EXPLORATORY
   validation: UNVALIDATED
   executability: N/A
   parameter_status: UNPROVENANCED
-- path: vision-philosophy/cross-repo-lazarus-forge-link.md
+- path: docs/vision/cross-repo-lazarus-forge-link.md
   type: CONCEPT
   authority: AUTHORITATIVE-DRAFT
   validation: PARTIALLY-VALIDATED
   executability: N/A
   parameter_status: N/A
   notes: Verified directly against LazarusForgeV0-1Alpha12.zip (V0.05).
-- path: vision-philosophy/interstellar-seeding.md
+- path: docs/vision/interstellar-seeding.md
   type: CONCEPT
   authority: EXPLORATORY
   validation: UNVALIDATED
   executability: N/A
   parameter_status: N/A
-- path: vision-philosophy/oceanic-tests.md
+- path: docs/vision/oceanic-tests.md
   type: CONCEPT
   authority: EXPLORATORY
   validation: UNVALIDATED
   executability: N/A
   parameter_status: N/A
-- path: vision-philosophy/rogue-unit-management.md
+- path: docs/vision/rogue-unit-management.md
   type: GOVERNANCE
   authority: AUTHORITATIVE-DRAFT
   validation: UNVALIDATED
   executability: N/A
   parameter_status: N/A
-- path: vision-philosophy/safety-lights.md
+- path: docs/vision/safety-lights.md
   type: CONCEPT
   authority: EXPLORATORY
   validation: UNVALIDATED
   executability: N/A
   parameter_status: N/A
-- path: vision-philosophy/vision.md
+- path: docs/vision/vision.md
   type: CONCEPT
   authority: LEGACY-LINEAGE
   validation: UNVALIDATED
   executability: N/A
   parameter_status: N/A
-- path: vision-philosophy/ethical-ai-frameworks.md
+- path: docs/vision/ethical-ai-frameworks.md
   type: GOVERNANCE
   authority: AUTHORITATIVE-DRAFT
   validation: UNVALIDATED
@@ -274,7 +274,7 @@ entries:
   notes: v1.1 consolidated (August 2026). Merges original Leviathan/Lazarus base with the v1.1 delta (role separation, Tested
     Framework First, runaway/rogue hardening, location agnosticism, auditability, non-goals). Supersedes the standalone delta
     file.
-- path: vision-philosophy/ethical-ai-frameworks-v1.1.md
+- path: docs/vision/ethical-ai-frameworks-v1.1.md
   type: GOVERNANCE
   authority: DEPRECATED
   validation: UNVALIDATED
@@ -282,7 +282,7 @@ entries:
   parameter_status: N/A
   notes: Historical delta only. Content merged into ethical-ai-frameworks.md (v1.1 consolidated, August 2026). Retained for
     provenance.
-- path: vision-philosophy/self-evolving-ai.md
+- path: docs/vision/self-evolving-ai.md
   type: CONCEPT
   authority: AUTHORITATIVE-DRAFT
   validation: UNVALIDATED

@@ -157,10 +157,10 @@ Escalation Protocols — Only escalate from containment to shutdown when no alte
 6. References & Integration
 
 Ethical Hierarchy Block (EHB) — governs all decisions:
-vision-philosophy/ethical-hierarchy-block.md
+docs/vision/ethical-hierarchy-block.md
 
 Self-Evolving AI — contains procedural integration with reward shaping, anomaly detection, and meta-ethical gating:
-vision-philosophy/self-evolving-ai.md
+docs/vision/self-evolving-ai.md
 
 Discovery.md — canonical raw file links for AI ingestion and human navigation:
 

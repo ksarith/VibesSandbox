@@ -24,4 +24,4 @@ The original delta also stated backward compatibility with v1.0 concepts and inc
 ---
 
 **Merged:** August 2026  
-**Canonical document:** `vision-philosophy/ethical-ai-frameworks.md`
+**Canonical document:** `docs/vision/ethical-ai-frameworks.md`

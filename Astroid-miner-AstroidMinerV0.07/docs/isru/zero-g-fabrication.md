@@ -251,7 +251,7 @@ Cross-links:
 
 zero-g-collection-anchoring.md
 
-power-solar-backbone/energy-scaling.md
+docs/power/energy-scaling.md
 
 Project map & raw links: 
 https://github.com/ksarith/Lazarus-Forge-
