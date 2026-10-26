@@ -1,7 +1,7 @@
 """
 MDL-MC-02 — Monte Carlo engine, silicate-comparison variant
 
-*** DEPRECATED per DEC-001 (decisions/DEC-001-silicate-pathway.md) ***
+*** DEPRECATED per DEC-001 (docs/decisions/DEC-001-silicate-pathway.md) ***
 *** Resolved: option (b) — formal deprecation, 2026-08-12 ***
 
 NOT functional: imports `Subsystem` and `SilicateSubsystem` from

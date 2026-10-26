@@ -65,7 +65,7 @@ The Astroid-miner project descends from two prior conceptual threads:
 The guiding intent, ethics, and long-term philosophy are maintained in a stable canonical document:
 
 - **Vision**  
-  `vision-philosophy/Vision.md`
+  `docs/vision/Vision.md`
 
 This document consolidates:
 - purpose and long-term trajectory  
@@ -81,19 +81,19 @@ All architectural, operational, and speculative work defers to this vision.
 Status tags:  
 **[IDEA]** speculative | **[DRAFT]** partial | **[WORKING]** internally consistent | **[REFERENCE]** stable | **[EXPERIMENTAL]** exploratory
 
-- **architecture-high-level/** [DRAFT]  
+- **docs/architecture/** [DRAFT]  
   Swarm architecture, system roles, redundancy, stability, large-scale modules
 
-- **power-solar-backbone/** [DRAFT]  
+- **docs/power/** [DRAFT]  
   Solar energy scaling, orbital power infrastructure, superconducting interconnects
 
-- **propulsion-economy-isru/** [WORKING]  
+- **docs/isru/** [WORKING]  
   Delta-v economics, low-value reaction mass, ISRU-driven propulsion, anchoring
 
-- **terraforming-core/** [IDEA]  
+- **docs/terraforming/** [IDEA]  
   Ceres and Mars planetary engineering sketches; long-horizon conditioning concepts
 
-- **vision-philosophy/** [REFERENCE]  
+- **docs/vision/** [REFERENCE]  
   Ethics, autonomy doctrine, interstellar seeding, rogue management, Leviathan lineage
 
 - **src/astroid_miner/** [MODEL] — Authoritative, standalone-importable computational models (Phase 3 restructuring)
@@ -159,7 +159,7 @@ https://raw.githubusercontent.com/ksarith/Lazarus-Forge-/main/Discovery.md
 The guiding vision is maintained in a single, stable document:
 
 - **Vision**  
-  `vision-philosophy/Vision.md` (canonical source for intent, ethics, and long-term design)
+  `docs/vision/Vision.md` (canonical source for intent, ethics, and long-term design)
 
 This document consolidates:
 - Purpose and long-term goals  
@@ -173,20 +173,20 @@ All design and operational decisions defer to this vision.
 Status tags:  
 **[IDEA]** speculative | **[DRAFT]** partial reasoning | **[WORKING]** consistent | **[REFERENCE]** stable | **[EXPERIMENTAL]** exploratory
 
-- **architecture-high-level/** [DRAFT] — Swarm structures, system roles, ejector concepts  
-- **propulsion-economy-isru/** [WORKING] — Delta-v economics, ISRU mass budgets, propulsion loops  
+- **docs/architecture/** [DRAFT] — Swarm structures, system roles, ejector concepts  
+- **docs/isru/** [WORKING] — Delta-v economics, ISRU mass budgets, propulsion loops  
 - **src/astroid_miner/** [MODEL] — Authoritative computational models: swarm solver, replication model, optimizer
 - **experiments/** [EXPERIMENTAL] — Deprecated model versions, models with unresolved broken imports
 - **archive/raw-development/** [EXPERIMENTAL] — Growth simulations, delta-v models, thermal extraction (raw historical)
-- **power-solar-backbone/** [DRAFT] — Solar scaling, energy backbone, superconductor ideas  
+- **docs/power/** [DRAFT] — Solar scaling, energy backbone, superconductor ideas  
 - **rogue-management/** [IDEA] — Failure modes, containment, resilience  
-- **terraforming-core/** [IDEA] — Ceres/Mars sketches, planet-building seeds  
-- **vision-philosophy/** [REFERENCE] — Long-horizon vision, ethical AI, guiding principles  
+- **docs/terraforming/** [IDEA] — Ceres/Mars sketches, planet-building seeds  
+- **docs/vision/** [REFERENCE] — Long-horizon vision, ethical AI, guiding principles  
 
 For the full canonical file list, raw links, and quick-reference groupings (including more files than shown here), see:  
 **Discovery.md** — the single source for all project mapping and raw URLs  
- [View on GitHub](https://github.com/ksarith/Astroid-miner/blob/main/Discovery.md)  
- [Raw for direct ingestion](https://raw.githubusercontent.com/ksarith/Astroid-miner/main/Discovery.md)
+👉 [View on GitHub](https://github.com/ksarith/Astroid-miner/blob/main/Discovery.md)  
+👉 [Raw for direct ingestion](https://raw.githubusercontent.com/ksarith/Astroid-miner/main/Discovery.md)
 
 ## AI & Machine Readers
 

@@ -23,9 +23,9 @@ Notation: `Type | Authority | Validation | Executability | Parameter Status`
 ## 100% Artifact Inventory
 
 ### Governance Decisions (`decisions/`)
-* `decisions/DEC-001-silicate-pathway.md` — **GOVERNANCE** | **AUTHORITATIVE-DRAFT** | **UNVALIDATED** | **N/A** | **N/A**
+* `docs/decisions/DEC-001-silicate-pathway.md` — **GOVERNANCE** | **AUTHORITATIVE-DRAFT** | **UNVALIDATED** | **N/A** | **N/A**
   *(RESOLVED 2026-08-12 — option (b), formal deprecation. See file for rationale.)*
-* `decisions/DEC-002-subsystem-capacity-protocol.md` — **GOVERNANCE** | **AUTHORITATIVE-DRAFT** | **UNVALIDATED** | **N/A** | **N/A**
+* `docs/decisions/DEC-002-subsystem-capacity-protocol.md` — **GOVERNANCE** | **AUTHORITATIVE-DRAFT** | **UNVALIDATED** | **N/A** | **N/A**
   *(RESOLVED 2026-08-12 — option (a) implemented. `PowerSubsystem.capacity()` reconciled to `(swarm_mass, params, global_state)`; verified as a real drop-in replacement via a degradation-behavior integration test, not merely a signature match.)*
 
 ### Root Meta & Horizon Documents
@@ -36,7 +36,7 @@ Notation: `Type | Authority | Validation | Executability | Parameter Status`
 * `REGISTRY.md` — **BUILD** | **AUTHORITATIVE-DRAFT** | **UNVALIDATED** | **N/A** | **N/A**
 * `MODELS.md` — **BUILD** | **AUTHORITATIVE-DRAFT** | **UNVALIDATED** | **N/A** | **N/A**
 
-### High-Level Architecture (`architecture-high-level/`)
+### High-Level Architecture (`docs/architecture/`)
 * `concepts.md` — **CONCEPT** | **EXPLORATORY** | **UNVALIDATED** | **N/A** | **UNPROVENANCED**
 * `fault-tolerant-power-control.md` — **ENGINEERING** | **EXPLORATORY** | **UNVALIDATED** | **N/A** | **UNPROVENANCED**
 * `mechanical-structures.md` — **ENGINEERING** | **EXPLORATORY** | **UNVALIDATED** | **N/A** | **UNPROVENANCED**
@@ -47,7 +47,7 @@ Notation: `Type | Authority | Validation | Executability | Parameter Status`
 * `uranus-ejector-module.md` — **CONCEPT** | **EXPLORATORY** | **UNVALIDATED** | **N/A** | **UNPROVENANCED**
 * `zero-spheres-stability.md` — **ENGINEERING** | **EXPLORATORY** | **UNVALIDATED** | **N/A** | **UNPROVENANCED**
 
-### Propulsion & ISRU (`propulsion-economy-isru/`)
+### Propulsion & ISRU (`docs/isru/`)
 * `feedstock-characterization.md` — **ENGINEERING** | **AUTHORITATIVE-DRAFT** | **PARTIALLY-VALIDATED** | **N/A** | **PARTIALLY-PROVENANCED**
 * `magnetic-drive.md` — **ENGINEERING** | **EXPLORATORY** | **UNVALIDATED** | **N/A** | **UNPROVENANCED**
 * `low-value-acquisitions-strategy.md` — **CONCEPT** | **AUTHORITATIVE-DRAFT** | **UNVALIDATED** | **N/A** | **UNPROVENANCED**
@@ -55,7 +55,7 @@ Notation: `Type | Authority | Validation | Executability | Parameter Status`
 * `zero-g-collection-anchoring.md` — **ENGINEERING** | **AUTHORITATIVE-DRAFT** | **UNVALIDATED** | **N/A** | **PARTIALLY-PROVENANCED**
 * `zero-g-fabrication.md` — **ENGINEERING** | **AUTHORITATIVE-DRAFT** | **UNVALIDATED** | **N/A** | **PARTIALLY-PROVENANCED**
 
-### Solar & Power Backbone (`power-solar-backbone/`)
+### Solar & Power Backbone (`docs/power/`)
 * `1.5-au-solar-farm-concept.md` — **ENGINEERING** | **EXPLORATORY** | **UNVALIDATED** | **N/A** | **UNPROVENANCED**
 * `energy-scaling.md` — **ENGINEERING** | **AUTHORITATIVE-DRAFT** | **UNVALIDATED** | **N/A** | **PARTIALLY-PROVENANCED**
 * `superconductor-interconnect-proposal.md` — **ENGINEERING** | **EXPLORATORY** | **UNVALIDATED** | **N/A** | **UNPROVENANCED**
@@ -64,7 +64,7 @@ Notation: `Type | Authority | Validation | Executability | Parameter Status`
 * `liquid-metal-rotating-mirrors.md` — **CONCEPT** | **EXPLORATORY** | **UNVALIDATED** | **N/A** | **UNPROVENANCED**
   *(New, V0.04. Same provenance caveat as above — secondhand technical summary, not independently sourced. Explicitly notes space/off-zenith applications are research-stage with no flight heritage reported.)*
 
-### Terraforming Core (`terraforming-core/`)
+### Terraforming Core (`docs/terraforming/`)
 * `martian-atmosphere.md` — **CONCEPT** | **EXPLORATORY** | **UNVALIDATED** | **N/A** | **UNPROVENANCED**
 * `ceres-planet-building.md` — **CONCEPT** | **EXPLORATORY** | **UNVALIDATED** | **N/A** | **UNPROVENANCED**
 * `ceres-metabolic-nucleus.md` — **CONCEPT** | **EXPLORATORY** | **UNVALIDATED** | **N/A** | **UNPROVENANCED**
@@ -72,7 +72,7 @@ Notation: `Type | Authority | Validation | Executability | Parameter Status`
 * `mars-core-jumpstart-sketch.md` — **CONCEPT** | **EXPLORATORY** | **UNVALIDATED** | **N/A** | **UNPROVENANCED**
 * `planetary-orbital-conditioning.md` — **CONCEPT** | **EXPLORATORY** | **UNVALIDATED** | **N/A** | **UNPROVENANCED**
 
-### Vision & Governance (`vision-philosophy/`)
+### Vision & Governance (`docs/vision/`)
 * `cross-repo-lazarus-forge-link.md` — **CONCEPT** | **AUTHORITATIVE-DRAFT** | **PARTIALLY-VALIDATED** | **N/A** | **N/A**
   *(New, V0.05. Verified directly against the uploaded `LazarusForgeV0-1Alpha12.zip` archive — `Tests/Solar_Descent.md` and `Discovery.md` read and quoted directly, not taken secondhand. Confirms the cross-repo relationship is real but explicitly dormant: "planned; activates when Leviathan deployment is underway." Marked PARTIALLY-VALIDATED because the *existence and wording* of the claim is now verified against source, even though the underlying Solar Descent content itself remains Exploration-status/unvalidated in its own repository.)*
 * `interstellar-seeding.md` — **CONCEPT** | **EXPLORATORY** | **UNVALIDATED** | **N/A** | **N/A**
@@ -99,7 +99,7 @@ Files below were moved out of the flat `notebooks/` directory (removed in V0.03)
 * `src/astroid_miner/models/zero_g_subsystem_swarm_v3.py` (was `ZeroGSubsystemSwarm_v3.py`) — **MODEL** | **AUTHORITATIVE-MODEL** | **UNVALIDATED** | **EXEC-FULL** | **PARTIALLY-PROVENANCED**
   *(`load_params()` default path updated for new depth under `src/astroid_miner/models/`; verified against `parameters/swarm_v3.yaml`.)*
 * `experiments/deprecated/replication_constraint_graph_v4_silicate.py` — **MODEL** | **DEPRECATED** | **UNVALIDATED** | **INERT-SKETCH** | **UNPROVENANCED**
-  *(DEC-001 (b), 2026-08-12: formally deprecated. Relocated August 2026 from `src/astroid_miner/models/` to `experiments/deprecated/` so it is no longer on the importable package path. `solve_cycle()` raises `NameError` — `processed_raw_kg`, `raw_metals`, `fab_capacity` are never defined, and the return dict contains a literal `...` placeholder. See `decisions/DEC-001-silicate-pathway.md`.)*
+  *(DEC-001 (b), 2026-08-12: formally deprecated. Relocated August 2026 from `src/astroid_miner/models/` to `experiments/deprecated/` so it is no longer on the importable package path. `solve_cycle()` raises `NameError` — `processed_raw_kg`, `raw_metals`, `fab_capacity` are never defined, and the return dict contains a literal `...` placeholder. See `docs/decisions/DEC-001-silicate-pathway.md`.)*
 * `src/astroid_miner/optimization/optimizer.py` (was `Optimizer.py`) — **MODEL** | **EXPLORATORY** | **UNVALIDATED** | **EXEC-PARTIAL** | **UNPROVENANCED**
   *(Interface repaired in Phase 2; import path updated in Phase 3 to `astroid_miner.models.zero_g_subsystem_swarm_v3`. Verified via `tests/test_optimizer_interface.py`, 5/5 passing.)*
 
@@ -164,7 +164,7 @@ No claim is made that it was "carved out" of a prior Engineering.md or any other
 - All internal cross-imports (`Optimizer.py`, `ZeroGSubsystemSwarm_v3.py`'s `load_params()` default path) updated for new file depth and verified by direct execution.
 - `tests/test_optimizer_interface.py` updated to import from `src/astroid_miner` instead of the old flat-directory `sys.path` hack. Re-ran: 5/5 passing.
 - Added `pyproject.toml` (setuptools, `src/` layout) so the package is properly installable/importable rather than relying on manual `sys.path` insertion long-term.
-- Conceptual/governance document trees (`architecture-high-level/`, `vision-philosophy/`, `terraforming-core/`, `power-solar-backbone/`, `propulsion-economy-isru/`) were left untouched — they were already reasonably organized and moving them wasn't justified by anything in the registry.
+- Conceptual/governance document trees (`docs/architecture/`, `docs/vision/`, `docs/terraforming/`, `docs/power/`, `docs/isru/`) were left untouched — they were already reasonably organized and moving them wasn't justified by anything in the registry.
 
 **New defects discovered during Phase 3 (pre-existing, not introduced by the move):**
 1. `PowerSubsystem.py` → `src/astroid_miner/models/power_subsystem.py`: fails standalone import (`NameError: Subsystem`). Was previously classified `AUTHORITATIVE-MODEL | EXEC-FULL` on the basis of visual inspection, not an actual standalone import test. Confirmed by running the *original* V0.01 file in isolation — the defect predates all prior Phase 1/1.1/2 work. Downgraded to `EXPLORATORY | INERT-SKETCH`.

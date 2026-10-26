@@ -48,18 +48,13 @@ REGISTRY_PATH = os.path.join(REPO_ROOT, "registry.yaml")
 PARAMS_PATH = os.path.join(REPO_ROOT, "parameters", "swarm_v3.yaml")
 
 TRACKED_DIRS = [
-    "architecture-high-level",
-    "propulsion-economy-isru",
-    "power-solar-backbone",
-    "terraforming-core",
-    "vision-philosophy",
+    "docs",
     "src",
     "experiments",
     "archive",
     "parameters",
     "tools",
     "tests",
-    "decisions",
 ]
 TRACKED_ROOT_FILES = [
     "README.md",

@@ -12,13 +12,13 @@
 | MDL-MC-01    | `experiments/deprecated/dynamic_optimizer_monte_carlo_v1.py`  | Monte Carlo Engine v1         | Deprecated          | EXEC-FULL      | Superseded by MDL-MC-02                 |
 | MDL-MC-02    | `experiments/monte_carlo/dynamic_monte_carlo_optimized.py`    | Deprecated per DEC-001        | Deprecated          | INERT-SKETCH   | **DEC-001 (b), 2026-08-12**: formally deprecated rather than repaired — see decision record |
 | MDL-MC-03    | `experiments/monte_carlo/monte_carlo_asteroid_comparison.py`  | Deprecated per DEC-001        | Deprecated          | INERT-SKETCH   | **DEC-001 (b), 2026-08-12**: same disposition as MDL-MC-02 |
-| MDL-GRA-04   | `experiments/deprecated/replication_constraint_graph_v4_silicate.py` | Deprecated per DEC-001 | Deprecated | INERT-SKETCH   | **DEC-001 (b), 2026-08-12**: formally deprecated; see `decisions/DEC-001-silicate-pathway.md` |
+| MDL-GRA-04   | `experiments/deprecated/replication_constraint_graph_v4_silicate.py` | Deprecated per DEC-001 | Deprecated | INERT-SKETCH   | **DEC-001 (b), 2026-08-12**: formally deprecated; see `docs/decisions/DEC-001-silicate-pathway.md` |
 
 ---
 
 ## DEC-001 Resolution (2026-08-12)
 
-MDL-GRA-04, MDL-MC-02, and MDL-MC-03 are now formally **DEPRECATED** per `decisions/DEC-001-silicate-pathway.md`, option (b). This is a status upgrade from the Phase 3.1 `EXPLORATORY` classification — deprecation is stronger and signals "do not build on this, and don't expect it to be repaired soon" rather than merely "unvalidated." Each file now carries a top-of-file docstring notice pointing back to the decision record. No code logic was changed as part of this resolution — files were retained for provenance. In August 2026 MDL-GRA-04 was relocated from `src/astroid_miner/models/` to `experiments/deprecated/` so it is no longer on the importable package path. The decision can be reopened later if something in the swarm/optimizer/parameter layer develops an actual dependency on silicate-pathway output.
+MDL-GRA-04, MDL-MC-02, and MDL-MC-03 are now formally **DEPRECATED** per `docs/decisions/DEC-001-silicate-pathway.md`, option (b). This is a status upgrade from the Phase 3.1 `EXPLORATORY` classification — deprecation is stronger and signals "do not build on this, and don't expect it to be repaired soon" rather than merely "unvalidated." Each file now carries a top-of-file docstring notice pointing back to the decision record. No code logic was changed as part of this resolution — files were retained for provenance. In August 2026 MDL-GRA-04 was relocated from `src/astroid_miner/models/` to `experiments/deprecated/` so it is no longer on the importable package path. The decision can be reopened later if something in the swarm/optimizer/parameter layer develops an actual dependency on silicate-pathway output.
 
 ## Phase 3.1 Findings — MDL-GRA-04 downgrade and MC-02/03 disposition
 
@@ -29,7 +29,7 @@ MDL-GRA-04, MDL-MC-02, and MDL-MC-03 are now formally **DEPRECATED** per `decisi
 ## DEC-002 Resolution (2026-08-12)
 
 MDL-PWR-01 is now fully integrated with the authoritative `ConstraintSolver` per
-`decisions/DEC-002-subsystem-capacity-protocol.md`, option (a). `capacity()` was changed from
+`docs/decisions/DEC-002-subsystem-capacity-protocol.md`, option (a). `capacity()` was changed from
 `(swarm_mass, params, cycle=0)` to `(swarm_mass, params, global_state)`, reading
 `global_state.get('cycle', 0)` internally. `solve_cycle()` gained a `cycle: int = 0` parameter
 threaded into `global_state['cycle']` — non-breaking for all existing callers. This was verified as

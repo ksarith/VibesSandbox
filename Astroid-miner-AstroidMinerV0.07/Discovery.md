@@ -28,7 +28,7 @@ These files capture strategic, ethical, and long-horizon thinking for the Astroi
 
 ## Architecture — High Level
 
-The `architecture-high-level/` folder defines the foundational structure of the Astroid-miner system. These documents establish the system’s architectural philosophy, swarm dynamics, stability considerations, redundancy strategies, and large-scale module concepts. This layer informs all downstream design decisions.
+The `docs/architecture/` folder defines the foundational structure of the Astroid-miner system. These documents establish the system’s architectural philosophy, swarm dynamics, stability considerations, redundancy strategies, and large-scale module concepts. This layer informs all downstream design decisions.
 
 - **[concepts.md](https://raw.githubusercontent.com/ksarith/Astroid-miner/main/architecture-high-level/concepts.md)** — Establishes the core conceptual framework of the system, outlining high-level design assumptions, guiding principles, and architectural intent.
 
@@ -47,7 +47,7 @@ The `architecture-high-level/` folder defines the foundational structure of the 
 
 ## Power — Solar Backbone
 
-The `power-solar-backbone/` folder explores the foundational energy infrastructure required to support large-scale autonomous mining, processing, fabrication, and logistics across the Solar System. These documents examine how energy generation, transmission, and scaling must evolve to sustain non-human industrial systems operating over astronomical distances and timescales.
+The `docs/power/` folder explores the foundational energy infrastructure required to support large-scale autonomous mining, processing, fabrication, and logistics across the Solar System. These documents examine how energy generation, transmission, and scaling must evolve to sustain non-human industrial systems operating over astronomical distances and timescales.
 
 - **[Energy Scaling](https://raw.githubusercontent.com/ksarith/Astroid-miner/main/power-solar-backbone/energy-scaling.md)** — Analyzes how available solar energy scales with distance from the Sun and the implications this has for system architecture, mission planning, and power budgeting across AU-scale operations.
 
@@ -58,7 +58,7 @@ The `power-solar-backbone/` folder explores the foundational energy infrastructu
 
 ## Propulsion — Economy & ISRU
 
-The `propulsion-economy-isru/` folder addresses mobility as an economic and systemic problem rather than a purely mechanical one. These documents examine how autonomous units move, reposition, anchor, and apply force using locally available resources, low-value reaction mass, and long-duration thrust strategies. Propulsion is treated as a continuous, integrated capability rather than a discrete burn-based event.
+The `docs/isru/` folder addresses mobility as an economic and systemic problem rather than a purely mechanical one. These documents examine how autonomous units move, reposition, anchor, and apply force using locally available resources, low-value reaction mass, and long-duration thrust strategies. Propulsion is treated as a continuous, integrated capability rather than a discrete burn-based event.
 
 - **[Magnetic Drive](https://raw.githubusercontent.com/ksarith/Astroid-miner/refs/heads/main/propulsion-economy-isru/magnetic-drive.md)** — Proposes a non-traditional thrust mechanism based on electromagnetic interaction, emphasizing low-thrust, long-duration force application suitable for gradual repositioning, towing, and orbital shaping.
 
@@ -74,7 +74,7 @@ The `propulsion-economy-isru/` folder addresses mobility as an economic and syst
 
 
 ## Terraforming Core — Planetary Engineering Sketches (Long Horizon)
-The terraforming-core/ folder explores planetary-scale engineering as a downstream consequence of autonomous mining, energy abundance, and orbital control. These documents are not execution plans, but structured sketches intended to remain dormant until enabling technologies (energy scaling, mass transport, AI coordination) make them actionable.
+The docs/terraforming/ folder explores planetary-scale engineering as a downstream consequence of autonomous mining, energy abundance, and orbital control. These documents are not execution plans, but structured sketches intended to remain dormant until enabling technologies (energy scaling, mass transport, AI coordination) make them actionable.
 Terraforming here is treated as systems engineering, not habitation-first colonization. Human presence is explicitly non-essential in early phases; stabilization and conditioning precede biology.
 
 - **[Martian Atmosphere](https://raw.githubusercontent.com/ksarith/Astroid-miner/refs/heads/main/terraforming-core/martian-atmosphere.md)** - This document examines Mars’ atmosphere as a manipulable system rather than a static deficiency. It outlines atmospheric loss mechanisms, pressure targets, and potential replenishment pathways without assuming immediate biological viability. The framing emphasizes retention first, thickening second, acknowledging that atmosphere generation without magnetic or thermal stabilization is self-defeating.
@@ -99,7 +99,7 @@ Terraforming here is treated as systems engineering, not habitation-first coloni
 
 - **[Planetary Orbital Conditioning](https://raw.githubusercontent.com/ksarith/Astroid-miner/refs/heads/main/terraforming-core/planetary-orbital-conditioning.md)** - Broadens the terraforming lens from surface and atmosphere work to orbital-scale conditioning: angular momentum management, debris mitigation, and long-duration orbital infrastructure that supports planetary engineering rather than competing with it.
   
-- The terraforming-core/ folder explores planetary-scale engineering as a long-horizon consequence of autonomous mining, energy abundance, and orbital control. These documents are intentionally speculative engineering sketches rather than execution plans, designed to remain dormant until enabling capabilities (energy scaling, mass transport, AI coordination) make them viable.
+- The docs/terraforming/ folder explores planetary-scale engineering as a long-horizon consequence of autonomous mining, energy abundance, and orbital control. These documents are intentionally speculative engineering sketches rather than execution plans, designed to remain dormant until enabling capabilities (energy scaling, mass transport, AI coordination) make them viable.
 
 - Terraforming is treated here as systems engineering, not habitation-first colonization. Early phases prioritize stabilization, retention, and conditioning; human presence is optional until planetary systems reach durable equilibrium.
 

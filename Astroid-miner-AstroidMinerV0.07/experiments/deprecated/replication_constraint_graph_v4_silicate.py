@@ -1,7 +1,7 @@
 """
 MDL-GRA-04 — Silicate constraint graph model
 
-*** DEPRECATED per DEC-001 (decisions/DEC-001-silicate-pathway.md) ***
+*** DEPRECATED per DEC-001 (docs/decisions/DEC-001-silicate-pathway.md) ***
 *** Resolved: option (b) — formal deprecation, 2026-08-12 ***
 *** Relocated: experiments/deprecated/ (August 2026) — removed from
 *** importable package path so production code cannot depend on it.

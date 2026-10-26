@@ -110,7 +110,7 @@ class ConstraintSolver:
     def solve_cycle(self, swarm_mass: float, asteroid: Asteroid, collection_method: str = "enclosed", cycle: int = 0):
         """
         cycle: elapsed-cycle counter, threaded through global_state per DEC-002
-        (decisions/DEC-002-subsystem-capacity-protocol.md). Added so subsystems
+        (docs/decisions/DEC-002-subsystem-capacity-protocol.md). Added so subsystems
         that need cycle-dependent behavior (e.g. degradation curves) can read
         it from global_state rather than needing a separate calling convention.
         Non-breaking: existing callers that omit cycle get 0, identical to
