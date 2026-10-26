@@ -1,6 +1,6 @@
 # Human Ruling List — Parked Concerns Triage
 
-**Status note (2026-10-26):** This list was drafted 2026-10-25 before the five-sweep enactment. Since then the human governing authority resolved several items: PKC-031 (Proposed retired), PKC-004/024 (Risk/Priority vocabulary), PKC-025 (Unknowns.md derivative-index exception), PKC-013 (RS-001), PKC-015 (IIL intake), PKC-017, PKC-020 (findings-only rule), PKC-029, PKC-035, PKC-038 (option A), PKC-039 and PKC-041 are enacted. Treat the Recommended Disposition text below as historical; the problem statements remain source-accurate.
+**Status note (2026-10-26):** This list was drafted 2026-10-25 before the five-sweep enactment. Since then the human governing authority resolved several items: PKC-031 (Proposed retired), PKC-004/024 (Risk/Priority vocabulary), PKC-025 (Unknowns.md derivative-index exception), PKC-013 (RS-001), PKC-015 (IIL intake), PKC-017, PKC-020 (findings-only rule), PKC-029, PKC-035, PKC-038 (option A), PKC-039 and PKC-041 are enacted. PKC-008 was also resolved 2026-10-25 (the "Classification Disputes" heading was created in Progress_Log itself, not in GMP), and PKC-016 was enacted 2026-10-26 (GMP §VII.6 item 1 marked done 2026-09-23, mirroring the Hardware_Diversity_Ladder fix). Treat the Recommended Disposition text below as historical; the problem statements remain source-accurate.
 
 
 **Source:** `Progress_Log.md` §Parked Concerns (rows PKC-001–040), Last Reviewed 2026-10-25.
@@ -75,7 +75,7 @@
 **Downstream:** One namespace decision covers twelve files; bare `ASM-0xx` citations (PKC-021's third shape) become resolvable.
 
 ### PKC-012 — "Six-folder structure" wording is internally inconsistent
-**Problem:** ASM-001 counts root among six; §II calls Automation/ and Archive/ non-domain layers on top of six content domains; the repo has seven physical directories plus root. Adm_Scope_Map carries its own folder counts.
+**Problem:** ASM-001 counts root among six; §II calls Automation/ and Archive/ non-domain layers on top of six content domains; the repo has seven physical directories plus root files. Adm_Scope_Map carries its own folder counts.
 **Recommended disposition:** Adopt ASM-001's definition as canonical (six content domains), amend §II to say "six content domains plus two non-domain layers plus root files," and align Adm_Scope_Map's counts in the same edit.
 **Downstream:** Three-way reconciliation in one pass; removes a persistent auditor confusion.
 
