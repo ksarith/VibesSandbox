@@ -18,4 +18,5 @@ Agent working area for the LazarusForge project — a staging and verification z
 | File | What it is |
 |---|---|
 | `PKC_Ruling_List.md` | Decision-ready list of the Parked Concerns requiring human rulings, with recommended dispositions and a 2026-10-26 status note marking which have since been enacted. |
+| `Decision_Brief_2026-10-27.md` | Vibe's decision-ready material for the human ruling session: pin-vs-retire options (with recommendation), PKC-033 authorization scope, PKC-001 hold-vs-investigate. Nothing here is doctrine. |
 | `Baseline_Pull_2026-10-26.md` | Vibe's full baseline pull of LazarusForge `main` at commit f79c0b6: five-sweep verification, findings, and a 100-file version table. Includes a staleness banner recording post-baseline fixes. |
