@@ -1,7 +1,7 @@
 # LazarusForge Per-File Auditor — Session Status
 
 - Auditor: Vibe (Skeptic/Auditor), external findings-only pass (PKC-020)
-- Last updated: 2026-10-28 (after file 14; AUDIT_13 correction logged: human ruling — Astroid-miner exists)
+- Last updated: 2026-10-28 (after file 15; LazarusForge head moved to c9f9f641 — Kit v1.24 human-ratified X5 partial enactment)
 - Repo: ksarith/LazarusForge @ refs/heads/main, head SHA 6dea6e08ce8790a9f8e6b5cc109c9e3253f48c2a (unchanged across sessions)
 - Human rulings: sequence approved; Automation/ skipped entirely; method check-in after first 5 files; files 1–5 final (no re-verify, head unchanged); continue without pausing; files 1–11 final, resume at file 12 (session prompt v2, 2026-10-27).
 
@@ -29,11 +29,20 @@
 | 12 | Admin/Repository_Structure.md | DONE | 0/0/2/2 | AUDIT_12_Admin-Repository_Structure.md |
 | 13 | Admin/Trajectories.md | DONE | 0/1/4/2 | AUDIT_13_Admin-Trajectories.md |
 | 14 | Admin/Progress_Log.md | DONE | 0/0/1/2 | AUDIT_14_Admin-Progress_Log.md |
+| 15 | Admin/Forge_Audit_Kit.md | DONE | 0/0/5/2 | AUDIT_15_Admin-Forge_Audit_Kit.md |
 
 Template INCOMPLETEs on files 1–5 resolved by dated correction: AUDIT_01-05_TEMPLATE_RESOLUTION_2026-10-27.md.
 
 
 
+
+
+## AUDIT_15 headlines (Forge_Audit_Kit)
+- **HEAD MOVED:** LazarusForge 6dea6e08 (files 1–14) → c9f9f641 (file 15 fetch). Kit v1.24 (2026-10-28, human-ratified delegated maintenance) enacted part of our queued X5 recommendation: CF-/GMP- ID-Reference rows added; ASM- disambiguation note added deferring to the pending X3 human ruling. Its bookkeeping (version, Last Audit, Auditor, changelog) is correct.
+- 0 CRITICAL / 0 MAJOR / 5 WARNING / 2 NOTE. Content in best shape ever (pin class dissolved; gate-scope-vs-promotion note clearest in repo); wrapper decayed in five one-pass-fixable places:
+- WARNINGs: Scope Boundary omits the Resolved Unknown Discharge Procedure (F1, X1); Assumptions/File Purpose/Active Disputes/Lessons Learned all absent (F2, AUDIT_13 F3 class); Rule 5 "four-label system" undefined, conflicts with own five-label section and EF-0.0's three states — verdict DEFERRED to the AP audit, LAST in sequence (F3, X8); live size drift indicator (34,250 chars vs own 12,000 threshold) unactioned since ~v1.16 (F4, X8); kit's 5 open FAKs absent from Unknowns v5.71 active index — mirror gap unique among audited files, relocation exception covers sidecar location not registry mirroring (F5, X10-parity).
+- Queued-recommendation update: X5 Kit ID-Reference regeneration = PARTIALLY ENACTED (human-ratified 2026-10-28); X3 namespace ruling still pending and correctly deferred by the kit's own note.
+- Next: file 16 = Admin/Operational_Conventions.md (exempt-class checks per File_Template PKC-017 listing).
 
 ## AUDIT_14 headlines (Progress_Log)
 - 0 CRITICAL / 0 MAJOR / 1 WARNING / 2 NOTE. Special-class exemplar (File_Template names it for Spec Gates N/A); missing template sections conformant by design. Healthiest meta-file audited: X10 counts recount exact (42 PKC rows, 5 Parked = newest log entry's "5"; kit 11→5, SP/EP 6→5, Charter 13 all verified), every 2026-10-27 session logged same-day, rotation rule followed exactly, PKC rows carry inline dated rulings (anti-X9 done right).
