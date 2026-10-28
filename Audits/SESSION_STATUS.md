@@ -1,7 +1,7 @@
 # LazarusForge Per-File Auditor — Session Status
 
 - Auditor: Vibe (Skeptic/Auditor), external findings-only pass (PKC-020)
-- Last updated: 2026-10-28 (after file 27; head eee122a6 unchanged; PKC-001 control case CONFIRMED — AVE log fully current, 10-23 reorder = same-day adoption of our log-ordering class; lean File State header drives a four-way risk divergence (sidecar Medium-Placeholder / Discovery Low / map unlabeled / header absent); QCC-R1 unresolvable in Unknowns v5.72)
+- Last updated: 2026-10-28 (after file 28; head eee122a6 unchanged; Experiments = the emptiest honest file yet — PKC-001 decay instance RESOLVED in-file (10-24 header correction, Vibe-cited, verified live); all three bare candidate IDs RESOLVE in Unknowns v5.72 (first fully-resolving bare-ID cluster); PKC-020 asymmetry now has FOUR variants ahead of the AP audit)
 - Repo: ksarith/LazarusForge @ refs/heads/main, head SHA 982e958ab23d8b89a859dfa8a9c56a9490820636 (as of 2026-10-28, file 17; files 15–16 at c9f9f64, files 1–14 at 6dea6e08 — head is moving same-day with human-ratified delegated maintenance)
 - Human rulings: sequence approved; Automation/ skipped entirely; method check-in after first 5 files; files 1–5 final (no re-verify, head unchanged); continue without pausing; files 1–11 final, resume at file 12 (session prompt v2, 2026-10-27).
 
@@ -42,6 +42,7 @@
 | 25 | Admin/Environmental_Constraints.md | DONE | 0/0/5/4 | AUDIT_25_Admin-Environmental_Constraints.md |
 | 26 | Admin/Adm_Scope_Map.md | DONE | 0/0/2/3 | AUDIT_26_Admin-Adm_Scope_Map.md |
 | 27 | Admin/Agent_Verification_Event.md | DONE | 0/0/3/3 | AUDIT_27_Admin-Agent_Verification_Event.md |
+| 28 | Admin/Experiments.md | DONE | 0/0/2/3 | AUDIT_28_Admin-Experiments.md |
 
 Template INCOMPLETEs on files 1–5 resolved by dated correction: AUDIT_01-05_TEMPLATE_RESOLUTION_2026-10-27.md.
 
@@ -57,6 +58,14 @@ Template INCOMPLETEs on files 1–5 resolved by dated correction: AUDIT_01-05_TE
 
 
 
+
+## AUDIT_28 headlines (Experiments)
+- 0 CRITICAL / 0 MAJOR / 2 WARNING / 3 NOTE. 9,638 chars. Draft — Stub (physical-grounding registry, deliberately empty, honestly labeled). **PKC-001's named decay instance for this file is RESOLVED in-file** — the 10-24 Resolution Log entry documents the header correction ("from a Vibe per-file audit; checked against source first") advancing Last Audit/Auditor over the 10-06 boundary clarification; verified live against the current header (F3).
+- WARNINGs: mandatory sections absent (no Active Disputes section despite the header field, no Lessons Learned, no Cross-References) — AUDIT_23 F1/27 F2 class, THIRD data point for the exemption-vs-sections disposition, strongest exemption argument yet (stub) but no stub class exists in File_Template (F1); bare candidate IDs CF-001/EN-001/CE-003 vs PKC-003 — **all three RESOLVE in Unknowns v5.72** (first fully-resolving bare-ID cluster; CF-001 In Progress/Critical at Operations/Electronics "hardware validation pending" — an apt grounding target; EN-001 still Internally Derived) (F2).
+- NOTEs: PKC-020 asymmetry FOURTH variant (Experiments keeps the content-pass date 10-06 as leading Last Audit value, annotating the 10-24 header-only correction inline — vs NT/AVE bumping and CIR not bumping) → AP audit (F3); EXP-ASM-001–003 = TWELFTH audited ASM- series, suffixed right, full Basis/Confidence/Expiry; anti-misreading discipline ("Do not treat the absence of entries here as evidence that all claims are grounded"); anti-fabrication drift-indicator pair + Compound Drift Rule; risk parity CORRECT (header Low = Discovery Low — the AVE divergence does not recur); Sidecar Link anchor resolves (ADP's failure mode done right); Field_Logs.md AND Field_Logs/ both real artifacts (AVE's and Experiments' pointers both correct, different targets); Routing row present (F4); candidates note sits adjacent to the own "speculative future experiments" drift indicator — one-word clarification ("targets, not entries") removes the ambiguity, queued for index polish (F5).
+- INCOMPLETEs carried: AP §EF-0.3/EF-0.8b/EF-0.0/§AP-010 text → AP audit LAST; Field_Logs contents (CAP-meta-stale-01, AVE sample 01) → Tests/; CE-003 owning file → Architecture/.
+- Queued updates: stub/governance-scaffold exemption-class ruling (three data points: IIL, AVE, Experiments); F5 one-word clarification → delegated polish batch.
+- Next: file 29 = Admin/Hardware_Diversity_Ladder.md (per Discovery Admin tree; PKC-001 counts it in the decay set at "nine of twelve" — Hardware_Diversity_Ladder and INTEGRITY_SWEEP_PROMPT added there; check whether remediated like Experiments or still decayed; head-unchanged assumption to be re-verified at fetch).
 
 ## AUDIT_27 headlines (Agent_Verification_Event)
 - 0 CRITICAL / 0 MAJOR / 3 WARNING / 3 NOTE. 11,903 chars. Candidate / Exploration process schema; Spec Gates 0/6 consistent three ways. **PKC-001's control-case claim CONFIRMED** (held Progress_Log names AVE "the control case when ruling out the shared cause" — log newest-first, every pass same-day-logged, Last Updated honestly annotated "reorder only"); the 10-23 reorder entry is itself a same-day delegated adoption of our log-ordering class ("human-directed, from a Vibe per-file audit") (F5).
