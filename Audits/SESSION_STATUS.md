@@ -1,7 +1,7 @@
 # LazarusForge Per-File Auditor — Session Status
 
 - Auditor: Vibe (Skeptic/Auditor), external findings-only pass (PKC-020)
-- Last updated: 2026-10-28 (after file 18; head 982e958; X3 ruling REGISTERED in LazarusForge; AUDIT_11 corrections ENACTED)
+- Last updated: 2026-10-28 (after file 19; head 982e958; X3 ruling registered + AUDIT_11 corrections enacted; ECN- rename found EXECUTED in Economics since 2026-07-06 — CT registry propagation outstanding)
 - Repo: ksarith/LazarusForge @ refs/heads/main, head SHA 982e958ab23d8b89a859dfa8a9c56a9490820636 (as of 2026-10-28, file 17; files 15–16 at c9f9f64, files 1–14 at 6dea6e08 — head is moving same-day with human-ratified delegated maintenance)
 - Human rulings: sequence approved; Automation/ skipped entirely; method check-in after first 5 files; files 1–5 final (no re-verify, head unchanged); continue without pausing; files 1–11 final, resume at file 12 (session prompt v2, 2026-10-27).
 
@@ -33,6 +33,7 @@
 | 16 | Admin/Operational_Conventions.md | DONE | 0/0/2/2 | AUDIT_16_Admin-Operational_Conventions.md |
 | 17 | Admin/Metrics_Scaffold.md | DONE | 0/0/0/3 | AUDIT_17_Admin-Metrics_Scaffold.md |
 | 18 | Admin/Ship_of_Theseus.md | DONE | 0/0/3/2 | AUDIT_18_Admin-Ship_of_Theseus.md |
+| 19 | Admin/Economics.md | DONE | 0/0/3/3 | AUDIT_19_Admin-Economics.md |
 
 Template INCOMPLETEs on files 1–5 resolved by dated correction: AUDIT_01-05_TEMPLATE_RESOLUTION_2026-10-27.md.
 
@@ -42,6 +43,15 @@ Template INCOMPLETEs on files 1–5 resolved by dated correction: AUDIT_01-05_TE
 
 
 
+
+
+## AUDIT_19 headlines (Economics)
+- 0 CRITICAL / 0 MAJOR / 3 WARNING / 3 NOTE. Three-way unknown parity exact at 5 (Unknowns v5.72 uses ECN- throughout, with an honest dated rename note); TR-001 reciprocity verified both directions; EV-001 "In Progress", FA-003, and all ten cited paths confirmed.
+- **ECN- rename: EXECUTED in this file 2026-07-06** (backfilled 2026-10-23) — the corpus's first X3 collision actually resolved by rename; Unknowns propagation done. The queued "ECN- rename pending" item was really "CT registry propagation pending".
+- WARNINGs: Highest Risk "Medium" vs ECN-002 Risk "High"/Priority Critical (F1 — THIRD consecutive Highest Risk value-parity miss, AUDIT_13 F5 / AUDIT_18 F1 class: pattern-class candidate for the Session 4 doc); all five open ECNs' Last Reviewed 145/114 days stale — Aging-Rule actionable, unactioned (F2, X8); Canonical_Terms' ID-prefix registry still narrates the ECN- renumbering as "pending" and repeats CT-007's erroneous EC-008 claim four months after execution (F3, X9 cross-file — fold into the delegated CT maintenance pass).
+- NOTEs: header-lags-log inversion (Last Audit 10-23 vs newest log entry 10-25, PKC-020 wording pass; inverse-X7); ASM-001–005 = tenth audited ASM- series; exemplary: declared Gate 3 deferral block, real Abandoned Paths doctrine (false-precision rejection), barter replacement-cost valuation + "accounting illusion" energy floor, Lessons Learned correcting the auditor's (CT-007's) own citation errors.
+- INCOMPLETEs carried: FA-003 sidecar text (Architecture/); RS Rule 1 wording; barter-ownership adoption by other files.
+- Next: file 20 = Admin/Autonomy_Divergence_Protocol.md.
 
 ## AUDIT_18 headlines (Ship_of_Theseus)
 - 0 CRITICAL / 0 MAJOR / 3 WARNING / 2 NOTE. Three-way ST parity exact at 4 (v5.72); Grain↔CT-009 reciprocity verified both directions; CF-003 registry framing consistent (owning-file check carried to Architecture/).
@@ -128,4 +138,4 @@ Repository_Structure (next) → Admin remaining (Trajectories, Progress_Log, For
 - Charter ownership-table "Active" vs EC's "Exploration" Status — which governs?
 - Are same-day open-and-resolved unknowns (CIR-GOV-002) exempt from Unknowns.md mirroring?
 - RESOLVED: no Version field required for full-schema files (AUDIT_10 F2 nuance: lean schema and version metadata need a canonical home); Active Disputes and Drift Indicators mandatory; Abandoned Paths conditional; Operational Safety Advisory optional.
-- Recommendations pending: X3 namespace ruling (before Operations/); Kit ID-Reference regeneration; propagate VG's Status precedence line; AUDIT_10 F1 Challenges Spec Gates reconciliation (formal gate before Challenges/ sweep); AUDIT_11 count correction (Open Unknowns 9→10).
+- Recommendations pending: Kit ID-Reference regeneration (X5 remainder); propagate VG's Status precedence line; AUDIT_10 F1 Challenges Spec Gates reconciliation (formal gate before Challenges/ sweep); ECN- registry propagation into Canonical_Terms.md (ID-prefix registry + CT-007 resolution path still narrate the rename as pending though executed in Economics 2026-07-06 — AUDIT_19 F3; also fix the registry's erroneous EC-008 claim); X3 mechanical retrofit of bare IDs (human-authorized, not performed); audit-stream numbering collision disambiguation. RESOLVED/ENACTED: X3 folder-designation ruling (REGISTERED 2026-10-28, CT v0.11); AUDIT_11 corrections (ENACTED 2026-10-28, CT v0.9); AUDIT_15 F4/F5 (ENACTED, Kit v1.25/Unknowns v5.72); ECN- rename itself (executed in Economics 2026-07-06).
