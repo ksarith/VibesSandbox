@@ -1,9 +1,12 @@
 # LazarusForge Per-File Auditor — Session Status
 
 - Auditor: Vibe (Skeptic/Auditor), external findings-only pass (PKC-020)
-- Last updated: 2026-10-27 (after file 11)
+- Last updated: 2026-10-27 (after file 11; session prompt v2 logged)
 - Repo: ksarith/LazarusForge @ refs/heads/main, head SHA 6dea6e08ce8790a9f8e6b5cc109c9e3253f48c2a (unchanged across sessions)
-- Human rulings: sequence approved; Automation/ skipped entirely; method check-in after first 5 files; files 1–5 final (no re-verify, head unchanged); continue without pausing.
+- Human rulings: sequence approved; Automation/ skipped entirely; method check-in after first 5 files; files 1–5 final (no re-verify, head unchanged); continue without pausing; files 1–11 final, resume at file 12 (session prompt v2, 2026-10-27).
+
+## Session prompt
+- Session prompt (revised 2026-10-27) logged at `Audits/SESSION_PROMPT_2026-10-27.md`: continuation sweep of the files 1–11 campaign, resume at file 12 = Admin/Repository_Structure.md, X1–X10 carried, Challenges/ sweep gated on a human ruling reconciling AUDIT_10 F1. Per-file checklist, grading, halt triggers, and output format unchanged in substance from the Session 1 prompt.
 
 ## Bootstrap (fetched & held locally)
 - Admin/Forge_Audit_Kit.md v1.23, Unknowns.md v5.71, Discovery.md (2026-10-27), Routing.md (2026-10-26), README.md. Held locally: File_Template (ca9e2028); full fetches of Security_Protocols (a6fd9c16), Safety_Protocols (92549e99), Engineer_Protocols (b16b5e04), Verification_Gates (862683e9), Canonical_Terms (a482a900).
@@ -34,7 +37,7 @@ Template INCOMPLETEs on files 1–5 resolved by dated correction: AUDIT_01-05_TE
 - NOTE: X3 population now SEVEN audited files defining ASM- (Charter, RIP, GMP, Safety, Engineer, Verification_Gates, Canonical_Terms) + Components.md and Gate_02 per citations.
 
 ## AUDIT_10 headlines (File_Template — meta-file, adapted checks)
-- 1 MAJOR (F1): internal contradiction — Template Exemptions §8 says Challenges Problem-Statement files have "Spec Gates is N/A by subtype design" while the Challenges/ File Subtypes doctrine says "Spec Gates still apply, reinterpreted". RECONCILE BEFORE THE CHALLENGES/ SWEEP.
+- 1 MAJOR (F1): internal contradiction — Template Exemptions §8 says Challenges Problem-Statement files have "Spec Gates is N/A by subtype design" while the Challenges/ File Subtypes doctrine says "Spec Gates still apply, reinterpreted". RECONCILE BEFORE THE CHALLENGES/ SWEEP (now a formal gate in session prompt v2 §3.2.4).
 - 2 WARNING: lean subtype schema names Version/Owner fields §2 never defines; template exempts every special class except itself.
 - Ruling-relevant readings (F5): X2 "Proposed" = migration-pending not violation; Aging Rule makes 90+ day stale Last Reviewed actionable; Update Procedure §2/§4 are the rules AUDIT_07 F1 violated.
 
@@ -42,9 +45,9 @@ Template INCOMPLETEs on files 1–5 resolved by dated correction: AUDIT_01-05_TE
 - 0 CRITICAL / 0 MAJOR / 2 WARNING / 2 NOTE. Zero open unknowns, full parity at 0; EMS→VG-002→AP-021 cascade fully logged. Bare AP-007/GOV-003/RIP-001, GOV-011, RIP-004 sentences; "Operationally Hardened" as Lessons Learned Confidence (X8-family). Positives: Status precedence line ("the File State header is authoritative if this block and it ever disagree") — propagate to GMP/RIP/Security_Protocols; Gate 2's "Estimated retired" note is X8 done right.
 
 ## Approved sequence (remaining)
-Repository_Structure (next) → Admin remaining (Trajectories, Progress_Log, Forge_Audit_Kit, Operational_Conventions (exempt-class checks), Metrics_Scaffold, Ship_of_Theseus, Economics, Autonomy_Divergence_Protocol, Computational_Institutional_Reasoning and other Admin files per Discovery, Auditor_Protocols last) → Architecture/ (15) → Operations/ (19, Gates first) → Tests/ (19) → Challenges/ (10, resolve AUDIT_10 F1 first) → root navigation last. Archive/ exempt. Automation/ skipped.
+Repository_Structure (next) → Admin remaining (Trajectories, Progress_Log, Forge_Audit_Kit, Operational_Conventions (exempt-class checks), Metrics_Scaffold, Ship_of_Theseus, Economics, Autonomy_Divergence_Protocol, Computational_Institutional_Reasoning and other Admin files per Discovery, Auditor_Protocols last) → Architecture/ (15) → Operations/ (19, Gates first) → Tests/ (19) → Challenges/ (10, GATED on AUDIT_10 F1 human ruling) → root navigation last. Archive/ exempt. Automation/ skipped.
 
-## Recurring patterns (X1–X9; see Session 1 & 2 pattern docs)
+## Recurring patterns (X1–X10; see Session 1 & 2 pattern docs)
 1. X1 — Scope Boundary lag; escalated to same-pass reconciliation failure (AUDIT_07 F1, MAJOR).
 2. X2 — PKC-031 retirement at headers only; per File_Template, live "Proposed" wordings grade as migration-pending, not violations.
 3. X3 — Colliding prefixes: ASM- in SEVEN audited files + Components.md/Gate_02 per citations; CF-006 in Security_Protocols. File_Template's local-ID format already prescribes the fix — human namespace ruling recommended before Operations/ sweep.
@@ -54,11 +57,11 @@ Repository_Structure (next) → Admin remaining (Trajectories, Progress_Log, For
 7. X7 — Trailing Status staleness pending PKC-002; Verification_Gates carries the precedence-line mitigation (recommend propagating).
 8. X8 — Governance instruments go stale: EP drift indicator enforces retired "Estimated"; VG Lessons Learned institutional label as Confidence; AUDIT_10 F1 template self-contradiction; AUDIT_11 F3 missing Version String Registry after a prior live desync; AUDIT_11 F1 stale count repeated across two passes. Check every remaining file.
 9. X9 — Stale "pending" narration after reconciliation (SP Relationship, SP File Purpose). Check Relationship/File-Purpose in every remaining file.
-10. X10 (new, candidate) — Count-parity drift at headers: Open Unknowns counts diverging from their own sidecars/Unknowns rows (AUDIT_11 F1, MAJOR; RIP's 2026-08-30 9→8 self-correction was the same class). Recount, never repeat, a count in a log entry.
+10. X10 — Count-parity drift at headers: Open Unknowns counts diverging from their own sidecars/Unknowns rows (AUDIT_11 F1, MAJOR; RIP's 2026-08-30 9→8 self-correction was the same class). Recount, never repeat, a count in a log entry.
 
 ## Open questions for the human (recorded, not findings)
 - Should Ethical_Constraints' Tier 1 floors carry FROZEN markers like the Charter's?
 - Charter ownership-table "Active" vs EC's "Exploration" Status — which governs?
 - Are same-day open-and-resolved unknowns (CIR-GOV-002) exempt from Unknowns.md mirroring?
 - RESOLVED: no Version field required for full-schema files (AUDIT_10 F2 nuance: lean schema and version metadata need a canonical home); Active Disputes and Drift Indicators mandatory; Abandoned Paths conditional; Operational Safety Advisory optional.
-- Recommendations pending: X3 namespace ruling; Kit ID-Reference regeneration; propagate VG's Status precedence line; AUDIT_10 F1 Challenges Spec Gates reconciliation (before Challenges/ sweep); AUDIT_11 count correction (Open Unknowns 9→10).
+- Recommendations pending: X3 namespace ruling (before Operations/); Kit ID-Reference regeneration; propagate VG's Status precedence line; AUDIT_10 F1 Challenges Spec Gates reconciliation (formal gate before Challenges/ sweep); AUDIT_11 count correction (Open Unknowns 9→10).
