@@ -1,7 +1,7 @@
 # LazarusForge Per-File Auditor — Session Status
 
 - Auditor: Vibe (Skeptic/Auditor), external findings-only pass (PKC-020)
-- Last updated: 2026-10-28 (after file 17; head 982e958; internal delegated stream enacting our findings same-day)
+- Last updated: 2026-10-28 (after file 18; head 982e958; X3 ruling REGISTERED in LazarusForge; AUDIT_11 corrections ENACTED)
 - Repo: ksarith/LazarusForge @ refs/heads/main, head SHA 982e958ab23d8b89a859dfa8a9c56a9490820636 (as of 2026-10-28, file 17; files 15–16 at c9f9f64, files 1–14 at 6dea6e08 — head is moving same-day with human-ratified delegated maintenance)
 - Human rulings: sequence approved; Automation/ skipped entirely; method check-in after first 5 files; files 1–5 final (no re-verify, head unchanged); continue without pausing; files 1–11 final, resume at file 12 (session prompt v2, 2026-10-27).
 
@@ -32,6 +32,7 @@
 | 15 | Admin/Forge_Audit_Kit.md | DONE | 0/0/5/2 | AUDIT_15_Admin-Forge_Audit_Kit.md |
 | 16 | Admin/Operational_Conventions.md | DONE | 0/0/2/2 | AUDIT_16_Admin-Operational_Conventions.md |
 | 17 | Admin/Metrics_Scaffold.md | DONE | 0/0/0/3 | AUDIT_17_Admin-Metrics_Scaffold.md |
+| 18 | Admin/Ship_of_Theseus.md | DONE | 0/0/3/2 | AUDIT_18_Admin-Ship_of_Theseus.md |
 
 Template INCOMPLETEs on files 1–5 resolved by dated correction: AUDIT_01-05_TEMPLATE_RESOLUTION_2026-10-27.md.
 
@@ -40,6 +41,15 @@ Template INCOMPLETEs on files 1–5 resolved by dated correction: AUDIT_01-05_TE
 
 
 
+
+
+## AUDIT_18 headlines (Ship_of_Theseus)
+- 0 CRITICAL / 0 MAJOR / 3 WARNING / 2 NOTE. Three-way ST parity exact at 4 (v5.72); Grain↔CT-009 reciprocity verified both directions; CF-003 registry framing consistent (owning-file check carried to Architecture/).
+- WARNINGs: Highest Risk "Medium" vs sidecar ST-004 Risk "High" (F1, X10 value-parity — AUDIT_13 F5 class); bare "AP-012" citation in ST-004 live text against the in-force PKC-003 qualified-citation rule (F2; the X3 mechanical retrofit, when run, fixes this class); ST-004's 2026-06-26 routing promise ("Route to Admin/Security_Protocols.md for cryptographic implementation") UNFULFILLED — SP's sidecar has no corresponding entry for the file's High-risk Epistemic-Blocking security unknown (F3, scoped to the session's SP fetch at 6dea6e08).
+- **X3 ruling REGISTERED 2026-10-28** (CT v0.9→v0.11): Folder Designation Characters A/R/X/O/C/T/K/B ("post office zip code" scheme); CT-007 stays OPEN (within-Admin EC- collision unresolved — both EC files are 'A'); ECN- rename + general namespace doctrine + mechanical retrofit of bare IDs all outstanding as human-authorized future passes. The "X3 before Operations/" recommendation is RESOLVED — the sweep may proceed when it reaches Operations/.
+- **AUDIT_11 queued corrections ENACTED 2026-10-28** (CT v0.8→v0.9, human-ratified batch): Open Unknowns recounted 9→10, misplaced log entries relocated, Version String Registry added, CT-005 citation qualified.
+- Positives: PKC-027 gate hold = model disposition; ST-004 = model adversarial finding (cumulative-drift math checks); honest-empty tables and non-dispute clarification.
+- Next: file 19 = Admin/Economics.md.
 
 ## AUDIT_17 headlines (Metrics_Scaffold)
 - 0 CRITICAL / 0 MAJOR / 0 WARNING / 3 NOTE — the campaign's first fully clean file (with named INCOMPLETEs carried: MAQT §8.10 to Tests/; Automation-orthogonality accepted as recorded per the Automation/ skip ruling). Head moved again: c9f9f64 → 982e958.
