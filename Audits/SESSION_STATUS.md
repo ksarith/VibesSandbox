@@ -1,7 +1,7 @@
 # LazarusForge Per-File Auditor — Session Status
 
 - Auditor: Vibe (Skeptic/Auditor), external findings-only pass (PKC-020)
-- Last updated: 2026-10-28 (after file 24; head eee122a6; NT clean as PKC-001 predicted; Tier 0 exemption missing from File_Template canonical list — new queued recommendation, PKC-017 pattern)
+- Last updated: 2026-10-28 (after file 25; head eee122a6 unchanged; ENV content strong/human-ratified, wrapper decayed — 5 WARNINGs all wrapper/pointer class; Highest-Risk value-parity streak ENDS here; X9 third-place sub-shape gains its purest instance yet: ENV-008 sidecar vs own Relationship section)
 - Repo: ksarith/LazarusForge @ refs/heads/main, head SHA 982e958ab23d8b89a859dfa8a9c56a9490820636 (as of 2026-10-28, file 17; files 15–16 at c9f9f64, files 1–14 at 6dea6e08 — head is moving same-day with human-ratified delegated maintenance)
 - Human rulings: sequence approved; Automation/ skipped entirely; method check-in after first 5 files; files 1–5 final (no re-verify, head unchanged); continue without pausing; files 1–11 final, resume at file 12 (session prompt v2, 2026-10-27).
 
@@ -39,6 +39,7 @@
 | 22 | Admin/Resolution_Methodology.md | DONE | 0/0/2/3 | AUDIT_22_Admin-Resolution_Methodology.md |
 | 23 | Admin/Integrity_Incident_Log.md | DONE | 0/0/1/3 | AUDIT_23_Admin-Integrity_Incident_Log.md |
 | 24 | Admin/Nothingness_Theorem.md | DONE | 0/0/1/4 | AUDIT_24_Admin-Nothingness_Theorem.md |
+| 25 | Admin/Environmental_Constraints.md | DONE | 0/0/5/4 | AUDIT_25_Admin-Environmental_Constraints.md |
 
 Template INCOMPLETEs on files 1–5 resolved by dated correction: AUDIT_01-05_TEMPLATE_RESOLUTION_2026-10-27.md.
 
@@ -54,6 +55,14 @@ Template INCOMPLETEs on files 1–5 resolved by dated correction: AUDIT_01-05_TE
 
 
 
+
+## AUDIT_25 headlines (Environmental_Constraints)
+- 0 CRITICAL / 0 MAJOR / 5 WARNING / 4 NOTE. 50,809 chars. Three-way unknown parity exact at 8 (ENV-007 Resolved, ENV-008 Partially Addressed, both footnoted out of Unknowns v5.72 active index per Size Management Rule 2 — verified both directions); Scope Boundary fully reconciled — first clean X1 check this session; full File_Template schema with honest empties; human-ratified two-part Bootstrap doctrine (Compliance-Maximizing reconciliation + bounded bridge authority, 2026-07-17) intact and self-guarded (misuse-as-default Drift Indicator).
+- **Highest Risk value-parity CORRECT — the AUDIT_13/18/19 streak ENDS here:** "High" mirrors highest open sidecar Risk (ENV-001/002/009) and correctly does NOT mirror ENV-009's Priority Critical, per the Charter's Risk-not-Priority convention.
+- WARNINGs (all wrapper/pointer decay — X11 again): bare EC-010/GOV-010/FA-003/SP-005/EC-009 citations persist despite the file's own 2026-07-06 G5 "all canonized" claim, plus a dangling "See sidecar" pointer for those four foreign IDs (F1, PKC-003/X3-retrofit class); Lessons Learned still "pending human ratification" 103 days after the 07-17 ratification it awaited (F2, X9 third-place); ENV-008 sidecar narrates its remaining FILE_REGISTRY verification as outstanding while the file's own Relationship section records it completed 2026-07-19 — purest X9 third-place instance yet — and "Partially Addressed" is not an AP-valid closure outcome (status-class question for human) (F3); all 8 non-resolved unknowns Last Reviewed 131/113 days stale, Aging-Rule actionable unactioned (F4, X8, AUDIT_19 F2 class); EC-009 narrated "pending"/"resolution paths lead here" vs Ratified 2026-08-22 in current EC with no ENV routing — mitigation honestly noted: ENV's last pass (08-11) predates the ratification (F5, X9; candidate for delegated maintenance batch).
+- NOTEs: Last Audit/Auditor not advanced by 08-11 pseudo-audit — PKC-001/007 ruled historical, mechanical-check remedy (F6); trailing Status Version line "0.2" vs v0.4 in log (F7, X7, PKC-002 pending); Drift Indicator "eight downstream dependents" vs 9-row table — ambiguous mechanical loss-check, recommend exact wording (F8); positives incl. EC-010 reciprocity verified live both directions, GOV-010 matches Unknowns registry verbatim (scoped observation: session-1 Charter fetch has no GOV-009/010 body mention — registry-only pattern, files 1–11 final), ASM-EC-001–004 = 11th ASM- series with suffixed-ID disambiguation done RIGHT (F9).
+- INCOMPLETEs carried: ENV-010's four requested Facilities.md Section VII rows → Architecture/; GR-003 in ENV-006 path → Operations/; AUDIT_HARNESS "line 71" → Automation/ standing skip; SP-005 cross-claims recorded-as-reported.
+- Next: file 26 = Admin/Adm_Scope_Map.md (per-folder scope/dependency index; also resolves AUDIT_16's carried Convention-7 Adm_Scope_Map row-claim check).
 
 ## AUDIT_24 headlines (Nothingness_Theorem)
 - 0 CRITICAL / 0 MAJOR / 1 WARNING / 4 NOTE. PKC-001's "clean" prediction CONFIRMED. Self-consistent three ways (footer 8 Axioms / 18 Sections / 10 Open Unknowns all recount exact); A3/γ2 titles verified VERBATIM in held CIR fetch from both sides; NT-010 = the sole registry-mirrored unknown with explicit one-of-ten policy note in Unknowns v5.72 (exemplary X10 discipline); Routing row present under renamed path.
