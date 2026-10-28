@@ -1,7 +1,7 @@
 # LazarusForge Per-File Auditor — Session Status
 
 - Auditor: Vibe (Skeptic/Auditor), external findings-only pass (PKC-020)
-- Last updated: 2026-10-27 (after file 11; session prompt v2 logged)
+- Last updated: 2026-10-28 (after file 12; session prompt v2 logged)
 - Repo: ksarith/LazarusForge @ refs/heads/main, head SHA 6dea6e08ce8790a9f8e6b5cc109c9e3253f48c2a (unchanged across sessions)
 - Human rulings: sequence approved; Automation/ skipped entirely; method check-in after first 5 files; files 1–5 final (no re-verify, head unchanged); continue without pausing; files 1–11 final, resume at file 12 (session prompt v2, 2026-10-27).
 
@@ -26,9 +26,16 @@
 | 9 | Admin/Verification_Gates.md | DONE | 0/0/2/2 | AUDIT_09_Admin-Verification_Gates.md |
 | 10 | Admin/File_Template.md | DONE | 0/1/2/3 | AUDIT_10_Admin-File_Template.md |
 | 11 | Admin/Canonical_Terms.md | DONE | 0/1/3/2 | AUDIT_11_Admin-Canonical_Terms.md |
-| 12 | Admin/Repository_Structure.md | NEXT | | |
+| 12 | Admin/Repository_Structure.md | DONE | 0/0/2/2 | AUDIT_12_Admin-Repository_Structure.md |
 
 Template INCOMPLETEs on files 1–5 resolved by dated correction: AUDIT_01-05_TEMPLATE_RESOLUTION_2026-10-27.md.
+
+
+## AUDIT_12 headlines (Repository_Structure)
+- 0 CRITICAL / 0 MAJOR / 2 WARNING / 2 NOTE. Zero open unknowns, exact three-way parity at 0; every pass logged with markers incl. honest backfills; best historical-annotation practice audited so far (PKC-011 retired-companion row, RS-001 dated refresh note, 2026-10-03 backfill marker).
+- WARNING: Does-list item "Planned directory additions and their trigger conditions" has no corresponding body content (X1-family); File Purpose's ownership-transfer narration describes the Charter's pre-2026-06-06 state as current ("lists ... as a planned canonical target with no current owner") while Charter line 404 reads "Active (created 2026-06-06)" (X9 instance).
+- NOTE: ASM-001–003 defined here — EIGHTH independent ASM- series (X3). RS-001 retroactive table's Automation/ import/count claims recorded INCOMPLETE by standing ruling, not defects.
+- Next: file 13 = Admin/Trajectories.md.
 
 ## AUDIT_11 headlines (Canonical_Terms)
 - 1 MAJOR (F1): three-way count parity broken — File State "Open Unknowns | 9" vs sidecar non-Resolved = 10 (CT-001–CT-010) vs Unknowns active CT rows = 10. Off-by-one since the 2026-07-05 CT-011 resolution arithmetic (correct: 11→10, logged as 10→9); repeated as "unchanged at 9"/"stay at 9" in the 2026-10-25 pass and Status without recount.
