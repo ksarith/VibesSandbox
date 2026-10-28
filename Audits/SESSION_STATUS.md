@@ -1,7 +1,7 @@
 # LazarusForge Per-File Auditor — Session Status
 
 - Auditor: Vibe (Skeptic/Auditor), external findings-only pass (PKC-020)
-- Last updated: 2026-10-28 (after file 19; head 982e958; X3 ruling registered + AUDIT_11 corrections enacted; ECN- rename found EXECUTED in Economics since 2026-07-06 — CT registry propagation outstanding)
+- Last updated: 2026-10-28 (after file 20; head 982e958; ADP = strongest doctrine yet audited but 6 wrapper/pointer WARNINGs — third consecutive X11 file)
 - Repo: ksarith/LazarusForge @ refs/heads/main, head SHA 982e958ab23d8b89a859dfa8a9c56a9490820636 (as of 2026-10-28, file 17; files 15–16 at c9f9f64, files 1–14 at 6dea6e08 — head is moving same-day with human-ratified delegated maintenance)
 - Human rulings: sequence approved; Automation/ skipped entirely; method check-in after first 5 files; files 1–5 final (no re-verify, head unchanged); continue without pausing; files 1–11 final, resume at file 12 (session prompt v2, 2026-10-27).
 
@@ -34,6 +34,7 @@
 | 17 | Admin/Metrics_Scaffold.md | DONE | 0/0/0/3 | AUDIT_17_Admin-Metrics_Scaffold.md |
 | 18 | Admin/Ship_of_Theseus.md | DONE | 0/0/3/2 | AUDIT_18_Admin-Ship_of_Theseus.md |
 | 19 | Admin/Economics.md | DONE | 0/0/3/3 | AUDIT_19_Admin-Economics.md |
+| 20 | Admin/Autonomy_Divergence_Protocol.md | DONE | 0/0/6/2 | AUDIT_20_Admin-Autonomy_Divergence_Protocol.md |
 
 Template INCOMPLETEs on files 1–5 resolved by dated correction: AUDIT_01-05_TEMPLATE_RESOLUTION_2026-10-27.md.
 
@@ -44,6 +45,14 @@ Template INCOMPLETEs on files 1–5 resolved by dated correction: AUDIT_01-05_TE
 
 
 
+
+
+## AUDIT_20 headlines (Autonomy_Divergence_Protocol)
+- 0 CRITICAL / 0 MAJOR / 6 WARNING / 2 NOTE. Largest file audited (65,934 chars). Count parity exact at 1 (GOV-021c; GOV-021b Resolved); Unknowns v5.72 GOV-021 row matches this file's state exactly. EC-001 mapping table verified word-level against held EC fetch; EQD Three Independence Dimensions verified in GMP; [ExternalRepo] convention registered in CT ✓; TR-MET-002 = the parked fabrication item ADP cites ✓.
+- WARNINGs (all wrapper/pointer decay — the content itself is the corpus's best): Scope Boundary DOES-NOT items stale after the 2026-08-11 same-day expansion ("→ GOV-021b, open" though Resolved with content in §4/§6; "detection → GOV-021c/§12" though §12 is in-file) (F1, X1); Cross-References still says GOV-021 registration "pending" though registered 2026-07-27 — the 08-11 pseudo-audit fixed "both" File State and §2 but missed the third place (F2, X9); live text says "AP-013 (Open)" twice though AP-013 Resolved 2026-08-19 (F3, X9); mandatory sections absent — no Assumptions/Lessons Learned/Active Disputes/Drift Indicators, and "Sidecar Link | #auditor-notes--unknowns" points at a NONEXISTENT anchor, GOV-021b/c have no structured sidecars (F4, AUDIT_15 F2 class); Resolution Log breaks newest-first mid-file — six 08-11/08-12 entries appended below the five 07-19 entries (F5, AUDIT_11 F2 class); bare EC-001/CF-002 citations against the in-force qualified-citation rule (F6, AUDIT_09 class).
+- NOTEs: "PROPOSED NOT RATIFIED" retains the PKC-031-retired designation (X2, migration-pending, also in Unknowns v5.72's GOV-021 row); exemplary — G5 tooling-integrity chain (prose fix → regex root-cause → real harness functions, each step honestly labeled), the 08-12 flag that a primed review is not independent (live application of §12 to its own ratification), held-Open/one-datapoint discipline, no-invented-numbers table, observable-effect discipline.
+- INCOMPLETEs carried: CF-002/FN-001 sidecars (Architecture/); EF-0.1 owner/wording (Engineer_Protocols not held this session); AP-006 direct text (AP fetch pending, LAST); ALIASES-18 claim (Automation/ skip).
+- Third consecutive X11 file (17–20). Next: file 21 = Admin/Computational_Institutional_Reasoning.md.
 
 ## AUDIT_19 headlines (Economics)
 - 0 CRITICAL / 0 MAJOR / 3 WARNING / 3 NOTE. Three-way unknown parity exact at 5 (Unknowns v5.72 uses ECN- throughout, with an honest dated rename note); TR-001 reciprocity verified both directions; EV-001 "In Progress", FA-003, and all ten cited paths confirmed.
