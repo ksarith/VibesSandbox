@@ -2,7 +2,7 @@
 
 - Auditor: Vibe (Skeptic/Auditor), external findings-only pass (PKC-020)
 - Last updated: 2026-10-28 (after file 15; LazarusForge head moved to c9f9f641 — Kit v1.24 human-ratified X5 partial enactment)
-- Repo: ksarith/LazarusForge @ refs/heads/main, head SHA 6dea6e08ce8790a9f8e6b5cc109c9e3253f48c2a (unchanged across sessions)
+- Repo: ksarith/LazarusForge @ refs/heads/main, head SHA c9f9f6411202dcbb0a3d0c72f1cd2f2a8ff67a50 (as of 2026-10-28, file 15; files 1–14 audited at 6dea6e08 — Kit v1.24 human-ratified delegated maintenance moved the head)
 - Human rulings: sequence approved; Automation/ skipped entirely; method check-in after first 5 files; files 1–5 final (no re-verify, head unchanged); continue without pausing; files 1–11 final, resume at file 12 (session prompt v2, 2026-10-27).
 
 ## Session prompt
@@ -86,7 +86,7 @@ Repository_Structure (next) → Admin remaining (Trajectories, Progress_Log, For
 2. X2 — PKC-031 retirement at headers only; per File_Template, live "Proposed" wordings grade as migration-pending, not violations.
 3. X3 — Colliding prefixes: ASM- in SEVEN audited files + Components.md/Gate_02 per citations; CF-006 in Security_Protocols. File_Template's local-ID format already prescribes the fix — human namespace ruling recommended before Operations/ sweep.
 4. X4 — Same-day pass logging; positive exemplars: RIP, Security_Protocols, Safety_Protocols, Engineer_Protocols, Verification_Gates, File_Template, Canonical_Terms.
-5. X5 — Kit ID Reference staleness (missing ASM-, missing CF-, GMP claim). Regeneration recommended.
+5. X5 — Kit ID Reference staleness. PARTIALLY ENACTED 2026-10-28 (Kit v1.24, human-ratified): CF-/GMP- rows added, ASM- note added deferring to the X3 ruling. Full regeneration/remaining prefixes: human disposition.
 6. X6 — Resolved for files 1–5; files 6–11 conform (File_Template self-application gap graded separately as AUDIT_10 F3).
 7. X7 — Trailing Status staleness pending PKC-002; Verification_Gates carries the precedence-line mitigation (recommend propagating).
 8. X8 — Governance instruments go stale: EP drift indicator enforces retired "Estimated"; VG Lessons Learned institutional label as Confidence; AUDIT_10 F1 template self-contradiction; AUDIT_11 F3 missing Version String Registry after a prior live desync; AUDIT_11 F1 stale count repeated across two passes. Check every remaining file.
