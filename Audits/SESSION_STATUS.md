@@ -37,7 +37,7 @@ Template INCOMPLETEs on files 1–5 resolved by dated correction: AUDIT_01-05_TE
 - 0 CRITICAL / 1 MAJOR / 4 WARNING / 2 NOTE. Three-way unknown parity exact at 3 (TR-001–003 Open everywhere); best Spec Gates posture audited (PKC-042 2026-10-27: recorded clears treated as stale, header held 1/6, self-approval prohibited); TR-GOV-001 2026-08-03 split = model self-correction enforcing its own Scope Boundary.
 - MAJOR (F1): TR-AST-001 added to v3+ Proposed table 2026-09-29 with NO Resolution Log entry — substantive addition unlogged; the 2026-10-27 pass relied on "the body has changed" without logging what changed (X4-class, first MAJOR instance).
 - WARNING: Scope Boundary omits the v3+ Proposed registry (X1); no Assumptions section — first Admin doctrine file audited without one (F3); UNK-011/UNK-026 citations no longer resolve in Unknowns v5.71 active index and UNK-008's resolution locator stale since 2026-07-19 reassignment to Geck_forge_seed (F4); File State "Highest Risk Medium" vs sidecar TR-003 Risk High (F5, X10 value-parity).
-- Open question (not a finding): does the archived Astroid-miner zip (TR-AST-001 evidence source) still exist after PKC-011 companion-repo retirement?
+- Open question ANSWERED 2026-10-28 by human ruling (see AUDIT_13_CORRECTION_2026-10-28.md): Astroid-miner exists (github.com/ksarith/Astroid-miner; newer copy in VibesSandbox; zip archived in LazarusForge Archive/Astroid-miner). No grade changes.
 - Next: file 14 = Admin/Progress_Log.md.
 
 ## AUDIT_12 headlines (Repository_Structure)
