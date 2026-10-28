@@ -1,7 +1,7 @@
 # LazarusForge Per-File Auditor — Session Status
 
 - Auditor: Vibe (Skeptic/Auditor), external findings-only pass (PKC-020)
-- Last updated: 2026-10-28 (after file 12; session prompt v2 logged)
+- Last updated: 2026-10-28 (after file 13; session prompt v2 logged)
 - Repo: ksarith/LazarusForge @ refs/heads/main, head SHA 6dea6e08ce8790a9f8e6b5cc109c9e3253f48c2a (unchanged across sessions)
 - Human rulings: sequence approved; Automation/ skipped entirely; method check-in after first 5 files; files 1–5 final (no re-verify, head unchanged); continue without pausing; files 1–11 final, resume at file 12 (session prompt v2, 2026-10-27).
 
@@ -27,9 +27,18 @@
 | 10 | Admin/File_Template.md | DONE | 0/1/2/3 | AUDIT_10_Admin-File_Template.md |
 | 11 | Admin/Canonical_Terms.md | DONE | 0/1/3/2 | AUDIT_11_Admin-Canonical_Terms.md |
 | 12 | Admin/Repository_Structure.md | DONE | 0/0/2/2 | AUDIT_12_Admin-Repository_Structure.md |
+| 13 | Admin/Trajectories.md | DONE | 0/1/4/2 | AUDIT_13_Admin-Trajectories.md |
 
 Template INCOMPLETEs on files 1–5 resolved by dated correction: AUDIT_01-05_TEMPLATE_RESOLUTION_2026-10-27.md.
 
+
+
+## AUDIT_13 headlines (Trajectories)
+- 0 CRITICAL / 1 MAJOR / 4 WARNING / 2 NOTE. Three-way unknown parity exact at 3 (TR-001–003 Open everywhere); best Spec Gates posture audited (PKC-042 2026-10-27: recorded clears treated as stale, header held 1/6, self-approval prohibited); TR-GOV-001 2026-08-03 split = model self-correction enforcing its own Scope Boundary.
+- MAJOR (F1): TR-AST-001 added to v3+ Proposed table 2026-09-29 with NO Resolution Log entry — substantive addition unlogged; the 2026-10-27 pass relied on "the body has changed" without logging what changed (X4-class, first MAJOR instance).
+- WARNING: Scope Boundary omits the v3+ Proposed registry (X1); no Assumptions section — first Admin doctrine file audited without one (F3); UNK-011/UNK-026 citations no longer resolve in Unknowns v5.71 active index and UNK-008's resolution locator stale since 2026-07-19 reassignment to Geck_forge_seed (F4); File State "Highest Risk Medium" vs sidecar TR-003 Risk High (F5, X10 value-parity).
+- Open question (not a finding): does the archived Astroid-miner zip (TR-AST-001 evidence source) still exist after PKC-011 companion-repo retirement?
+- Next: file 14 = Admin/Progress_Log.md.
 
 ## AUDIT_12 headlines (Repository_Structure)
 - 0 CRITICAL / 0 MAJOR / 2 WARNING / 2 NOTE. Zero open unknowns, exact three-way parity at 0; every pass logged with markers incl. honest backfills; best historical-annotation practice audited so far (PKC-011 retired-companion row, RS-001 dated refresh note, 2026-10-03 backfill marker).
