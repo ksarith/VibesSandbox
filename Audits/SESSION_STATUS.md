@@ -1,7 +1,7 @@
 # LazarusForge Per-File Auditor — Session Status
 
 - Auditor: Vibe (Skeptic/Auditor), external findings-only pass (PKC-020)
-- Last updated: 2026-10-28 (after file 23 + AUDIT_20-22 dated correction; head eee122a6; PKC-001/PKC-007 rulings surfaced — historical log-order shapes ruled "declare historical, stop repairing"; grade log-order shapes NOTE-class "ruled historical" going forward)
+- Last updated: 2026-10-28 (after file 24; head eee122a6; NT clean as PKC-001 predicted; Tier 0 exemption missing from File_Template canonical list — new queued recommendation, PKC-017 pattern)
 - Repo: ksarith/LazarusForge @ refs/heads/main, head SHA 982e958ab23d8b89a859dfa8a9c56a9490820636 (as of 2026-10-28, file 17; files 15–16 at c9f9f64, files 1–14 at 6dea6e08 — head is moving same-day with human-ratified delegated maintenance)
 - Human rulings: sequence approved; Automation/ skipped entirely; method check-in after first 5 files; files 1–5 final (no re-verify, head unchanged); continue without pausing; files 1–11 final, resume at file 12 (session prompt v2, 2026-10-27).
 
@@ -38,6 +38,7 @@
 | 21 | Admin/Computational_Institutional_Reasoning.md | DONE | 0/0/4/2 | AUDIT_21_Admin-Computational_Institutional_Reasoning.md |
 | 22 | Admin/Resolution_Methodology.md | DONE | 0/0/2/3 | AUDIT_22_Admin-Resolution_Methodology.md |
 | 23 | Admin/Integrity_Incident_Log.md | DONE | 0/0/1/3 | AUDIT_23_Admin-Integrity_Incident_Log.md |
+| 24 | Admin/Nothingness_Theorem.md | DONE | 0/0/1/4 | AUDIT_24_Admin-Nothingness_Theorem.md |
 
 Template INCOMPLETEs on files 1–5 resolved by dated correction: AUDIT_01-05_TEMPLATE_RESOLUTION_2026-10-27.md.
 
@@ -52,6 +53,13 @@ Template INCOMPLETEs on files 1–5 resolved by dated correction: AUDIT_01-05_TE
 
 
 
+
+
+## AUDIT_24 headlines (Nothingness_Theorem)
+- 0 CRITICAL / 0 MAJOR / 1 WARNING / 4 NOTE. PKC-001's "clean" prediction CONFIRMED. Self-consistent three ways (footer 8 Axioms / 18 Sections / 10 Open Unknowns all recount exact); A3/γ2 titles verified VERBATIM in held CIR fetch from both sides; NT-010 = the sole registry-mirrored unknown with explicit one-of-ten policy note in Unknowns v5.72 (exemplary X10 discipline); Routing row present under renamed path.
+- WARNING (not NT's defect): Tier 0 exemption class missing from File_Template's canonical "Exempt classes (hold in memory; do not retrofit)" list — same unlisted-exemption gap Operational_Conventions had until PKC-017 (2026-10-25); template's own text names the failure mode ("had allowed a later fabricated claim ... to go unchecked"). NEW QUEUED RECOMMENDATION: add Tier 0 class per PKC-017 pattern.
+- NOTEs: PKC-030 same-day passes handled asymmetrically (NT advanced Last Audit to 2026-10-27 for review-only pass; CIR's same-day review-only pass did not — one deviates under PKC-020; rule-reading question for AP audit/human, no AUDIT_21 grade change); PKC-030 caveat correctly left unchanged pending human ruling; selective mirroring exemplary; Document Vocabulary anti-drift block + §15 three-way epistemic honesty + §17 failure-mode catalogue (incl. "Escape velocity as validation") + honest "Placement: Unresolved" footer + 07-31 pass correcting its own §12→§17 citation error in the act of logging.
+- Next: file 25 = Admin/CIR_Gov.md (per Discovery; CIR_Gov was audited session 1 as file 4 — NO, file 4 was CIR_Gov? [check sequence: CIR_Gov audited early, files 1-11 final — if already audited, skip]. Confirm against Discovery remaining-Admin list before fetching: remaining unaudited Admin files per Discovery: Agent_Verification_Event (control case, clean per PKC-001), Experiments, INTEGRITY_SWEEP_PROMPT, Hardware_Diversity_Ladder, Cognitive_Salvage references, MAQT/BATTERY_SEED, Astroid-miner notes, etc. Cross-check the 1-11 done list in tracker rows 1-11 to avoid double-auditing.
 
 ## AUDIT_23 headlines (Integrity_Incident_Log) + MATERIAL CORRECTION
 - 0 CRITICAL / 0 MAJOR / 1 WARNING / 3 NOTE. Healthiest small file audited: honest empties, self-enforcing anti-linger design, full RIP-007 and PKC-015 reciprocity (both verified against held fetches). Single incident IIL-20261025-01 = the repo formally logging OUR campaign's findings (PKC-001 decay, "Detected by: Vibe per-file audits"), labeled Analogous/reconstructed exactly per its own discipline. WARNING: selective template application (no Assumptions/Lessons Learned/Active Disputes section/Auditor Notes/Abandoned Paths) while not being template-exempt — human disposition: add the exemption class or the sections ("prefer exemption over forced retrofit").
@@ -180,4 +188,4 @@ Repository_Structure (next) → Admin remaining (Trajectories, Progress_Log, For
 - Charter ownership-table "Active" vs EC's "Exploration" Status — which governs?
 - Are same-day open-and-resolved unknowns (CIR-GOV-002) exempt from Unknowns.md mirroring?
 - RESOLVED: no Version field required for full-schema files (AUDIT_10 F2 nuance: lean schema and version metadata need a canonical home); Active Disputes and Drift Indicators mandatory; Abandoned Paths conditional; Operational Safety Advisory optional.
-- Recommendations pending: Kit ID-Reference regeneration (X5 remainder); propagate VG's Status precedence line; AUDIT_10 F1 Challenges Spec Gates reconciliation (formal gate before Challenges/ sweep); ECN- registry propagation into Canonical_Terms.md (ID-prefix registry + CT-007 resolution path still narrate the rename as pending though executed in Economics 2026-07-06 — AUDIT_19 F3; also fix the registry's erroneous EC-008 claim); X3 mechanical retrofit of bare IDs (human-authorized, not performed); audit-stream numbering collision disambiguation. RESOLVED/ENACTED: X3 folder-designation ruling (REGISTERED 2026-10-28, CT v0.11); AUDIT_11 corrections (ENACTED 2026-10-28, CT v0.9); AUDIT_15 F4/F5 (ENACTED, Kit v1.25/Unknowns v5.72); ECN- rename itself (executed in Economics 2026-07-06).
+- Recommendations pending: Kit ID-Reference regeneration (X5 remainder); propagate VG's Status precedence line; AUDIT_10 F1 Challenges Spec Gates reconciliation (formal gate before Challenges/ sweep); ECN- registry propagation into Canonical_Terms.md (ID-prefix registry + CT-007 resolution path still narrate the rename as pending though executed in Economics 2026-07-06 — AUDIT_19 F3; also fix the registry's erroneous EC-008 claim); X3 mechanical retrofit of bare IDs (human-authorized, not performed); audit-stream numbering collision disambiguation; Tier 0 class addition to File_Template exempt list (AUDIT_24 F1, PKC-017 pattern); PKC-030 "formally derive" wording softening (already queued in PKC-030 — context verified AUDIT_24). RESOLVED/ENACTED: X3 folder-designation ruling (REGISTERED 2026-10-28, CT v0.11); AUDIT_11 corrections (ENACTED 2026-10-28, CT v0.9); AUDIT_15 F4/F5 (ENACTED, Kit v1.25/Unknowns v5.72); ECN- rename itself (executed in Economics 2026-07-06).
