@@ -1,7 +1,7 @@
 # LazarusForge Per-File Auditor — Session Status
 
 - Auditor: Vibe (Skeptic/Auditor), external findings-only pass (PKC-020)
-- Last updated: 2026-10-28 (after file 25; head eee122a6 unchanged; ENV content strong/human-ratified, wrapper decayed — 5 WARNINGs all wrapper/pointer class; Highest-Risk value-parity streak ENDS here; X9 third-place sub-shape gains its purest instance yet: ENV-008 sidecar vs own Relationship section)
+- Last updated: 2026-10-28 (after file 26; head eee122a6 unchanged; Adm_Scope_Map = delegated-stream adoption showcase — 10-28b Decision Brief enacting AUDIT_11 F1/13 F5/18 F1/19 F1 + Session 4 Highest-Risk recompute all verified in-file; residual stale spots: Kit 7-vs-5, AP 4/6-vs-5/6)
 - Repo: ksarith/LazarusForge @ refs/heads/main, head SHA 982e958ab23d8b89a859dfa8a9c56a9490820636 (as of 2026-10-28, file 17; files 15–16 at c9f9f64, files 1–14 at 6dea6e08 — head is moving same-day with human-ratified delegated maintenance)
 - Human rulings: sequence approved; Automation/ skipped entirely; method check-in after first 5 files; files 1–5 final (no re-verify, head unchanged); continue without pausing; files 1–11 final, resume at file 12 (session prompt v2, 2026-10-27).
 
@@ -40,6 +40,7 @@
 | 23 | Admin/Integrity_Incident_Log.md | DONE | 0/0/1/3 | AUDIT_23_Admin-Integrity_Incident_Log.md |
 | 24 | Admin/Nothingness_Theorem.md | DONE | 0/0/1/4 | AUDIT_24_Admin-Nothingness_Theorem.md |
 | 25 | Admin/Environmental_Constraints.md | DONE | 0/0/5/4 | AUDIT_25_Admin-Environmental_Constraints.md |
+| 26 | Admin/Adm_Scope_Map.md | DONE | 0/0/2/3 | AUDIT_26_Admin-Adm_Scope_Map.md |
 
 Template INCOMPLETEs on files 1–5 resolved by dated correction: AUDIT_01-05_TEMPLATE_RESOLUTION_2026-10-27.md.
 
@@ -55,6 +56,15 @@ Template INCOMPLETEs on files 1–5 resolved by dated correction: AUDIT_01-05_TE
 
 
 
+
+## AUDIT_26 headlines (Adm_Scope_Map)
+- 0 CRITICAL / 0 MAJOR / 2 WARNING / 3 NOTE. 39,479 chars. Active — Index (exempt-class, adapted checks). Coverage complete 32/32 non-self Admin files; load-bearing tier table recount EXACT at 6+6+15+3+3=33 (X10 done right); the 9-13 content-accuracy pass's arithmetic self-consistent (8 fixed + 1 added + 21 clean = 30 non-self files at that date).
+- **DELEGATED-STREAM ADOPTION SHOWCASE:** the map's own header + Resolution Log record the 2026-10-28 and 2026-10-28b human-ratified Decision Briefs enacting OUR findings: CT Open Unknowns 9→10 (AUDIT_11 F1), Trajectories Risk High (AUDIT_13 F5), CT Risk High citing CT-004/CT-007 (verified vs held CT v0.11: CT-004 High; CT-007 "High, escalated 2026-07-05, was Low"), Economics Risk High (AUDIT_19 F1, ECN-002), Ship_of_Theseus Risk High (AUDIT_18 F1, ST-004). Session 4's corpus Highest-Risk recompute recommendation PARTIALLY ENACTED (this map's Admin Risk entries; "not a full-folder re-audit" honestly logged). Five of five corrections independently verified against session fetches. AUDIT_16's carried Convention-7 Adm_Scope_Map row-claim check RESOLVED (OC entry present, self-documenting).
+- WARNINGs: Kit entry "7 Open Unknowns" stale vs Kit v1.25 File State "Open Unknowns | 5" (PKC-022 closed FAK-014–019, 11→5; Unknowns v5.72 mirrors "five open FAKs") — the stale-count specialist index is now the outlier against both owning file and registry (F1, X8; queued one-pass fix 7→5); AP entry "4/6" vs Discovery maturity snapshot "5/6 (G5 cleared 2026-09-03)" — two navigation indexes disagree TODAY; map's 9-13 pass postdates G5's clearance (same-pass miss reading) or a later gate cleared (staleness reading) — resolves at the AP audit, LAST (F2, X10-class).
+- NOTEs: NT entry omits Open Unknowns count entirely (10 open per AUDIT_24 — Tier 0 exempts gates, not unknowns; only entry of 32 without a count) (F3); CIR entry's Risk field carries an ID not a value ("Risk: CIR-001", inherited from Discovery's snapshot) (F4); positives incl. all current entry spot-checks (EC 7, Charter 13, GMP exactly 4, SP/EP 5/5 PKC-028, ADP 1, CIR 1, Traj 3, Env 8 = AUDIT_25 exact match, Metrics 0, RS 0, RM 0, IIL 0), honest founding-gap notes, "file wins" fence, tier-map "navigation aid not authorization" fence, one in-file-unreconstructable entry-addition date recorded honestly (F5).
+- INCOMPLETEs carried: AP 4/6-vs-5/6 + "10 Open Unknowns" → AP audit LAST; Tier-table figures → Tests/Admin_Governance_Teardown_POC.md at Tests/ sweep; Security entry 10 SEC list recorded-as-reported.
+- Queued updates: Highest-Risk recompute residual scope = other four *_Scope_Map.md files' Risk entries (index-side only; owning files already correct); NEW: Kit entry 7→5 (PKC-022-citing note); NEW: NT count + CIR Risk-field format (one-pass index polish).
+- Next: file 27 = Admin/Agent_Verification_Event.md (PKC-001's clean control case per Discovery; map entry: "Status: Candidate / Exploration · 0/6 · Risk: unlabeled").
 
 ## AUDIT_25 headlines (Environmental_Constraints)
 - 0 CRITICAL / 0 MAJOR / 5 WARNING / 4 NOTE. 50,809 chars. Three-way unknown parity exact at 8 (ENV-007 Resolved, ENV-008 Partially Addressed, both footnoted out of Unknowns v5.72 active index per Size Management Rule 2 — verified both directions); Scope Boundary fully reconciled — first clean X1 check this session; full File_Template schema with honest empties; human-ratified two-part Bootstrap doctrine (Compliance-Maximizing reconciliation + bounded bridge authority, 2026-07-17) intact and self-guarded (misuse-as-default Drift Indicator).
