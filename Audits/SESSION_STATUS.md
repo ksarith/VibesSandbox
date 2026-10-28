@@ -1,7 +1,7 @@
 # LazarusForge Per-File Auditor — Session Status
 
 - Auditor: Vibe (Skeptic/Auditor), external findings-only pass (PKC-020)
-- Last updated: 2026-10-28 (after file 22; HEAD MOVED to eee122a6 mid-audit — verify fresh on every fetch; RM = cleanest wrapper since Metrics_Scaffold, 11/11 case-claims verified against Unknowns v5.72)
+- Last updated: 2026-10-28 (after file 23 + AUDIT_20-22 dated correction; head eee122a6; PKC-001/PKC-007 rulings surfaced — historical log-order shapes ruled "declare historical, stop repairing"; grade log-order shapes NOTE-class "ruled historical" going forward)
 - Repo: ksarith/LazarusForge @ refs/heads/main, head SHA 982e958ab23d8b89a859dfa8a9c56a9490820636 (as of 2026-10-28, file 17; files 15–16 at c9f9f64, files 1–14 at 6dea6e08 — head is moving same-day with human-ratified delegated maintenance)
 - Human rulings: sequence approved; Automation/ skipped entirely; method check-in after first 5 files; files 1–5 final (no re-verify, head unchanged); continue without pausing; files 1–11 final, resume at file 12 (session prompt v2, 2026-10-27).
 
@@ -37,6 +37,7 @@
 | 20 | Admin/Autonomy_Divergence_Protocol.md | DONE | 0/0/6/2 | AUDIT_20_Admin-Autonomy_Divergence_Protocol.md |
 | 21 | Admin/Computational_Institutional_Reasoning.md | DONE | 0/0/4/2 | AUDIT_21_Admin-Computational_Institutional_Reasoning.md |
 | 22 | Admin/Resolution_Methodology.md | DONE | 0/0/2/3 | AUDIT_22_Admin-Resolution_Methodology.md |
+| 23 | Admin/Integrity_Incident_Log.md | DONE | 0/0/1/3 | AUDIT_23_Admin-Integrity_Incident_Log.md |
 
 Template INCOMPLETEs on files 1–5 resolved by dated correction: AUDIT_01-05_TEMPLATE_RESOLUTION_2026-10-27.md.
 
@@ -50,6 +51,14 @@ Template INCOMPLETEs on files 1–5 resolved by dated correction: AUDIT_01-05_TE
 
 
 
+
+
+## AUDIT_23 headlines (Integrity_Incident_Log) + MATERIAL CORRECTION
+- 0 CRITICAL / 0 MAJOR / 1 WARNING / 3 NOTE. Healthiest small file audited: honest empties, self-enforcing anti-linger design, full RIP-007 and PKC-015 reciprocity (both verified against held fetches). Single incident IIL-20261025-01 = the repo formally logging OUR campaign's findings (PKC-001 decay, "Detected by: Vibe per-file audits"), labeled Analogous/reconstructed exactly per its own discipline. WARNING: selective template application (no Assumptions/Lessons Learned/Active Disputes section/Auditor Notes/Abandoned Paths) while not being template-exempt — human disposition: add the exemption class or the sections ("prefer exemption over forced retrofit").
+- **AUDIT_20-22_CORRECTION_2026-10-28.md issued (no grade changes):** PKC-001 + PKC-007 human rulings (2026-10-27, in held Progress_Log fetch all along) pre-date AUDIT_20/21/22 and disposition by name: ADP's two-block log (AUDIT_20 F5), RM's section order + v0.8 gap (AUDIT_22 F2/F4) — all ruled "declare historical, stop repairing". CIR's stale Last Audit (AUDIT_21 F1) partially covered (class ruled historical; its October non-bumps post-date the window — remedy is the mechanical check). Content-staleness findings (ADP F1/F2/F3, CT ECN- registry, bare citations, missing sections) are NOT bookkeeping decay and remain live/queued. Lesson recorded: read parked-concerns' inline rulings before grading related shapes.
+- **GOING-FORWARD RULE (from the rulings):** log-ordering shapes in remaining folders (Architecture/, Operations/, Tests/ — many instances per PKC-001) grade as NOTE-class "ruled historical (PKC-007)" unless post-window or content-staleness.
+- Root-cause convergence: PKC-001's confirmed cause (parallel sessions skipping the bookkeeping cascade, no mechanical check) is the root of X7/X9/X11; PKC-001's inverse-check sweep-prompt candidate and our X11 proposal are the same instrument from two directions — both before the human.
+- Next: file 24 = Admin/Nothingness_Theorem.md (per Discovery sequence; PKC-001 names Nothingness_Theorem "clean" — expect verification, not surprises).
 
 ## AUDIT_22 headlines (Resolution_Methodology)
 - 0 CRITICAL / 0 MAJOR / 2 WARNING / 3 NOTE. **Head moved this pass: 982e958 → eee122a6** (delegated stream active again) — cross-checks used session-held Unknowns v5.72/Kit v1.25 at 982e958, honestly noted.
