@@ -1,7 +1,7 @@
 # LazarusForge Per-File Auditor — Session Status
 
 - Auditor: Vibe (Skeptic/Auditor), external findings-only pass (PKC-020)
-- Last updated: 2026-10-28 (after file 21 + Session 4 pattern doc; head 982e958; CIR = strongest X11 instance yet — no wrapper sections at all, changelog inside Last Audit cell)
+- Last updated: 2026-10-28 (after file 22; HEAD MOVED to eee122a6 mid-audit — verify fresh on every fetch; RM = cleanest wrapper since Metrics_Scaffold, 11/11 case-claims verified against Unknowns v5.72)
 - Repo: ksarith/LazarusForge @ refs/heads/main, head SHA 982e958ab23d8b89a859dfa8a9c56a9490820636 (as of 2026-10-28, file 17; files 15–16 at c9f9f64, files 1–14 at 6dea6e08 — head is moving same-day with human-ratified delegated maintenance)
 - Human rulings: sequence approved; Automation/ skipped entirely; method check-in after first 5 files; files 1–5 final (no re-verify, head unchanged); continue without pausing; files 1–11 final, resume at file 12 (session prompt v2, 2026-10-27).
 
@@ -36,6 +36,7 @@
 | 19 | Admin/Economics.md | DONE | 0/0/3/3 | AUDIT_19_Admin-Economics.md |
 | 20 | Admin/Autonomy_Divergence_Protocol.md | DONE | 0/0/6/2 | AUDIT_20_Admin-Autonomy_Divergence_Protocol.md |
 | 21 | Admin/Computational_Institutional_Reasoning.md | DONE | 0/0/4/2 | AUDIT_21_Admin-Computational_Institutional_Reasoning.md |
+| 22 | Admin/Resolution_Methodology.md | DONE | 0/0/2/3 | AUDIT_22_Admin-Resolution_Methodology.md |
 
 Template INCOMPLETEs on files 1–5 resolved by dated correction: AUDIT_01-05_TEMPLATE_RESOLUTION_2026-10-27.md.
 
@@ -48,6 +49,16 @@ Template INCOMPLETEs on files 1–5 resolved by dated correction: AUDIT_01-05_TE
 
 
 
+
+
+## AUDIT_22 headlines (Resolution_Methodology)
+- 0 CRITICAL / 0 MAJOR / 2 WARNING / 3 NOTE. **Head moved this pass: 982e958 → eee122a6** (delegated stream active again) — cross-checks used session-held Unknowns v5.72/Kit v1.25 at 982e958, honestly noted.
+- 11/11 case-claims verified against Unknowns v5.72 in both directions: WA-002/PL-001 Resolved 2026-08-23, GR-003/WA-004 Resolved 2026-08-24 (all four with the R1-residual convention exactly as Pattern 6 describes — PYC-003 confirms), and the still-open seven (GR-007, GF-007, GI-002, AS-005, FA-002, CE-006 In Progress, CLF-004) all match. Kit's Resolved Unknown Discharge Procedure verified live at v1.25; TS-004→CT-002 precedent verified in CT.
+- WARNINGs: bare colliding-prefix IDs in case narration (GI-002/GI-003/FA-002/TS-002 instances — AUDIT_09 class, milder than AUDIT_21); wrapper block (Lessons Learned→Drift Indicators) sits MID-BODY with Third–Fifth Applied Cases after it — the 10-23 pass saw it and explicitly deferred the reorder (findings-only, correct call; reorder still due).
+- NOTEs: File State Version field absent (subtitle carries it; the v0.4 pass had repaired that very field — its disappearance is undocumented); v0.7→v0.9 version gap with no v0.8 anywhere, honestly documented rather than renumbered; exemplary — Pattern 9 self-application (the file audited itself with its own pattern), Fifth Case meta-lesson independently naming the X9/X11 classes, v0.4 §5-mislabel self-correction, Pattern 6's Risk/Priority-unchanged doctrine (X10-relevant).
+- Carried observation for root sweep: Unknowns v5.72's CE-005 row still says "(GR-003 itself unassigned in Operations/Gate_03_Reduction.md)" though GR-003 Resolved 2026-08-24 — stale phrase in Unknowns.
+- INCOMPLETEs carried: Ops/Arc Scope_Map content; Unknowns_Changelog v4.83 (Archive/); Pattern 9's Unknowns/Progress_Log historical claims; Automation/ dashboard claims (standing ruling).
+- Next: file 23 = Admin/Integrity_Incident_Log.md (per approved sequence; RM's v0.7 refinement names IIL as the same-session-registration sibling).
 
 ## AUDIT_21 headlines (Computational_Institutional_Reasoning)
 - 0 CRITICAL / 0 MAJOR / 4 WARNING / 2 NOTE. 85,902 chars — largest file audited. Current Kit v1.25 fetched fresh to verify Kit-side claims: CIR- prefix registered in ID Reference ✓ (live), EF-0.0–EF-0.8b = Auditor_Protocols-owned (CIR's bare EF citations not rule-violating), 12,000→35,000 re-baseline = Kit's own character-count threshold (unrelated to CIR's illustrative Δmax — no divergence finding). CIR-001 Open/Critical in Unknowns v5.72 matches in-file state exactly; CF-002/CF-004 Active Trackers verified.
