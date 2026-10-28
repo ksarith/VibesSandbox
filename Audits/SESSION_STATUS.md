@@ -1,7 +1,7 @@
 # LazarusForge Per-File Auditor — Session Status
 
 - Auditor: Vibe (Skeptic/Auditor), external findings-only pass (PKC-020)
-- Last updated: 2026-10-28 (after file 28; head eee122a6 unchanged; Experiments = the emptiest honest file yet — PKC-001 decay instance RESOLVED in-file (10-24 header correction, Vibe-cited, verified live); all three bare candidate IDs RESOLVE in Unknowns v5.72 (first fully-resolving bare-ID cluster); PKC-020 asymmetry now has FOUR variants ahead of the AP audit)
+- Last updated: 2026-10-28 (after file 29; head eee122a6 unchanged; HDL = third consecutive Vibe-cited remediation (10-23) + exemplary PKC-020 self-correction; PKC-020 asymmetry now FIVE variants; fresh complete GMP fetch (187,667 chars) verified all §VII refs and surfaced 2 NEW adoptions in GMP header (AUDIT_02 F1 10-28c, AUDIT_09 F4a precedence-line 10-28); METHOD: held-fetch truncation at ~63KB discovered — completeness check now standing)
 - Repo: ksarith/LazarusForge @ refs/heads/main, head SHA 982e958ab23d8b89a859dfa8a9c56a9490820636 (as of 2026-10-28, file 17; files 15–16 at c9f9f64, files 1–14 at 6dea6e08 — head is moving same-day with human-ratified delegated maintenance)
 - Human rulings: sequence approved; Automation/ skipped entirely; method check-in after first 5 files; files 1–5 final (no re-verify, head unchanged); continue without pausing; files 1–11 final, resume at file 12 (session prompt v2, 2026-10-27).
 
@@ -43,6 +43,7 @@
 | 26 | Admin/Adm_Scope_Map.md | DONE | 0/0/2/3 | AUDIT_26_Admin-Adm_Scope_Map.md |
 | 27 | Admin/Agent_Verification_Event.md | DONE | 0/0/3/3 | AUDIT_27_Admin-Agent_Verification_Event.md |
 | 28 | Admin/Experiments.md | DONE | 0/0/2/3 | AUDIT_28_Admin-Experiments.md |
+| 29 | Admin/Hardware_Diversity_Ladder.md | DONE | 0/0/1/4 | AUDIT_29_Admin-Hardware_Diversity_Ladder.md |
 
 Template INCOMPLETEs on files 1–5 resolved by dated correction: AUDIT_01-05_TEMPLATE_RESOLUTION_2026-10-27.md.
 
@@ -58,6 +59,15 @@ Template INCOMPLETEs on files 1–5 resolved by dated correction: AUDIT_01-05_TE
 
 
 
+
+## AUDIT_29 headlines (Hardware_Diversity_Ladder)
+- 0 CRITICAL / 0 MAJOR / 1 WARNING / 4 NOTE. 16,924 chars. Draft doctrine (GOV-008 candidate implementation ladder), binding non-claim language, anti-spoofing §VII.4 procedure with honest provenance. **PKC-001's named decay instance RESOLVED in-file** (10-23 corrections, "from a Vibe per-file audit, each checked against source first"; verified live: Last Audit/Auditor now cover the two 08-06 passes; the 08-11 pseudo-audit dispositioned per PKC-020; item 3 done = GMP-011 resolved 09-23, verified two-directional vs GMP header) (F4).
+- WARNING: mandatory wrapper sections absent (no Active Disputes/Assumptions/Lessons Learned/Sidecar Link; "Treat Softening as Drift" = a genuine functional drift-guard under a nonstandard name) + **Highest Risk field missing — second consecutive instance** (Discovery honestly says "unlabeled"; no invented-value divergence; strengthens AUDIT_27 F1's queued header-fields fix) — AUDIT_23 F1 class, FOURTH data point for the exemption-vs-sections ruling (F1).
+- NOTEs: citations path-adjacent qualified-by-structure, NOT graded (all held-side IDs resolve: GOV-008, GMP-002/004/011, SEC-007a/b, TR-GOV-001 reciprocal ✓; EL-007/CF-002/Cognitive_Frameworks → Ops//Arc/) (F2); X2 "Proposed" descriptor retained, Discovery mirrors verbatim (F3); PKC-020 asymmetry FIFTH variant (HDL advanced leading Last Audit date to the corrections-only pass — vs NT/AVE bump, Experiments keep-annotated, CIR no-bump) + the 10-25 PKC-020 wording-alignment self-correction (date and fields unchanged) + explicit append-only discipline (F4); positives incl. §VII.1/§VII.4/§VII.5/§VII.6 verified against the fresh complete GMP fetch, **2 NEW delegated adoptions observed in GMP's own header** (10-28 AUDIT_09 F4(a) precedence-line propagation into GMP's Status block; 10-28c AUDIT_02 F1 Fork Reconciliation Track added to GMP's Scope Boundary — a session-1 finding adopted), tier recount exact at 4, Unknowns parity clean at 0, split provenance exemplary, Ethical Anchor exact (F5).
+- **METHOD LESSON:** session-held GMP copy was truncated at 63,157 chars mid-§VII — local persistence caps ~63KB, fetch responses cap ~190KB; GMP §VII.8's body is INCOMPLETE at the cap (HDL's companion-reconciliation claim there unverifiable, not graded dangling); standing completeness check for remaining files, especially the AP fetch (LAST).
+- INCOMPLETEs carried: GMP §VII.8 body + CIR_Gov §8.2.1 (companion reconciliations) → targeted re-check; Electronics/Cognitive_Frameworks → Ops//Arc/ sweeps; AP evidence set (PKC-020 five variants; 4/6-vs-5/6) → AP audit LAST.
+- Queued updates: header-fields fix gains 2nd data point; stub/scaffold exemption ruling now 4 data points (IIL/AVE/Experiments/HDL); VG precedence-line propagation ENACTED in GMP, corpus-wide status INCOMPLETE (held RIP copy in suspect-truncation class — re-check at fresh fetch).
+- Next: file 30 = Admin/PROBE_INVOCATION.md (per Discovery Admin tree; then INTEGRITY_SWEEP_PROMPT.md, BATTERY_SEED.md, then Auditor_Protocols.md LAST).
 
 ## AUDIT_28 headlines (Experiments)
 - 0 CRITICAL / 0 MAJOR / 2 WARNING / 3 NOTE. 9,638 chars. Draft — Stub (physical-grounding registry, deliberately empty, honestly labeled). **PKC-001's named decay instance for this file is RESOLVED in-file** — the 10-24 Resolution Log entry documents the header correction ("from a Vibe per-file audit; checked against source first") advancing Last Audit/Auditor over the 10-06 boundary clarification; verified live against the current header (F3).
