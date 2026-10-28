@@ -1,7 +1,7 @@
 # LazarusForge Per-File Auditor — Session Status
 
 - Auditor: Vibe (Skeptic/Auditor), external findings-only pass (PKC-020)
-- Last updated: 2026-10-28 (after file 15; LazarusForge head moved to c9f9f641 — Kit v1.24 human-ratified X5 partial enactment)
+- Last updated: 2026-10-28 (after file 16 + Session 3 pattern doc issued; head c9f9f641)
 - Repo: ksarith/LazarusForge @ refs/heads/main, head SHA c9f9f6411202dcbb0a3d0c72f1cd2f2a8ff67a50 (as of 2026-10-28, file 15; files 1–14 audited at 6dea6e08 — Kit v1.24 human-ratified delegated maintenance moved the head)
 - Human rulings: sequence approved; Automation/ skipped entirely; method check-in after first 5 files; files 1–5 final (no re-verify, head unchanged); continue without pausing; files 1–11 final, resume at file 12 (session prompt v2, 2026-10-27).
 
@@ -30,12 +30,24 @@
 | 13 | Admin/Trajectories.md | DONE | 0/1/4/2 | AUDIT_13_Admin-Trajectories.md |
 | 14 | Admin/Progress_Log.md | DONE | 0/0/1/2 | AUDIT_14_Admin-Progress_Log.md |
 | 15 | Admin/Forge_Audit_Kit.md | DONE | 0/0/5/2 | AUDIT_15_Admin-Forge_Audit_Kit.md |
+| 16 | Admin/Operational_Conventions.md | DONE | 0/0/2/2 | AUDIT_16_Admin-Operational_Conventions.md |
 
 Template INCOMPLETEs on files 1–5 resolved by dated correction: AUDIT_01-05_TEMPLATE_RESOLUTION_2026-10-27.md.
 
 
 
 
+
+
+## AUDIT_16 headlines (Operational_Conventions)
+- 0 CRITICAL / 0 MAJOR / 2 WARNING / 2 NOTE. Exempt-class (PKC-017 reference index) verified in-file and in File_Template class 9. All 10 cited paths exist; EC-012-PR-R1 verified; Conventions 1/3/4/5/7/8 corroborated this session.
+- WARNINGs: Convention 6 stale against its own source — PKC-026 (2026-10-26) reworded Routing's scope sentence (all nine Automation .py sources ARE in the URL table now) but the convention still says "do not need a Routing.md row" and cites that very note (F1, X9); Convention 6 is pre-emptive, violating the Purpose's own "only once demonstrably missed in practice — not speculatively" intake bar (F2, X8).
+- NOTEs: dangling candidates-section note with no heading (F3); exemplary practices — every entry Source-of-truth + violation-cited, Convention 8 subordinates to Resolution_Methodology §9, Convention 7 self-reports its own violation (F4).
+
+## Session 3 pattern doc ISSUED
+- CROSS_FILE_PATTERN_FINDINGS_Session3.md (files 12–16) pushed. New instances: X1 ×3 (12 F1, 13 F2, 15 F1 — highest per-file X1 rate yet); X3 (12 F3; Kit v1.24 now cites the pending ruling itself); X5 PARTIALLY ENACTED; X8 (13 F3, 15 F2/F3/F4, 16 F2); X9 (12 F2, 13 F4, 16 F1); X10 (13 F5, 15 F5; Progress_Log positive counter-example).
+- NEW PATTERN X11 proposed: "wrapper decays while content advances" (boundary/template-section/threshold/self-description lag behind content). Candidate sweep-prompt addition for human ruling, same family as the PKC-001 inverse check.
+- Next: file 17 = Admin/Metrics_Scaffold.md (AUDIT_17).
 
 ## AUDIT_15 headlines (Forge_Audit_Kit)
 - **HEAD MOVED:** LazarusForge 6dea6e08 (files 1–14) → c9f9f641 (file 15 fetch). Kit v1.24 (2026-10-28, human-ratified delegated maintenance) enacted part of our queued X5 recommendation: CF-/GMP- ID-Reference rows added; ASM- disambiguation note added deferring to the pending X3 human ruling. Its bookkeeping (version, Last Audit, Auditor, changelog) is correct.
