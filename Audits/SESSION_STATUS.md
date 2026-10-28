@@ -1,7 +1,7 @@
 # LazarusForge Per-File Auditor — Session Status
 
 - Auditor: Vibe (Skeptic/Auditor), external findings-only pass (PKC-020)
-- Last updated: 2026-10-28 (after file 20; head 982e958; ADP = strongest doctrine yet audited but 6 wrapper/pointer WARNINGs — third consecutive X11 file)
+- Last updated: 2026-10-28 (after file 21 + Session 4 pattern doc; head 982e958; CIR = strongest X11 instance yet — no wrapper sections at all, changelog inside Last Audit cell)
 - Repo: ksarith/LazarusForge @ refs/heads/main, head SHA 982e958ab23d8b89a859dfa8a9c56a9490820636 (as of 2026-10-28, file 17; files 15–16 at c9f9f64, files 1–14 at 6dea6e08 — head is moving same-day with human-ratified delegated maintenance)
 - Human rulings: sequence approved; Automation/ skipped entirely; method check-in after first 5 files; files 1–5 final (no re-verify, head unchanged); continue without pausing; files 1–11 final, resume at file 12 (session prompt v2, 2026-10-27).
 
@@ -35,6 +35,7 @@
 | 18 | Admin/Ship_of_Theseus.md | DONE | 0/0/3/2 | AUDIT_18_Admin-Ship_of_Theseus.md |
 | 19 | Admin/Economics.md | DONE | 0/0/3/3 | AUDIT_19_Admin-Economics.md |
 | 20 | Admin/Autonomy_Divergence_Protocol.md | DONE | 0/0/6/2 | AUDIT_20_Admin-Autonomy_Divergence_Protocol.md |
+| 21 | Admin/Computational_Institutional_Reasoning.md | DONE | 0/0/4/2 | AUDIT_21_Admin-Computational_Institutional_Reasoning.md |
 
 Template INCOMPLETEs on files 1–5 resolved by dated correction: AUDIT_01-05_TEMPLATE_RESOLUTION_2026-10-27.md.
 
@@ -46,6 +47,18 @@ Template INCOMPLETEs on files 1–5 resolved by dated correction: AUDIT_01-05_TE
 
 
 
+
+
+## AUDIT_21 headlines (Computational_Institutional_Reasoning)
+- 0 CRITICAL / 0 MAJOR / 4 WARNING / 2 NOTE. 85,902 chars — largest file audited. Current Kit v1.25 fetched fresh to verify Kit-side claims: CIR- prefix registered in ID Reference ✓ (live), EF-0.0–EF-0.8b = Auditor_Protocols-owned (CIR's bare EF citations not rule-violating), 12,000→35,000 re-baseline = Kit's own character-count threshold (unrelated to CIR's illustrative Δmax — no divergence finding). CIR-001 Open/Critical in Unknowns v5.72 matches in-file state exactly; CF-002/CF-004 Active Trackers verified.
+- WARNINGs: Last Audit leading date 2026-07-29 vs body changes through v0.29 (2026-10-27) — v0.27/v0.28 were body-changing passes that per Kit Rule 10 (PKC-020) should have bumped Last Audit (F1); NO wrapper sections at all — no Resolution Log (changelog lives inside Last Audit cell), no sidecar section (CIR-001 tracker lacks Risk/Priority/Type/Owner fields), no Active Disputes/Drift Indicators/Assumptions/Lessons Learned (F2, worst AUDIT_15 F2-class instance); bare AP-006/CF-004 in the §6.2 rule headings meant to be cited corpus-wide + bare CF- IDs in File State (F3, AUDIT_09 class); Spec Gates field names only G1/G3/G4 — G2/G5/G6 statuses absent against the Kit's six-gate checklist (F4).
+- NOTEs: second corpus X3 collision resolved by rename (local GOV-008→CIR-001, 2026-07-28, Kit-registered ✓); exemplary — §7.4 declared-vs-implemented gap table ("the kind of drift this repository's apparatus exists to catch"), G3 stale-blocker self-catch, provenance self-reference note (own Ψ gate bars self-promotion), rejected CIR-v2.0 one-change-per-patch precedent, v0.27 reported-vs-verified separation, First Logged non-fabrication.
+- INCOMPLETEs carried: AP "line 774" (Auditor_Protocols, LAST); harness version claims (Automation/, standing ruling); v0.27 commit-history claim (recorded-as-reported); VG per-file gate applicability (not re-fetched).
+
+## Session 4 pattern doc issued (files 17–21)
+- CROSS_FILE_PATTERN_FINDINGS_Session4.md pushed. X11 CONFIRMED corpus-level ("the better the content, the more the wrapper lags" — five consecutive instances, CIR the extreme). X10 Highest-Risk-parity streak now 3 instances (AUDIT_13 F5, 18 F1, 19 F1) + structural variant at 20–21 (sidecars missing Risk fields) — NEW QUEUED RECOMMENDATION: one-pass corpus-wide Highest-Risk recompute vs own sidecar. X9 sub-shape: stale facts fixed where the last pass looked, surviving in the third-plus place (ADP GOV-021, ADP AP-013, CT ECN- registry).
+- AUDIT_15 F4/F5 verified enacted live (Kit v1.25/Unknowns v5.72); FAK-014–019 dissolved by human ruling PKC-022 (pin retirement) — queued item resolved by ruling.
+- Next: file 22 = Admin/Resolution_Methodology.md.
 
 ## AUDIT_20 headlines (Autonomy_Divergence_Protocol)
 - 0 CRITICAL / 0 MAJOR / 6 WARNING / 2 NOTE. Largest file audited (65,934 chars). Count parity exact at 1 (GOV-021c; GOV-021b Resolved); Unknowns v5.72 GOV-021 row matches this file's state exactly. EC-001 mapping table verified word-level against held EC fetch; EQD Three Independence Dimensions verified in GMP; [ExternalRepo] convention registered in CT ✓; TR-MET-002 = the parked fabrication item ADP cites ✓.
