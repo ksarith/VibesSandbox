@@ -1,7 +1,7 @@
 # LazarusForge Per-File Auditor — Session Status
 
 - Auditor: Vibe (Skeptic/Auditor), external findings-only pass (PKC-020)
-- Last updated: 2026-10-28 (after file 26; head eee122a6 unchanged; Adm_Scope_Map = delegated-stream adoption showcase — 10-28b Decision Brief enacting AUDIT_11 F1/13 F5/18 F1/19 F1 + Session 4 Highest-Risk recompute all verified in-file; residual stale spots: Kit 7-vs-5, AP 4/6-vs-5/6)
+- Last updated: 2026-10-28 (after file 27; head eee122a6 unchanged; PKC-001 control case CONFIRMED — AVE log fully current, 10-23 reorder = same-day adoption of our log-ordering class; lean File State header drives a four-way risk divergence (sidecar Medium-Placeholder / Discovery Low / map unlabeled / header absent); QCC-R1 unresolvable in Unknowns v5.72)
 - Repo: ksarith/LazarusForge @ refs/heads/main, head SHA 982e958ab23d8b89a859dfa8a9c56a9490820636 (as of 2026-10-28, file 17; files 15–16 at c9f9f64, files 1–14 at 6dea6e08 — head is moving same-day with human-ratified delegated maintenance)
 - Human rulings: sequence approved; Automation/ skipped entirely; method check-in after first 5 files; files 1–5 final (no re-verify, head unchanged); continue without pausing; files 1–11 final, resume at file 12 (session prompt v2, 2026-10-27).
 
@@ -41,6 +41,7 @@
 | 24 | Admin/Nothingness_Theorem.md | DONE | 0/0/1/4 | AUDIT_24_Admin-Nothingness_Theorem.md |
 | 25 | Admin/Environmental_Constraints.md | DONE | 0/0/5/4 | AUDIT_25_Admin-Environmental_Constraints.md |
 | 26 | Admin/Adm_Scope_Map.md | DONE | 0/0/2/3 | AUDIT_26_Admin-Adm_Scope_Map.md |
+| 27 | Admin/Agent_Verification_Event.md | DONE | 0/0/3/3 | AUDIT_27_Admin-Agent_Verification_Event.md |
 
 Template INCOMPLETEs on files 1–5 resolved by dated correction: AUDIT_01-05_TEMPLATE_RESOLUTION_2026-10-27.md.
 
@@ -56,6 +57,14 @@ Template INCOMPLETEs on files 1–5 resolved by dated correction: AUDIT_01-05_TE
 
 
 
+
+## AUDIT_27 headlines (Agent_Verification_Event)
+- 0 CRITICAL / 0 MAJOR / 3 WARNING / 3 NOTE. 11,903 chars. Candidate / Exploration process schema; Spec Gates 0/6 consistent three ways. **PKC-001's control-case claim CONFIRMED** (held Progress_Log names AVE "the control case when ruling out the shared cause" — log newest-first, every pass same-day-logged, Last Updated honestly annotated "reorder only"); the 10-23 reorder entry is itself a same-day delegated adoption of our log-ordering class ("human-directed, from a Vibe per-file audit") (F5).
+- WARNINGs: File State header lean beyond exemption — Highest Risk, Last Audit, Auditor ALL absent, producing a live four-way risk divergence (sidecar max "Medium (Placeholder)" AVE-R1 / Discovery snapshot "Low — process schema..." (index-side editorial value the owning file carries nowhere — AUDIT_26 F4 mirror shape) / Adm_Scope_Map "unlabeled" / header absent) (F1, X10 structural variant); mandatory wrapper sections absent (no Active Disputes/Drift Indicators/Assumptions/Lessons Learned; Abandoned Paths genuine) — AUDIT_23 F1 class, second data point for the exemption-vs-sections disposition (F2); citation cluster vs PKC-003 — bare DV-003 ×4, bare GOV-021 ×3, and AVE-R1's "coordinate with QCC-R1 and QCC-R5" where **QCC-R1 does not resolve in Unknowns v5.72** (only QCC-R2/R5/R7 present; QCC-R5 reciprocates two-directionally) (F3, AUDIT_13 F4 class).
+- NOTEs: AVE- prefix unregistered in Kit v1.25 ID-Reference + two ID families in one file (events AVE-YYYYMMDD-NNN vs residuals AVE-R1..R4; formats disambiguate) — X5 regeneration pass candidate (F4); PKC-020 asymmetry third data point (AVE bumped Last Updated for reorder-only pass, like NT; CIR did not) → AP audit (F5); positives — placeholder discipline as X8 antidote ("Thresholds above are Placeholder until calibrated... Structure of rules is fixed; numbers are not"), selective mirroring explicit + verified both directions, Example B's "Ethical Anchor has no Admin/ prefix" verified against held canonical string, second clean X1 scope check this session, Routing row present, DV-003 firewall consistent three ways, RIP hook one-directional recorded-as-reported (F6).
+- INCOMPLETEs carried: Forge_Net §2.5.0 + DV-003 owner → Architecture/; QACP (QCC-R1/R5) + Field_Logs → Tests/; AP hook + PKC-020 ruling → AP audit LAST; Example A "Gemini folder claim" frozen-history exemption.
+- Queued updates: AVE header fields (Highest Risk/Last Audit/Auditor) + Discovery-vs-file mirror under the "file wins" rule — fold into delegated batch with AUDIT_26 index polish; AVE- family into Kit ID-Reference (X5).
+- Next: file 28 = Admin/Experiments.md (per Discovery Admin tree; PKC-001 already flags Experiments in the decay set at "fifteen of nineteen" — stale-log class expected, PKC-007 going-forward rule applies to log-ordering shapes).
 
 ## AUDIT_26 headlines (Adm_Scope_Map)
 - 0 CRITICAL / 0 MAJOR / 2 WARNING / 3 NOTE. 39,479 chars. Active — Index (exempt-class, adapted checks). Coverage complete 32/32 non-self Admin files; load-bearing tier table recount EXACT at 6+6+15+3+3=33 (X10 done right); the 9-13 content-accuracy pass's arithmetic self-consistent (8 fixed + 1 added + 21 clean = 30 non-self files at that date).
