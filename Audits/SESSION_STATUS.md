@@ -1,8 +1,8 @@
 # LazarusForge Per-File Auditor — Session Status
 
 - Auditor: Vibe (Skeptic/Auditor), external findings-only pass (PKC-020)
-- Last updated: 2026-10-28 (after file 16 + Session 3 pattern doc issued; head c9f9f641)
-- Repo: ksarith/LazarusForge @ refs/heads/main, head SHA c9f9f6411202dcbb0a3d0c72f1cd2f2a8ff67a50 (as of 2026-10-28, file 15; files 1–14 audited at 6dea6e08 — Kit v1.24 human-ratified delegated maintenance moved the head)
+- Last updated: 2026-10-28 (after file 17; head 982e958; internal delegated stream enacting our findings same-day)
+- Repo: ksarith/LazarusForge @ refs/heads/main, head SHA 982e958ab23d8b89a859dfa8a9c56a9490820636 (as of 2026-10-28, file 17; files 15–16 at c9f9f64, files 1–14 at 6dea6e08 — head is moving same-day with human-ratified delegated maintenance)
 - Human rulings: sequence approved; Automation/ skipped entirely; method check-in after first 5 files; files 1–5 final (no re-verify, head unchanged); continue without pausing; files 1–11 final, resume at file 12 (session prompt v2, 2026-10-27).
 
 ## Session prompt
@@ -31,6 +31,7 @@
 | 14 | Admin/Progress_Log.md | DONE | 0/0/1/2 | AUDIT_14_Admin-Progress_Log.md |
 | 15 | Admin/Forge_Audit_Kit.md | DONE | 0/0/5/2 | AUDIT_15_Admin-Forge_Audit_Kit.md |
 | 16 | Admin/Operational_Conventions.md | DONE | 0/0/2/2 | AUDIT_16_Admin-Operational_Conventions.md |
+| 17 | Admin/Metrics_Scaffold.md | DONE | 0/0/0/3 | AUDIT_17_Admin-Metrics_Scaffold.md |
 
 Template INCOMPLETEs on files 1–5 resolved by dated correction: AUDIT_01-05_TEMPLATE_RESOLUTION_2026-10-27.md.
 
@@ -38,6 +39,13 @@ Template INCOMPLETEs on files 1–5 resolved by dated correction: AUDIT_01-05_TE
 
 
 
+
+
+## AUDIT_17 headlines (Metrics_Scaffold)
+- 0 CRITICAL / 0 MAJOR / 0 WARNING / 3 NOTE — the campaign's first fully clean file (with named INCOMPLETEs carried: MAQT §8.10 to Tests/; Automation-orthogonality accepted as recorded per the Automation/ skip ruling). Head moved again: c9f9f64 → 982e958.
+- **Delegated-stream adoptions this pass:** Unknowns v5.72 added the Forge Audit Kit cluster citing "AUDIT_15 mirroring finding" (4 FAK rows + honest footnote for the fifth, CT-flagged item — no invented ID); Kit v1.25 re-baselined the size threshold to 35,000 (AUDIT_15 F4). AUDIT_15 F4 and F5 are both ENACTED. The internal stream also audited Metrics_Scaffold itself (its own AUDIT_17, Archive/Audits/) and enacted template fixes F1–F3 — every claim independently verified by our pass.
+- NOTEs: ASM-001–003 = ninth independent ASM- series (X3; best-formed assumption table yet — honest Basis/Confidence/Expiry with self-falsifying triggers); AUDIT-STREAM NUMBERING COLLISION — repo-internal AUDIT_17 vs our AUDIT_17, same filename pattern, different findings sets — disambiguation prefix recommended for human ruling, dated mapping note suffices (no renumbering of issued reports); exemplary scaffold hygiene (illustrative record fenced off, empty tables stated honestly, governance cluster points back to Unknowns instead of duplicating).
+- Next: file 18 = Admin/Ship_of_Theseus.md.
 
 ## AUDIT_16 headlines (Operational_Conventions)
 - 0 CRITICAL / 0 MAJOR / 2 WARNING / 2 NOTE. Exempt-class (PKC-017 reference index) verified in-file and in File_Template class 9. All 10 cited paths exist; EC-012-PR-R1 verified; Conventions 1/3/4/5/7/8 corroborated this session.
