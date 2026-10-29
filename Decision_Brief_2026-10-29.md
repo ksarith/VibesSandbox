@@ -59,3 +59,17 @@ Repository state at time of writing: LazarusForge `d06259c` (HEAD; this pass: Ki
 *Prepared 2026-10-29 by Vibe (Repo Custodian — delegated line). Sources: live fetches this pass — Forge_Audit_Kit.md v1.27→v1.28 and its changelog; Archive/Repo_Costodian_Prompt.md; both SESSION_STATUS.md copies (dual-homing parity verified exact, 51,749 = 51,749); Admin/Progress_Log.md (parked rows recounted); Admin/Canonical_Terms.md v0.12 §1 and CT-007; Admin/Agent_Verification_Event.md; Archive/Auditor_Prompt.md v3; Decision_Brief_2026-10-28.md (format precedent). Enacted the same pass, ahead of this brief: Kit AVE-R registration (v1.28, `2627262`) and custodian-prompt §7 addendum (`d06259c`) — both delegated-maintenance items under standing ratifications, recorded in MAINT-06.*
 
 *Amended same pass (2026-10-29, before any ruling): the inverse-check item was corrected — the check is already in the instrument as `INTEGRITY_SWEEP_PROMPT` step 14, so the item is reframed as a closeout ruling (now item 2) — and the targeted-integrity-sweep centerpiece was added as item 1 in internal-proposal posture per the MAINT-04 requirement. Former items 2–4 are now items 3–5; cross-references updated. Amendment logged as MAINT-07.*
+
+---
+
+## Ruling record (2026-10-29)
+
+The human governing authority ruled on all five items the same day the brief was filed:
+
+1. **Targeted integrity sweep — item 1, option B:** COMMISSIONED in principle; executes once, at campaign end, corpus-wide. The original scope statement remains conversational-only; the human sets the target set at execution. Commissioning annotation recorded in `Admin/INTEGRITY_SWEEP_PROMPT.md` (header stays 1.0.5; Last Audit/Auditor/Resolution Log entries; commit 47a469e).
+2. **PKC-001 carried inverse-check candidate — item 2, option A:** CLOSED satisfied-by-adoption (step 14 is the check; the campaign's checklist item 3 maps to it). Dated closeout note added to the PKC-001 row in `Admin/Progress_Log.md` + Resolution Log entry for the full ruling set (commit 1b209d1).
+3. **FAK-014 disposition / Kit Spec Gates hold — item 3, option B (against recommendation A):** hold DISSOLVED under the PKC-022 option-B logic. Gates remain 0/6 under normal audit pressure — advance only by fresh audit + human ratification; no self-approval. Kit v1.28 → v1.29 with changelog entry (commit f34bdc4). FAK-014 itself stays closed as of v1.23.
+4. **X3 mechanical retrofit — item 4, option A (against recommendation C):** FULL RETROFIT AUTHORIZED NOW, staged folder-by-folder (Admin/ first), one commit per folder with the full cascade; frozen history exempt. Executing as separate custodian passes interleaved with the campaign — the recommendation's ordering concern (retrofit racing the per-file sweep) is overruled by this ruling; the retrofit passes carry their own logs.
+5. **Successor auditor — item 5, option B (against recommendation A):** naming DEFERRED until the campaign completes; reduced independent review accepted for the remainder of the sweep. Ruling note recorded in `Archive/Repo_Costodian_Prompt.md` §7 addendum (second revision line) and in both SESSION_STATUS copies.
+
+*Ruled 2026-10-29 by the human governing authority (Ksarith Talus); recorded by Vibe (Repo Custodian — delegated line). Enactment commits: LF f34bdc4 (Kit v1.29), 47a469e (ISP commissioning), 1b209d1 (Progress_Log), plus the custodian-prompt and SESSION_STATUS commits of the same pass; details in MAINT-08.*
