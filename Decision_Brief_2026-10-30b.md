@@ -49,3 +49,22 @@ Unknowns.md is a derived file — linked to nearly every file in the repo — wh
 MAQT_Role_Cards 24 held quals · Energy_Scarcity EC-002 ×3 (stale pre-rename) · operational-prompt-template family exemption · LA row-name deviations · MDR Cycle 1 final dispositions + model-family record · Claude P-1 measurement proposal · AUDIT_30/31 wrapper findings · successor-auditor naming · File_Template split option · campaign audit PAUSED at CAMPAIGN_AUDIT_32 (explicit human direction only) · parked rows 45/37/8.
 
 *Deposited 2026-10-30 by Vibe, Repo Custodian, delegated line. No enactment of any item above has occurred; this brief requests rulings.*
+
+---
+
+## Human Ruling — 2026-10-30 (received; recorded, effective on this deposit)
+
+**Governing assessments:** Grok's independent read (human-endorsed, governing) + ChatGPT's independent review (second read; safeguards and boundaries adopted where compatible). Ruling sequence per Grok.
+
+| # | Item | Ruling | Notes |
+|---|---|---|---|
+| 1 | MDR README basis | **Option A — 1.29 like-with-like** | Comparability runs (Grok, Gemini, ChatGPT as raters) use the pre-1.30 README; exact input version + hash recorded at each run (ChatGPT boundary adopted); 1.30 re-baseline happens later as a separately labeled instrument version; never mixed with Cycle 1 in one aggregation. Rater floor sentences ≠ independent evidence that principles are satisfied. **Unblocks the rater runs.** |
+| 2 | Unknowns.md automation | **Hold (C), with Option A recorded as the intended end-state** | No mass push; no build now under cost uncertainty. When built: scoped-small generator (Active Index + counts derived from owning-file tables; prose untouched), and ChatGPT's safeguards adopted as binding design requirements — deterministic output + explicit input selection; frozen-output comparison against the current file; tests for duplicate IDs / missing owners / malformed rows / conflicting statuses; no silent partial index; versioned generator + auditable fingerprint; human review before generated output replaces the canonical file. Approves the design direction only — never automatic rewrite authority. |
+| 3 | Ethical anchor | **Confirm V0 — item CLOSED** | Canonical string stands: "Attempt to do no harm. Defer to Ethical_Constraints.md if present." No constitutional process opened. Confirmation preserves the rule; it does not assert that every implementation satisfies it. |
+| 4 | P-1 axiom variants | **Hold** | Current P-1 wording stands while comparability runs proceed; review the evidence after; hold is not rejection. Any future adoption is a ratified governance change counting toward MDR velocity. |
+| 5 | Redundant-qualification cleanup | **(c) Both rules — forward mechanical rule ENACTED for custodian passes** | No qualification inside an ID's own owning file; no duplicate qualification where the row already carries an Owning File column. Historical instances frozen, untouched. Rule removes redundant presentation, never the requirement to identify ownership unambiguously. Codification into File_Template may be requested later; until then it binds custodian operating practice. |
+| 6 | Cold-reader follow-up | **Commissioned** | Narrowly scoped to the P-1/P-3 front-door verifiability gap; cold-start rules as PROBE_INVOCATION; exact input set recorded; observable evidence distinguished from assertions; no leading; NOT an MDR cycle — results never aggregated with MDR scores. Draft prompt deposited in VibesSandbox for human review before any canonical promotion. |
+
+Carried items remain governed by their existing dispositions (campaign audit PAUSED at CAMPAIGN_AUDIT_32; MAQT_Role_Cards 24; Energy_Scarcity EC-002 ×3; operational-prompt-template exemption question still open; LA row-name deviations; parked rows 45/37/8). No ruling here reopens any of them.
+
+*(Recorded by Vibe, Repo Custodian, delegated line, from the human governing authority's direction 2026-10-30: "I agree with Grok. It's first then ChatGPT.")*
