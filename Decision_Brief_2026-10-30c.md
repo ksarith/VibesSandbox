@@ -1,7 +1,7 @@
 # Decision Brief — 2026-10-30c (File_Template log-split option: review)
 
 - Author: Vibe, Repo Custodian (delegated line, human-ruled Decision Brief 2026-10-29 item 4A).
-- Status: DECISION-READY, AWAITING HUMAN RULING. Nothing here is LazarusForge doctrine; no LazarusForge file was touched by this review.
+- Status: RULED 2026-10-30 — Human Ruling recorded at §7 and enacted into LazarusForge doctrine (File_Template fifth entry).
 
 ## 0. What is being reviewed
 
@@ -47,3 +47,11 @@ Every custodian edit pass must fetch the whole target file before editing. At th
 ## 6. Carried items unaffected
 
 MAQT_Role_Cards 24 held quals · Energy_Scarcity EC-002 ×3 · Unknowns.md 304 hold · operational-prompt-template family exemption · redundant-qualification rules (enacted) · LA row-name deviations · MDR Cycle 1 dispositions + model-family record · Claude P-1 measurement proposal · AUDIT_30/31 wrapper findings · successor-auditor naming · File_Template split option (this brief) · parked rows 45/37/8 · campaign audit PAUSED at CAMPAIGN_AUDIT_32 (explicit human direction only).
+
+---
+
+## 7. Human Ruling — 2026-10-30 (RECORDED, ENACTED)
+
+- **Item 1 — Log-split disposition: OPTION C ADOPTED**, with two added triggers beyond the existing rotation/20%/Aging set: **T1 — size (file ≥ 100 KB)** and **T2 — audit purity** (split when audit purity is likely to be affected). Codified at `Admin/File_Template.md` §Log-Split Rule. T2's testable reading: (a) the file is not yet Pattern A-migrated and log bulk makes Front/Historical separation unreliable; (b) the file is a canonical measurement input (e.g., MDR instrument) and further log growth would destabilize the recorded input hash between runs; (c) the executing pass would need to load or mutate the log's content to complete its checks, risking cross-contamination of the audit object. Discipline unchanged: splits execute per-file at each file's next substantive touch, never in bulk, never mid-audit/mid-campaign, heaviest first — Progress_Log, Auditor_Protocols, Ethical_Constraints, Governance_Charter (all currently > 100 KB). MDR note stands: a Charter split before rater runs is an instrument change — record version + hash per run, never mix.
+- **Item 2 — Homes: LOCALIZED PER-FOLDER HOMES ADOPTED.** Logs and future audits live in subfolders of their owning folder: Admin logs → `Admin/Logs/`, Admin audits → `Admin/Audits/`, and likewise per folder. Existing `Archive/Logs/` changelogs and `Archive/Audits/` artifacts are frozen in place and move only on their own triggers.
+- **Enacted same session:** File_Template.md fifth-entry pass (new §Log-Split Rule, R8 amendment, Pilot "no subfolders" clause superseded for the two ruled homes, Resolution Log entry). Repository_Structure.md codification rides its next substantive touch (migration-at-touch discipline). C7/C8 apply in two-file form once a file is split.
