@@ -56,3 +56,13 @@ Dated addenda (small; fold into their targets' ledgers): AUDIT_13_CORRECTION_202
 5. Whether Brief 2026-10-30d's successor-auditor for the Campaign 1 rerun should inherit the aggregate-reading convention (recommended: yes — the rerun reads aggregates, not five parallel report stacks).
 
 *Nothing in LazarusForge was changed by this brief. Ruling requested; added to the open-rulings list.*
+
+---
+
+## 5. Ruling + execution record (2026-10-31)
+
+**Ruled by the human (2026-10-31):** Option A adopted; amended template confirmed (composite refs; sha-or-ruling evidence with *Asserted* fallback; separate *Verified by* agent with "Dispositions unverified" headers; relocation byte-for-byte; trigger = every finding dispositioned, artifact-count threshold dropped; Superseded skip-by-default; successor auditors read aggregates and cite originals). The human provided Grok's assessment, Claude's amended template (AUDIT_AGGREGATE_TEMPLATE.md) and a worked example (Metrics_Scaffold), directing: use the example as the pattern, fill sha and Verified-by cells from real commits, the other four pairs follow the same shape.
+
+**Executed as MAINT-34 (LazarusForge, 2026-10-31):** sweep commit d70b870b + 10 delete commits (head 82ab5779f0). 5 aggregates deposited in Admin/AAudits/ (AUDIT_AGGREGATE_Admin-Governance_Charter / -File_Template / -Metrics_Scaffold / -Ship_of_Theseus / -Economics); 10 originals relocated to Admin/AAudits/Superseded/ with blob SHAs verified 10/10 before=after; template codified at Archive/Audits/AUDIT_AGGREGATE_TEMPLATE.md (RATIFIED addendum; disclosed deviation: 3 dated addenda not relocated — live corrections to single-pass targets); Routing repointed with Superseded skip-by-default; Archive/Audits/README.md old-to-new map; custodian-prompt 2026-10-31 addendum. Headers remain "Dispositions unverified" pending the separate-verifier hand-off (Brief 2026-10-30d successor auditor).
+
+*Ruling closed. System now ordinary delegated maintenance under the codified trigger.*
