@@ -2,12 +2,12 @@
 
 Current-state card, established 2026-11-06 (MAINT-69) under the human's maintenance-log architecture ruling. **Convenience only: the repositories are the authority; on any discrepancy the live repos govern. Verify at bootstrap.**
 
-Last updated: 2026-11-07 (MAINT-73B)
+Last updated: 2026-11-07 (MAINT-74)
 
 ## Heads at last update
 
-- LazarusForge main: `2e0a4c86` (post-MAINT-73B verification fetch)
-- VibesSandbox main: `cdfd2977` (pre-MAINT-73B fetch; MAINT-73 commits in git history; human upload 2026-11-07 added `Maintenance/LazarusForge-1.34.Alpha.zip`)
+- LazarusForge main: `2d53cd8a` (post-MAINT-74 addenda landing; MAINT-73B verification fetch in git history)
+- VibesSandbox main: `fc7f45aa` (pre-MAINT-74 fetch; MAINT-73/73B commits in git history; human upload 2026-11-07 added `Maintenance/LazarusForge-1.34.Alpha.zip`)
 
 ## Bootstrap-critical versions (verify live; never trust this card over the files)
 
