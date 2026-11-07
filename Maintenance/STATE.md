@@ -2,12 +2,12 @@
 
 Current-state card, established 2026-11-06 (MAINT-69) under the human's maintenance-log architecture ruling. **Convenience only: the repositories are the authority; on any discrepancy the live repos govern. Verify at bootstrap.**
 
-Last updated: 2026-11-07 (MAINT-70)
+Last updated: 2026-11-07 (MAINT-71)
 
 ## Heads at last update
 
-- LazarusForge main: `25a668354` (post-MAINT-70 verification fetch)
-- VibesSandbox main: `d1d4355b` (pre-MAINT-70 bootstrap fetch; MAINT-70 commits in git history)
+- LazarusForge main: `e0dcff6c` (post-MAINT-71 verification fetch)
+- VibesSandbox main: `af2397950` (pre-MAINT-71 bootstrap fetch; MAINT-71 commits in git history)
 
 ## Bootstrap-critical versions (verify live; never trust this card over the files)
 
@@ -24,7 +24,6 @@ Last updated: 2026-11-07 (MAINT-70)
 - `Admin/Unknowns.md` pointer repairs
 - AP F1/F2/F3; AP three-phase disposition
 - Checker investigation
-- MAINT-64 deferred ZIP pointers
 - MAINT-67 Part B mandate question
 
 ## Where things live

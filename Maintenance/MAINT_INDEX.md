@@ -112,7 +112,8 @@ Established 2026-11-06 by MAINT-69 under the human governing authority's mainten
 |----|------|------|-------|
 | MAINT-69 | entries/ | 2026-11-06 | Maintenance-log architecture migration: per-entry files + MAINT_INDEX + STATE.md; SESSION_STATUS retired (human ruling 2026-11-06) |
 | MAINT-70 | entries/ | 2026-11-07 | TWGW visibility and event-recognition addenda for the three seat prompts (human direction 2026-11-07; co-author mandate; disclosed for veto) |
+| MAINT-71 | entries/ | 2026-11-07 | Astroid-miner Archive staleness pointer + MAINT-64 deferred zip-pointer repairs (human direction 2026-11-07; co-author mandate; annotation-only per PKC-023; disclosed) |
 
 ## Count convention
 
-Current: 15 LOG-1028 rows + 70 LOG-1029-range rows (incl. the MAINT-46 gap row) + 2 entries/ rows = 87 rows. Frozen-log row counts carried from the MAINT-69 establishing pass’s live recount; a heading-count probe this pass (MAINT-70) found 15 `## MAINT-` headings in LOG-1028 (agrees) and 53 in LOG-1029 (does not equal the 70-row range convention: the range counts sub-lettered entries, the MAINT-46 gap row and continuation fragments that carry no heading of their own; the establishing pass’s count governs pending the deferred parity check). The entries/ home recounted live this pass: MAINT-69.md and MAINT-70.md present.
+Current: 15 LOG-1028 rows + 70 LOG-1029-range rows (incl. the MAINT-46 gap row) + 3 entries/ rows = 88 rows. Frozen-log row counts carried from the MAINT-69 establishing pass’s live recount; a heading-count probe this pass (MAINT-70) found 15 `## MAINT-` headings in LOG-1028 (agrees) and 53 in LOG-1029 (does not equal the 70-row range convention: the range counts sub-lettered entries, the MAINT-46 gap row and continuation fragments that carry no heading of their own; the establishing pass’s count governs pending the deferred parity check). The entries/ home recounted live this pass (MAINT-71): MAINT-69.md, MAINT-70.md and MAINT-71.md present.
