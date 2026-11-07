@@ -111,7 +111,8 @@ Established 2026-11-06 by MAINT-69 under the human governing authority's mainten
 | ID | Home | Date | Title |
 |----|------|------|-------|
 | MAINT-69 | entries/ | 2026-11-06 | Maintenance-log architecture migration: per-entry files + MAINT_INDEX + STATE.md; SESSION_STATUS retired (human ruling 2026-11-06) |
+| MAINT-70 | entries/ | 2026-11-07 | TWGW visibility and event-recognition addenda for the three seat prompts (human direction 2026-11-07; co-author mandate; disclosed for veto) |
 
 ## Count convention
 
-Current: 15 LOG-1028 rows + 70 LOG-1029-range rows (incl. the MAINT-46 gap row) + 1 entries/ row = 86 rows, recounted live from the homes by the establishing pass (MAINT-69).
+Current: 15 LOG-1028 rows + 70 LOG-1029-range rows (incl. the MAINT-46 gap row) + 2 entries/ rows = 87 rows. Frozen-log row counts carried from the MAINT-69 establishing pass’s live recount; a heading-count probe this pass (MAINT-70) found 15 `## MAINT-` headings in LOG-1028 (agrees) and 53 in LOG-1029 (does not equal the 70-row range convention: the range counts sub-lettered entries, the MAINT-46 gap row and continuation fragments that carry no heading of their own; the establishing pass’s count governs pending the deferred parity check). The entries/ home recounted live this pass: MAINT-69.md and MAINT-70.md present.
