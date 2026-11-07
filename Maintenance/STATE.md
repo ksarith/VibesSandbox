@@ -26,7 +26,7 @@ Last updated: 2026-11-07 (MAINT-74)
 - Checker investigation
 - MAINT-67 Part B mandate question
 - Astroid-miner re-snapshot trigger (registered MAINT-71 addendum, 2026-11-07): fires on a second external PR/issue or resumed upstream commits; on firing a re-snapshot is owed (record: LF `Archive/Astroid-miner/PROVENANCE.md`)
-- Rule 5 verification state (tranche-1; Claude named 2026-11-03): all five packets row-verified findings-only (reports 2026-11-05; Class A intakes 14–15 / MAINT-72–73); commit evidence supplied for all seven cited commits (six at MAINT-72, fee92b4 at MAINT-73) — held for human ruling: Verified-by fills (incl. the signable S/P rows), failed-row addenda (File_Template C-N3, Ship_of_Theseus C-N2), scope-change addenda (Governance_Charter B-F2/B-F3, C-D1 partial), Status-line replacement (all five aggregates), one F6 wording fix across three aggregates; tranche-2 verifier unassigned (MAINT-59 standing gap)
+- Rule 5 verification state (tranche-1; Claude named 2026-11-03): all five packets row-verified findings-only (reports 2026-11-05; Class A intakes 14–15 / MAINT-72–73); commit evidence supplied for all seven cited commits (six at MAINT-72, fee92b4 at MAINT-73) — failed-row and scope-change addenda + the F6 wording fix ENACTED 2026-11-07 (MAINT-74, human-ruled; LF `2d53cd8a` / VS `75e621a7`); still held for human ruling: Verified-by fills (incl. the signable S/P rows; the corrected rows are now fillable by the Rule 5 verifier), Status-line replacement (all five aggregates); tranche-2 verifier unassigned (MAINT-59 standing gap)
 
 ## Where things live
 
