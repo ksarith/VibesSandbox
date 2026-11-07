@@ -2,12 +2,12 @@
 
 Current-state card, established 2026-11-06 (MAINT-69) under the human's maintenance-log architecture ruling. **Convenience only: the repositories are the authority; on any discrepancy the live repos govern. Verify at bootstrap.**
 
-Last updated: 2026-11-07 (MAINT-72)
+Last updated: 2026-11-07 (MAINT-73)
 
 ## Heads at last update
 
-- LazarusForge main: `e811ebaa` (post-MAINT-72 verification fetch)
-- VibesSandbox main: `7bad9958` (pre-MAINT-72 fetch; MAINT-71 and addendum commits in git history; human upload 2026-11-07 added `Maintenance/LazarusForge-1.34.Alpha.zip`)
+- LazarusForge main: `dd27d052` (post-MAINT-73 verification fetch)
+- VibesSandbox main: `ba121cf7` (pre-MAINT-73 fetch; MAINT-72 commits in git history; human upload 2026-11-07 added `Maintenance/LazarusForge-1.34.Alpha.zip`)
 
 ## Bootstrap-critical versions (verify live; never trust this card over the files)
 
@@ -26,7 +26,7 @@ Last updated: 2026-11-07 (MAINT-72)
 - Checker investigation
 - MAINT-67 Part B mandate question
 - Astroid-miner re-snapshot trigger (registered MAINT-71 addendum, 2026-11-07): fires on a second external PR/issue or resumed upstream commits; on firing a re-snapshot is owed (record: LF `Archive/Astroid-miner/PROVENANCE.md`)
-- Rule 5 verification state (tranche-1; Claude named 2026-11-03): Packet 1 row-verified findings-only (report 2026-11-05; Class A intake 14 / MAINT-72); packets 2–5 intake-checked only; commit evidence supplied MAINT-72 — Verified-by fills, Status-line replacement and N1-class addenda (3 aggregates) await human ruling; tranche-2 verifier unassigned (MAINT-59 standing gap)
+- Rule 5 verification state (tranche-1; Claude named 2026-11-03): all five packets row-verified findings-only (reports 2026-11-05; Class A intakes 14–15 / MAINT-72–73); commit evidence supplied for all seven cited commits (six at MAINT-72, fee92b4 at MAINT-73) — held for human ruling: Verified-by fills (incl. the signable S/P rows), failed-row addenda (File_Template C-N3, Ship_of_Theseus C-N2), scope-change addenda (Governance_Charter B-F2/B-F3, C-D1 partial), Status-line replacement (all five aggregates), one F6 wording fix across three aggregates; tranche-2 verifier unassigned (MAINT-59 standing gap)
 
 ## Where things live
 
