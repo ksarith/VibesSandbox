@@ -2,12 +2,12 @@
 
 Current-state card, established 2026-11-06 (MAINT-69) under the human's maintenance-log architecture ruling. **Convenience only: the repositories are the authority; on any discrepancy the live repos govern. Verify at bootstrap.**
 
-Last updated: 2026-11-07 (MAINT-71)
+Last updated: 2026-11-07 (MAINT-71 addendum)
 
 ## Heads at last update
 
-- LazarusForge main: `e0dcff6c` (post-MAINT-71 verification fetch)
-- VibesSandbox main: `af2397950` (pre-MAINT-71 bootstrap fetch; MAINT-71 commits in git history)
+- LazarusForge main: `a44d7a15` (post-MAINT-71-addendum verification fetch)
+- VibesSandbox main: `a3172d145` (pre-addendum fetch; MAINT-71 and addendum commits in git history)
 
 ## Bootstrap-critical versions (verify live; never trust this card over the files)
 
@@ -25,6 +25,7 @@ Last updated: 2026-11-07 (MAINT-71)
 - AP F1/F2/F3; AP three-phase disposition
 - Checker investigation
 - MAINT-67 Part B mandate question
+- Astroid-miner re-snapshot trigger (registered MAINT-71 addendum, 2026-11-07): fires on a second external PR/issue or resumed upstream commits; on firing a re-snapshot is owed (record: LF `Archive/Astroid-miner/PROVENANCE.md`)
 
 ## Where things live
 
