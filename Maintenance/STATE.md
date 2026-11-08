@@ -2,12 +2,12 @@
 
 Current-state card, established 2026-11-06 (MAINT-69) under the human's maintenance-log architecture ruling. **Convenience only: the repositories are the authority; on any discrepancy the live repos govern. Verify at bootstrap.**
 
-Last updated: 2026-11-08 (MAINT-78)
+Last updated: 2026-11-08 (MAINT-79)
 
 ## Heads at last update
 
-- LazarusForge main: `86ea1632` (post-MAINT-77 intake-17 landing; the Rule 5 and intake-16 landings in git history)
-- VibesSandbox main: `1238364a` (pre-MAINT-78 fetch; the MAINT-77 intake-17 landing and its post-push verification addendum in git history)
+- LazarusForge main: `176480fa` (post-MAINT-79 intake-18 landing; the intake-17 landing and prior in git history)
+- VibesSandbox main: `ecaa4bcf` (pre-MAINT-79 fetch; the MAINT-78 Decision-Brief landing and its post-push verification addendum in git history)
 
 ## Bootstrap-critical versions (verify live; never trust this card over the files)
 
@@ -30,6 +30,7 @@ Last updated: 2026-11-08 (MAINT-78)
 - External review intake 16 (ChatGPT 1.35 + VS 0.0.3 review, MAINT-76): recommendations recorded, none enacted — rulings owed on P1 (sandbox README update; STATE head-label clarification), P2 (VS Astroid-miner de-duplication §1–§5 proposal + References pointer + water-doc provenance addendum), P4 (MAINT_INDEX-vs-entries parity-check proposal; checker untouched), and the re-snapshot-trigger monitoring home (the reviewer's weekly offer vs a custodian-side scheduled task; one home only)
 - External review intake 17 (Claude re-sync/held-queue review, MAINT-77): triage recommendations recorded, none enacted — his word owed on the worksheet pass for the cheap/mechanical cluster (GOV-007 repair + the seven `Admin/Unknowns.md` pointer repairs, one MAINT-61-style worksheet), the meta-work-to-fixes ratio check, and ratification of the verifier’s Rule 5 leave-as-is call (above)
 - Decision Brief 2026-11-08 (event-logging surface for failed metrics and success paths, MAINT-78): drafted and deposited at the VibesSandbox root per his direction; awaiting his ruling — Option A (do nothing) / B (greppable event tag in future MAINT Disclosures lines) / C (append-only event-log file) / D (B now; C deferred to the C3 review with usage evidence); nothing enacted
+- External review intake 18 (Claude MAINT-78 account review, MAINT-79): findings recorded, none enacted — his word owed on the landing-helper proposal (harness-side tooling; no repo or prompt change), the Option-D tag-reader condition ("how many harness defects recur across passes, and is that rate falling?"), and the TWGW candidacy for the abort-class recurrence (both readings recorded; the Brief ruling itself remains the standing MAINT-78 item above); Intake Log row-format variance (7/8/9 cells vs the 7-column header) recorded, not repaired
 
 ## Where things live
 
