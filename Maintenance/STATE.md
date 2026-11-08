@@ -2,12 +2,12 @@
 
 Current-state card, established 2026-11-06 (MAINT-69) under the human's maintenance-log architecture ruling. **Convenience only: the repositories are the authority; on any discrepancy the live repos govern. Verify at bootstrap.**
 
-Last updated: 2026-11-08 (MAINT-82)
+Last updated: 2026-11-08 (MAINT-83)
 
 ## Heads at last update
 
-- LazarusForge main — landing commit this pass (MAINT-82): `776b7732` (the batch-repairs landing: the GOV-007 changelog relocation note + the seven aggregate §5 addenda + the Routing header rotation; one commit; the live head at the next bootstrap is whatever `main` points to then — verify live, never trust this card over the repository)
-- VibesSandbox main — last verified pre-landing head: `f162b664` (the MAINT-81 post-push verification addendum commit, fetched before this pass's landing; this pass's VS landing commit is recorded in the MAINT-82 entry and its post-push addendum; the live head at the next bootstrap is whatever `main` points to then — verify live)
+- LazarusForge main — landing commit this pass (MAINT-83): `9ab3cce7` (the Rules 8+10 redraft landing: the consolidated proposal file at Archive/Proposals + the Routing header rotation and row; one commit; the live head at the next bootstrap is whatever `main` points to then — verify live, never trust this card over the repository)
+- VibesSandbox main — last verified pre-landing head: `1fb9e4bf` (the MAINT-82 post-push verification addendum commit, fetched before this pass's landing; this pass's VS landing commit is recorded in the MAINT-83 entry and its post-push addendum; the live head at the next bootstrap is whatever `main` points to then — verify live)
 
 ## Bootstrap-critical versions (verify live; never trust this card over the files)
 
@@ -32,7 +32,7 @@ Last updated: 2026-11-08 (MAINT-82)
 - Event tag convention (Decision Brief 2026-11-08, Option D ruled 2026-11-08, MAINT-80, human-ruled, enacted; fold-in ratified by his 2026-11-08 ruling set — MAINT-81): future MAINT entries' Disclosures lines carry the greppable tag `Event: (i) candidate | (ii) recurrence | (iii) harness defect — <one line>` (the (i)/(ii)/(iii) classification per the MAINT-70 Custodian addendum; forward-only — existing entries stay as written; no new file, no seat-prompt edits); the tag's standing reader question (intake-18 condition): "how many harness defects recur across passes, and is that rate falling?"; Option C (append-only EVENT_LOG.md) deferred to the C3 review (on or about 2026-11-30) with usage evidence — the tagged-event count gathered under the tag, riding the C3 review's existing usage-evidence commitment (EIP v0.8 §5); the tag applies from MAINT-81 onward
 - External review intake 18 (Claude MAINT-78 account review, MAINT-79): dispositions ruled 2026-11-08 (MAINT-81) — the tag-reader condition ratified into the enacted convention; the landing helper adopted (harness-side, no repo or prompt change; acceptance test 7/7 known-abort scenarios, each caught or prevented, no hand-set expectations); the TWGW candidacy approved with his condition (LF TWGW entry 5 landed: cites MAINT-72/76/77/78, states the correction, says it failed to hold; the offered alternative not taken); the Intake Log row-format variance ruled leave-as-history with a header note allowing optional extra cells (landed, no old row rewritten)
 - Batch repairs (ruled 2026-11-08, MAINT-81; executed same day, MAINT-82): the GOV-007 duplicate repair + the seven `Admin/Unknowns.md` pointer repairs + intake 16's P1 all LANDED — LF `776b7732` (the changelog relocation note + the seven aggregate §5 addenda + Routing rotation) and the VS README + head-label pair in this pass's VS landing; the MAINT-66 verification records governed (the Charter-body definition governs; the live-vs-historical distinction kept)
-- Rules 8+10 F1–F8 redraft (commissioned 2026-11-08, MAINT-81): Vibe to redraft the MAINT-65/66 amendment drafts with F1 (define or drop FAIL), F2 (count carrying NOTEs), F3 (a Closed-by-ruling exit) and F5 (an independent oracle for the reconcile check) addressed first; his slower look owed on the redraft
+- Rules 8+10 F1–F8 redraft (commissioned 2026-11-08, MAINT-81; delivered same day, MAINT-83): the consolidated package at LF `Archive/Proposals/PROPOSAL_2026-11-08_MAINT-83_RULES_8_10_REDAFT.md` — the 2026-11-05 proposal §1–§3 and the MAINT-66 responses R1–R7 merged into one severable ratifiable package, the originals untouched as the provenance trail, nothing enacted; F1 answered by defining FAIL (not dropping it — the enacted Rule 10 column already carries the term), F2 by Open W-C counting carrying NOTEs, F3 by the Closed-by-ruling clearing path (c), F5 by the reconcile check's independent oracle (frozen fixtures + external sample recount); pre-drafted ruling lines per section; his slower look owed
 
 ## Where things live
 
