@@ -2,12 +2,12 @@
 
 Current-state card, established 2026-11-06 (MAINT-69) under the human's maintenance-log architecture ruling. **Convenience only: the repositories are the authority; on any discrepancy the live repos govern. Verify at bootstrap.**
 
-Last updated: 2026-11-08 (MAINT-79)
+Last updated: 2026-11-08 (MAINT-80)
 
 ## Heads at last update
 
 - LazarusForge main: `176480fa` (post-MAINT-79 intake-18 landing; the intake-17 landing and prior in git history)
-- VibesSandbox main: `ecaa4bcf` (pre-MAINT-79 fetch; the MAINT-78 Decision-Brief landing and its post-push verification addendum in git history)
+- VibesSandbox main: `c9513558` (pre-MAINT-80 fetch; the MAINT-79 intake-18 landing and its post-push verification addendum in git history)
 
 ## Bootstrap-critical versions (verify live; never trust this card over the files)
 
@@ -29,8 +29,8 @@ Last updated: 2026-11-08 (MAINT-79)
 - Rule 5 verification state (tranche-1; Claude named 2026-11-03): all five packets row-verified findings-only (reports 2026-11-05; Class A intakes 14–15 / MAINT-72–73); commit evidence supplied for all seven cited commits (six at MAINT-72, fee92b4 at MAINT-73) — failed-row and scope-change addenda + the F6 wording fix ENACTED 2026-11-07 (MAINT-74, human-ruled; LF `2d53cd8a` / VS `75e621a7`); Verified-by fills LANDED 2026-11-07 (MAINT-75: 50 cells, the verifier’s fill pass relayed by the human; four rows unfilled per convention: FT C-N3, SoT C-N2, MS B-C5, GC A-C5); still held for human ruling: Status-line replacement (all five aggregates); the two corrected-by-addendum rows’ and C-D1’s Rule 5 fills — the verifier’s call is now RECORDED (2026-11-08, intake 17 / MAINT-77: leave all three as-is, with reasoning; the reviewer reserves the human’s override, so his ratification is the outstanding ruling); tranche-2 verifier unassigned (MAINT-59 standing gap)
 - External review intake 16 (ChatGPT 1.35 + VS 0.0.3 review, MAINT-76): recommendations recorded, none enacted — rulings owed on P1 (sandbox README update; STATE head-label clarification), P2 (VS Astroid-miner de-duplication §1–§5 proposal + References pointer + water-doc provenance addendum), P4 (MAINT_INDEX-vs-entries parity-check proposal; checker untouched), and the re-snapshot-trigger monitoring home (the reviewer's weekly offer vs a custodian-side scheduled task; one home only)
 - External review intake 17 (Claude re-sync/held-queue review, MAINT-77): triage recommendations recorded, none enacted — his word owed on the worksheet pass for the cheap/mechanical cluster (GOV-007 repair + the seven `Admin/Unknowns.md` pointer repairs, one MAINT-61-style worksheet), the meta-work-to-fixes ratio check, and ratification of the verifier’s Rule 5 leave-as-is call (above)
-- Decision Brief 2026-11-08 (event-logging surface for failed metrics and success paths, MAINT-78): drafted and deposited at the VibesSandbox root per his direction; awaiting his ruling — Option A (do nothing) / B (greppable event tag in future MAINT Disclosures lines) / C (append-only event-log file) / D (B now; C deferred to the C3 review with usage evidence); nothing enacted
-- External review intake 18 (Claude MAINT-78 account review, MAINT-79): findings recorded, none enacted — his word owed on the landing-helper proposal (harness-side tooling; no repo or prompt change), the Option-D tag-reader condition ("how many harness defects recur across passes, and is that rate falling?"), and the TWGW candidacy for the abort-class recurrence (both readings recorded; the Brief ruling itself remains the standing MAINT-78 item above); Intake Log row-format variance (7/8/9 cells vs the 7-column header) recorded, not repaired
+- Event tag convention (Decision Brief 2026-11-08, Option D ruled 2026-11-08, MAINT-80, human-ruled, enacted): future MAINT entries' Disclosures lines carry the greppable tag `Event: (i) candidate | (ii) recurrence | (iii) harness defect — <one line>` (the (i)/(ii)/(iii) classification per the MAINT-70 Custodian addendum; forward-only — existing entries stay as written; no new file, no seat-prompt edits); the tag's standing reader question (intake-18 condition, adopted with the ruling, disclosed for veto): "how many harness defects recur across passes, and is that rate falling?"; Option C (append-only EVENT_LOG.md) deferred to the C3 review (on or about 2026-11-30) with usage evidence — the tagged-event count gathered under the tag, riding the C3 review's existing usage-evidence commitment (EIP v0.8 §5); the tag applies from MAINT-81 onward
+- External review intake 18 (Claude MAINT-78 account review, MAINT-79): findings recorded — the Brief ruling received 2026-11-08 (Option D enacted, MAINT-80) and the tag-reader condition folded into the enacted convention; his word still owed on the landing-helper proposal (harness-side tooling; no repo or prompt change) and the TWGW candidacy for the abort-class recurrence (both readings recorded, unruled); Intake Log row-format variance (7/8/9 cells vs the 7-column header) recorded, not repaired
 
 ## Where things live
 
