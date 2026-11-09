@@ -7,7 +7,7 @@ Last updated: 2026-11-09 (MAINT-86)
 ## Heads at last update
 
 - LazarusForge main — head at this update (MAINT-86): `3e139a80` (the QCP Handshake (opening declarations) addendum proposal, MAINT-86: one new file, one commit on top of the MAINT-85 convergence addendum `90c0fda5`; nothing enacted — the proposal awaits the human governing authority's ruling on its pre-drafted lines; the live head at the next bootstrap is whatever `main` points to then — verify live, never trust this card over the repository)
-- VibesSandbox main — last verified pre-landing head: `1e02660c` (the MAINT-85 convergence re-run deposit VS bookkeeping pair, fetched before this MAINT-86 landing; the MAINT-86 VS landing commit is recorded in the MAINT-86 entry's addendum; the live head at the next bootstrap is whatever `main` points to then — verify live)
+- VibesSandbox main — last verified pre-landing head: `dcac8457` (the MAINT-86 QCP Handshake proposal landing bookkeeping — the entry, the index, this card — fetched and verified before the post-push verification addendum push; the addendum commit sits at the VibesSandbox head of this update; the live head at the next bootstrap is whatever `main` points to then — verify live)
 
 ## Bootstrap-critical versions (verify live; never trust this card over the files)
 
