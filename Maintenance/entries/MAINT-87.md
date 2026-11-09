@@ -10,3 +10,12 @@
 - **Deliberately not touched:** LazarusForge in its entirety (head verified live, nothing written); Parlay, CogitoEngine, Astroid-miner; every held-queue item itself; TWGW; the checker; the three seat prompts; the frozen logs; `PKC_Ruling_List.md` (the Brief cites it, does not edit it).
 - **New items needing human decision:** none new — the Brief inventories the existing open rulings; each item's ruling is owed where its record lives.
 - **Landed:** VibesSandbox (the Brief + this entry + MAINT_INDEX row 104 + the STATE update, one commit; the VS sha in the addendum below).
+---
+
+**Post-push verification addendum (2026-11-09, same session).**
+
+Landing commit: VibesSandbox `1d707f881f48a2a3d7813bb59b54437d43c79cea` (the Decision Brief + this entry + MAINT_INDEX row 104 + the STATE update, one commit; LazarusForge untouched, head `3e139a80` verified live immediately before push). Post-push sweep: pinned fetches of all four landed files at the landing commit, recomposed from their sha-pinned pre-landing states (VS `55462fae`) and byte-compared against the composed strings — all four green; a fresh live head check equal to the landing commit; the INDEX recount derived in-run: 104 data rows (15 LOG-1028 + 70 LOG-1029-range + 19 entries/), MAINT-69.md through MAINT-87.md present (nineteen files); the Brief's eight section headings each once, its title, its head pins and its tail verbatim as composed; STATE's Last updated line, both head lines and the new held-queue bullet verbatim as composed, every expectation derived from the composed components, nothing hand-set.
+
+Abort disclosure: zero aborts this pass — pre-landing, landing and sweep all green on the first run (the first zero-abort pass since MAINT-80; the derived-guard and pin-every-fetch clauses held as designed).
+
+This addendum is the second commit of the pass and sits at the VibesSandbox head of this update. Non-independence disclosed: the same Vibe line composed the landing and ran the sweep; the direction (the 2026-11-09 request, verbatim "Could you give a brief in VibesSandbox about the target list of decisions?") is the human governing authority's alone.
