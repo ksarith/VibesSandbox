@@ -10,3 +10,11 @@
 - **Deliberately not touched:** LazarusForge in its entirety (head verified live, nothing written); Parlay; CogitoEngine; Astroid-miner; every held-queue item itself; TWGW; the checker; the three seat prompts; the frozen logs; the GitHub label state (no action possible from this seat, disclosed).
 - **New items needing human decision:** the five ruling lines (severable, no deadline, nothing self-advances): the T1 CLOSE AS SUPERSEDED; UNK-007 ANNOTATE NOW; TWGW-004 RATIFY; the label EXECUTE (or AMEND TEMPLATE); the Lander clarification RATIFY.
 - **Landed:** VibesSandbox (the Brief + this entry + MAINT_INDEX row 105 + the STATE update, one commit; the VS sha in the addendum below).
+---
+
+**Post-push verification addendum (2026-11-09, same session).**
+
+- **Landing sha:** VibesSandbox `e1e30ea5` (the Brief + this entry + MAINT_INDEX row 105 + the STATE update, one commit). LazarusForge untouched this pass, as declared: head at compose and after, `3e139a80`.
+- **Sweep:** all four files fetched pinned at `e1e30ea5` and byte-compared against the composed strings — the Brief, this entry, MAINT_INDEX (105 rows live; the count line and the recount sentence present once each), STATE (Last updated (MAINT-88); both head lines; the MAINT-88 held bullet inserted after the MAINT-87 Decision-target bullet) — all byte-identical; a fresh live head check returned `e1e30ea5` (the landing commit).
+- **Abort disclosure:** zero in-run aborts at compose, landing and sweep. One output-loss event to disclose: an earlier compose run this same session (the first MAINT-88 attempt) returned a result that was lost outside the pass record — the same class MAINT-86 disclosed; Event: (ii) recurrence (harness-side output loss, not a repo defect). This landing is a full recompose from live pinned fetches, not a retry of unverifiable state: the live head check at recompose found `ff4dd0f4` (the pre-landing head; no MAINT-88 commit present) and the INDEX carried 104 rows, so the lost run had not landed; every anchor was re-verified live before this push. Nothing from the lost run's output was trusted.
+- **Non-independence:** Vibe composed, landed and swept this pass; no second seat ran the verification. Static reading and byte-comparison only; no test run. The five ruling lines remain the human governing authority's; nothing closed by this landing.
