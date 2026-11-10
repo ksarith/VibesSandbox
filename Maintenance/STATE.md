@@ -2,7 +2,7 @@
 
 Current-state card, established 2026-11-06 (MAINT-69) under the human's maintenance-log architecture ruling. **Convenience only: the repositories are the authority; on any discrepancy the live repos govern. Verify at bootstrap.**
 
-Last updated: 2026-11-10 (MAINT-116)
+Last updated: 2026-11-10 (MAINT-117)
 
 ## Heads at last update
 
@@ -101,3 +101,7 @@ CAMPAIGN4_AUDIT_25 landed: LazarusForge main `51c55203` (the Experiments.md depo
 ## Update note — 2026-11-10 (MAINT-116)
 
 CAMPAIGN4_AUDIT_26 landed: LazarusForge main `9711630b` (the CIR_Gov.md deposit + kickoff tracker addendum 25, on top of `51c55203`, the CAMPAIGN4_AUDIT_25 landing); VibesSandbox main — this landing (pre-landing head `75769d0b`). Findings F-CIR-1..5 (the Aging trip — systemic instance 11, running total 56 of 69; the wrong-home AUDIT_04 report citation — Pattern 2 instance 19); Compound Drift did not fire. Resume point: `Admin/Computational_Institutional_Reasoning.md` (CAMPAIGN4_AUDIT_27).
+
+## Update note — 2026-11-10 (MAINT-117)
+
+CAMPAIGN4_AUDIT_27 landed: LazarusForge main `cbd9f6c0` (the Computational_Institutional_Reasoning.md deposit + kickoff tracker addendum 26, on top of `9711630b`, the CAMPAIGN4_AUDIT_26 landing); VibesSandbox main — this landing (pre-landing head `1c932406`). Findings F-CIRF-1..6 (the escape-sequence corruption in live File State — a new class, with the escape-sequence scan added to the method; the PKC-031-retired vocabulary residue; the twelfth grep-remedy evidence point). Aging NOT tripped — fifteenth no-trip control case, the first with a live review date. Resume point: `Admin/Environmental_Constraints.md` (CAMPAIGN4_AUDIT_28); pattern-doc Update 3 planned for that landing.
