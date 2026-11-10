@@ -2,7 +2,7 @@
 
 Current-state card, established 2026-11-06 (MAINT-69) under the human's maintenance-log architecture ruling. **Convenience only: the repositories are the authority; on any discrepancy the live repos govern. Verify at bootstrap.**
 
-Last updated: 2026-11-10 (MAINT-110)
+Last updated: 2026-11-10 (MAINT-111)
 
 ## Heads at last update
 
@@ -77,3 +77,7 @@ A parallel continuation of this campaign (LF `e90e282e`, VS `c42517b5`) landed l
 ## Update note — 2026-11-10 (MAINT-110)
 
 CAMPAIGN4_AUDIT_20 landed: LazarusForge main `57ec0d70` (the deposit + kickoff tracker addendum 19, on top of `03f15726`, the MAINT-109 repair landing); VibesSandbox main — this landing (pre-landing head `006ea9c5`). Findings F-RS-1..7; Aging vacuous (tenth no-trip control case); Compound Drift Rule did not fire. Resume point: `Admin/Adm_Scope_Map.md` (CAMPAIGN4_AUDIT_21). The MAINT-109 repair note above governs the clobber event; nothing in it is superseded by this note.
+
+## Update note — 2026-11-10 (MAINT-111)
+
+CAMPAIGN4_AUDIT_21 landed: LazarusForge main `40427679` (the Adm_Scope_Map.md deposit + kickoff tracker addendum 20 + pattern-doc Update 2, files 12–21, on top of `57ec0d70`, the CAMPAIGN4_AUDIT_20 landing); VibesSandbox main — this landing (pre-landing head `872187d7`). Findings F-ASM-1..11 (one coverage gap, six stale mirrors, one dangling citation, three NOTEs); Aging vacuous (eleventh no-trip control case); Compound Drift Rule did not fire. Pattern 6 (index-mirror decay) registered in the pattern document. Resume point: `Admin/Trajectories.md` (CAMPAIGN4_AUDIT_22).
