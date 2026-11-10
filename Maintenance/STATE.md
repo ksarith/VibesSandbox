@@ -2,7 +2,7 @@
 
 Current-state card, established 2026-11-06 (MAINT-69) under the human's maintenance-log architecture ruling. **Convenience only: the repositories are the authority; on any discrepancy the live repos govern. Verify at bootstrap.**
 
-Last updated: 2026-11-10 (MAINT-117)
+Last updated: 2026-11-10 (MAINT-118)
 
 ## Heads at last update
 
@@ -105,3 +105,6 @@ CAMPAIGN4_AUDIT_26 landed: LazarusForge main `9711630b` (the CIR_Gov.md deposit 
 ## Update note — 2026-11-10 (MAINT-117)
 
 CAMPAIGN4_AUDIT_27 landed: LazarusForge main `cbd9f6c0` (the Computational_Institutional_Reasoning.md deposit + kickoff tracker addendum 26, on top of `9711630b`, the CAMPAIGN4_AUDIT_26 landing); VibesSandbox main — this landing (pre-landing head `1c932406`). Findings F-CIRF-1..6 (the escape-sequence corruption in live File State — a new class, with the escape-sequence scan added to the method; the PKC-031-retired vocabulary residue; the twelfth grep-remedy evidence point). Aging NOT tripped — fifteenth no-trip control case, the first with a live review date. Resume point: `Admin/Environmental_Constraints.md` (CAMPAIGN4_AUDIT_28); pattern-doc Update 3 planned for that landing.
+## Update note — 2026-11-10 (MAINT-118)
+
+CAMPAIGN4_AUDIT_28 landed: LazarusForge main `9a08c23b` (the Environmental_Constraints.md deposit + kickoff tracker addendum 27 + pattern-doc Update 3, on top of `cbd9f6c0`, the CAMPAIGN4_AUDIT_27 landing); VibesSandbox main — this landing (pre-landing head `33e8daf6`; two human upload commits intervened and were caught by the head check — no clobber). Findings F-ENV-1..7 (the Unknowns.md mirror decay — Pattern 6 instances 4–5; the aggregate A-F1 recorded-enacted-vs-live-bare contradiction; the thirteenth grep-remedy evidence point; the Kit ENV-/ASM-EC- registration gaps). Aging NOT tripped — sixteenth no-trip control case. Resume point: `Admin/Economics.md` (CAMPAIGN4_AUDIT_29). One cosmetic deposit defect disclosed in the entry (a quote-mark typo in F-ENV-2).
