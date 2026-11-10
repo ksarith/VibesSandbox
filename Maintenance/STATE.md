@@ -2,7 +2,7 @@
 
 Current-state card, established 2026-11-06 (MAINT-69) under the human's maintenance-log architecture ruling. **Convenience only: the repositories are the authority; on any discrepancy the live repos govern. Verify at bootstrap.**
 
-Last updated: 2026-11-10 (MAINT-109 — parallel-composition clobber repair)
+Last updated: 2026-11-10 (MAINT-110)
 
 ## Heads at last update
 
@@ -73,3 +73,7 @@ Last updated: 2026-11-10 (MAINT-109 — parallel-composition clobber repair)
 ## Repair note — 2026-11-10 (MAINT-109, parallel-composition clobber)
 
 A parallel continuation of this campaign (LF `e90e282e`, VS `c42517b5`) landed last on 2026-11-10 and overwrote canonical state with parallel-composition state composed at the pre-AUDIT_12 base (`94f57c8c`); discovered by git-history inspection and repaired same day (full account in `Maintenance/entries/MAINT-109.md`). This file and MAINT_INDEX.md were restored to the MAINT-108 state above and reconciled (this note and the count line); `Maintenance/entries/MAINT-101.md` was restored to the canonical entry with the parallel composition appended as a dated disclosure. Heads after the repair: LazarusForge main `03f15726` (the repair landing: canonical kickoff restored + kickoff tracker addendum 18; canonical pattern-doc Update 1 and canonical AUDIT_12 deposit restored; the parallel AUDIT_12 composition re-deposited as `Admin/AAudits/CAMPAIGN4_AUDIT_12_Admin-Forge_Audit_Kit_parallel-composition.md`); VibesSandbox main — this repair landing (immediately pre-repair head `c42517b5`). The "Heads at last update" section above reflects the restored MAINT-108 state; this note governs. The sweep resumes at the canonical chain's resume point: `Admin/Repository_Structure.md` (CAMPAIGN4_AUDIT_20).
+
+## Update note — 2026-11-10 (MAINT-110)
+
+CAMPAIGN4_AUDIT_20 landed: LazarusForge main `57ec0d70` (the deposit + kickoff tracker addendum 19, on top of `03f15726`, the MAINT-109 repair landing); VibesSandbox main — this landing (pre-landing head `006ea9c5`). Findings F-RS-1..7; Aging vacuous (tenth no-trip control case); Compound Drift Rule did not fire. Resume point: `Admin/Adm_Scope_Map.md` (CAMPAIGN4_AUDIT_21). The MAINT-109 repair note above governs the clobber event; nothing in it is superseded by this note.
