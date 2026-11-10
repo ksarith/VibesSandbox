@@ -2,7 +2,7 @@
 
 Current-state card, established 2026-11-06 (MAINT-69) under the human's maintenance-log architecture ruling. **Convenience only: the repositories are the authority; on any discrepancy the live repos govern. Verify at bootstrap.**
 
-Last updated: 2026-11-10 (MAINT-113)
+Last updated: 2026-11-10 (MAINT-114)
 
 ## Heads at last update
 
@@ -89,3 +89,7 @@ CAMPAIGN4_AUDIT_22 landed: LazarusForge main `ca996339` (the Trajectories.md dep
 ## Update note — 2026-11-10 (MAINT-113)
 
 CAMPAIGN4_AUDIT_23 landed: LazarusForge main `529b7ef2` (the Progress_Log.md deposit + kickoff tracker addendum 22, on top of `ca996339`, the CAMPAIGN4_AUDIT_22 landing); VibesSandbox main — this landing (pre-landing head `b2e62a9f`). Findings F-PL-1..7 (Pattern 2 instance 18, the F-PL-2 rotation ruling item, the F-PL-3 F-VG-1 recurrence surface); Aging vacuous (twelfth no-trip control case); Compound Drift vacuous. Resume point: `Admin/Integrity_Incident_Log.md` (CAMPAIGN4_AUDIT_24).
+
+## Update note — 2026-11-10 (MAINT-114)
+
+CAMPAIGN4_AUDIT_24 landed: LazarusForge main `3ef1733a` (the Integrity_Incident_Log.md deposit + kickoff tracker addendum 23, on top of `529b7ef2`, the CAMPAIGN4_AUDIT_23 landing); VibesSandbox main — this landing (pre-landing head `e9003a92`). Findings F-IIL-1..7 (the clobber-event intake gap, the open-incident closure-condition staleness, the post-retirement-write second instance); Aging vacuous (thirteenth no-trip control case); Compound Drift did not fire (single indicator). Resume point: `Admin/Experiments.md` (CAMPAIGN4_AUDIT_25).
