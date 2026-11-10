@@ -1,0 +1,18 @@
+# MAINT-94 — Campaign 4 sweep continues: CAMPAIGN4_AUDIT_05 (File_Template.md) landed
+
+**Date:** 2026-11-10
+**Seat:** Vibe (GLM 5.3 Flash architecture), Repo Custodian delegated line, executing the kickoff's recorded resume point under the co-author mandate.
+**Status:** Executed (findings-only per PKC-020; nothing enacted).
+
+## Record
+
+- LF `dfa31dc5` — `Admin/AAudits/CAMPAIGN4_AUDIT_05_Admin-File_Template.md` (File_Template.md, 72,124 chars fetched full at head `5ad604bb`; meta-file, checks 1–11 adapted per the AUDIT_10 precedent with self-application examined) + the kickoff tracker addendum 3 (item 5 DONE; resume point `Admin/Canonical_Terms.md`, CAMPAIGN4_AUDIT_06; pattern document flagged due in the AUDIT_06–08 window).
+- Findings: F-FT-1 WARNING (Update Procedure step 3 still routes rotation history to the pre-relocation homes and never mentions the Log-Split Rule's T0–T2 triggers or the `<Letter>Logs/` homes — relocation-repair-miss instance 3); F-FT-2 WARNING (self-application gap recurrence, fourth consecutive pass — still absent from its own Template Exemptions list, aggregate lineage A-F3 = B-N2 = C-N2, and not Pattern-A-migrated despite four substantive touches since adoption); F-FT-3 NOTE (T1 split-queue tension: the four qualifying files were all substantively touched 2026-11-04 with no split; the disclosed MAINT-32 deferral lives only in this maintenance record, not in the doctrine owning the rule); F-FT-4 NOTE (stale path `Challenges/Living_Waters.md` in the 2026-11-03 Prior-chain entry — the file lives at `Tests/Living_Waters.md`; the same passage's Closed_Loop_Feedstock and CE-003 claims verified true); F-FT-5 NOTE (header narration vs the one-line header rule the file itself enacted); aggregate C-N1 (preamble count) confirmed still open, fourth confirmation. Compound Drift Rule fired and escalated in the deposit.
+- Verification highlights: every automation claim in the file's header verified true against live script source (`Automation/integrity_check.py` TOOL_VERSION 0.3 with pattern_a_pass implementing C1–C3/C5/C6; `Automation/parser.py` EXPECTED_FIELDS = exactly the nine post-MAINT-56 fields; the Automation/README tool row); ~30 cited IDs/paths all resolve in their claimed owners except the one stale path (including AP-023/AP-025 in the AP sidecar, CE-003 in `Architecture/Chemistry.md`'s sidecar with Risk Critical / Priority Critical, EC-012-PR, GMP-011, FAK-014, and the PKC set in Progress_Log); Routing registration Explicit; zero FT- entries in Unknowns.md. Aging-Rule systemic pattern does not fire here (no sidecar) — second control case of the campaign.
+- Post-push byte verification: both landed files re-fetched at LF main `dfa31dc5` and byte-compared against the local compose — identical (audit 16,469 chars, SHA-256 `c7c16a8fb290b416fcc21ade9c8df12a18f50340de3e0e00b479dd839db6100b`; kickoff 10,663 chars, SHA-256 `59c9719fa0718870e0f44de0bc24baf93b68cc3e906efe032c4b46d1330850b6`).
+- Awaiting his rulings; no disposition executed.
+
+## Disclosures
+
+- Event: (iii) harness defect — the sandbox filesystem resets between turns (all sources re-fetched via the GitHub API per the established workaround); `crypto.subtle` and `TextEncoder` remain unavailable in run_typescript (pure-TS SHA-256 with a manual UTF-8 encoder; `abc` sanity vector verified); one fetch batch hit the 60-second run budget and was resumed from the saved tool-result file rather than re-fetched.
+- Findings-only per PKC-020: no Last Audit, Last Reviewed, version, Status, Spec Gate, or unknown advanced on any file.
