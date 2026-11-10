@@ -2,7 +2,7 @@
 
 Current-state card, established 2026-11-06 (MAINT-69) under the human's maintenance-log architecture ruling. **Convenience only: the repositories are the authority; on any discrepancy the live repos govern. Verify at bootstrap.**
 
-Last updated: 2026-11-10 (MAINT-115)
+Last updated: 2026-11-10 (MAINT-116)
 
 ## Heads at last update
 
@@ -97,3 +97,7 @@ CAMPAIGN4_AUDIT_24 landed: LazarusForge main `3ef1733a` (the Integrity_Incident_
 ## Update note — 2026-11-10 (MAINT-115)
 
 CAMPAIGN4_AUDIT_25 landed: LazarusForge main `51c55203` (the Experiments.md deposit + kickoff tracker addendum 24, on top of `3ef1733a`, the CAMPAIGN4_AUDIT_24 landing); VibesSandbox main — this landing (pre-landing head `f03955e5`). Findings F-EXP-1..6 (the Entry Schema five-fields contradiction; the CF-001 wrong-home qualification introduced by the MAINT-63 pass itself, the F-EIP-1/F-TRJ-3 class; the post-retirement-write third instance); Aging vacuous (fourteenth no-trip control case); Compound Drift did not fire. Resume point: `Admin/CIR_Gov.md` (CAMPAIGN4_AUDIT_26).
+
+## Update note — 2026-11-10 (MAINT-116)
+
+CAMPAIGN4_AUDIT_26 landed: LazarusForge main `9711630b` (the CIR_Gov.md deposit + kickoff tracker addendum 25, on top of `51c55203`, the CAMPAIGN4_AUDIT_25 landing); VibesSandbox main — this landing (pre-landing head `75769d0b`). Findings F-CIR-1..5 (the Aging trip — systemic instance 11, running total 56 of 69; the wrong-home AUDIT_04 report citation — Pattern 2 instance 19); Compound Drift did not fire. Resume point: `Admin/Computational_Institutional_Reasoning.md` (CAMPAIGN4_AUDIT_27).
