@@ -2,7 +2,7 @@
 
 Current-state card, established 2026-11-06 (MAINT-69) under the human's maintenance-log architecture ruling. **Convenience only: the repositories are the authority; on any discrepancy the live repos govern. Verify at bootstrap.**
 
-Last updated: 2026-11-10 (MAINT-111)
+Last updated: 2026-11-10 (MAINT-112)
 
 ## Heads at last update
 
@@ -81,3 +81,7 @@ CAMPAIGN4_AUDIT_20 landed: LazarusForge main `57ec0d70` (the deposit + kickoff t
 ## Update note — 2026-11-10 (MAINT-111)
 
 CAMPAIGN4_AUDIT_21 landed: LazarusForge main `40427679` (the Adm_Scope_Map.md deposit + kickoff tracker addendum 20 + pattern-doc Update 2, files 12–21, on top of `57ec0d70`, the CAMPAIGN4_AUDIT_20 landing); VibesSandbox main — this landing (pre-landing head `872187d7`). Findings F-ASM-1..11 (one coverage gap, six stale mirrors, one dangling citation, three NOTEs); Aging vacuous (eleventh no-trip control case); Compound Drift Rule did not fire. Pattern 6 (index-mirror decay) registered in the pattern document. Resume point: `Admin/Trajectories.md` (CAMPAIGN4_AUDIT_22).
+
+## Update note — 2026-11-10 (MAINT-112)
+
+CAMPAIGN4_AUDIT_22 landed: LazarusForge main `ca996339` (the Trajectories.md deposit + kickoff tracker addendum 21, on top of `40427679`, the CAMPAIGN4_AUDIT_21 landing); VibesSandbox main — this landing (pre-landing head `e4d2b0a9`). Findings F-TRJ-1..11 (Aging instance 10, Pattern 6 instance 2, Pattern 5 instance 3, Pattern 2 instance 17); Compound Drift Rule did not fire. Resume point: `Admin/Progress_Log.md` (CAMPAIGN4_AUDIT_23).
