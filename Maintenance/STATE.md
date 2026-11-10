@@ -2,7 +2,7 @@
 
 Current-state card, established 2026-11-06 (MAINT-69) under the human's maintenance-log architecture ruling. **Convenience only: the repositories are the authority; on any discrepancy the live repos govern. Verify at bootstrap.**
 
-Last updated: 2026-11-10 (MAINT-118)
+Last updated: 2026-11-10 (MAINT-119)
 
 ## Heads at last update
 
@@ -108,3 +108,7 @@ CAMPAIGN4_AUDIT_27 landed: LazarusForge main `cbd9f6c0` (the Computational_Insti
 ## Update note — 2026-11-10 (MAINT-118)
 
 CAMPAIGN4_AUDIT_28 landed: LazarusForge main `9a08c23b` (the Environmental_Constraints.md deposit + kickoff tracker addendum 27 + pattern-doc Update 3, on top of `cbd9f6c0`, the CAMPAIGN4_AUDIT_27 landing); VibesSandbox main — this landing (pre-landing head `33e8daf6`; two human upload commits intervened and were caught by the head check — no clobber). Findings F-ENV-1..7 (the Unknowns.md mirror decay — Pattern 6 instances 4–5; the aggregate A-F1 recorded-enacted-vs-live-bare contradiction; the thirteenth grep-remedy evidence point; the Kit ENV-/ASM-EC- registration gaps). Aging NOT tripped — sixteenth no-trip control case. Resume point: `Admin/Economics.md` (CAMPAIGN4_AUDIT_29). One cosmetic deposit defect disclosed in the entry (a quote-mark typo in F-ENV-2).
+
+## Update note — 2026-11-10 (MAINT-119)
+
+CAMPAIGN4_AUDIT_29 landed: LazarusForge main `bf90f0e5` (the Economics.md deposit + kickoff tracker addendum 28, on top of `9a08c23b`, the CAMPAIGN4_AUDIT_28 landing); VibesSandbox main — this landing (pre-landing head `d88f1cc4`). Findings F-ECO-1..5 (the stale Lessons Learned "Revalidation Needed" pointer — recorded-need-vs-live-state, all three named revalidations verified executed; the Kit ID Reference ECN- registration gap, F-ENV-5 class instance 2; the fourteenth grep-remedy evidence point; the no-version-string migration-pending note). Aging NOT tripped — seventeenth no-trip control case, aggregate unchanged 56 of 69. Resume point: `Admin/Agent_Verification_Event.md` (CAMPAIGN4_AUDIT_30). This note restores the blank-line separator before the note header (the MAINT-118 note had landed without one; cosmetic, disclosed there and in the MAINT-119 entry).
