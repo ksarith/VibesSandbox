@@ -1,0 +1,19 @@
+# MAINT-92 — Campaign 4 sweep continues: CAMPAIGN4_AUDIT_03 (Governance_Charter.md) landed
+
+**Date:** 2026-11-10
+**Direction:** standing Campaign 4 direction (MAINT-91, human verbatim preserved there: "The adversarial pass is needed throughout the repository. Can you preserve your findings and then start a sweep of adversarial passes for the admin folder?"); this pass executes the kickoff artifact's recorded resume point (Admin/Governance_Charter.md, CAMPAIGN4_AUDIT_03).
+**Seat:** Vibe (GLM 5.3 Flash architecture), co-author mandate; auditor-pass discipline observed (findings-only per PKC-020; nothing enacted; no Last Audit, version, Status, gate, or unknown advanced on any audited file).
+
+## What landed
+
+**LazarusForge, one commit, audit artifacts only (deposit carve-out):**
+
+- **LF `ef3e4662`** (on top of `d098543d`, verified unchanged at compose):
+  - `Admin/AAudits/CAMPAIGN4_AUDIT_03_Admin-Governance_Charter.md` — adversarial pass on `Admin/Governance_Charter.md` v0.11 (128,810 chars fetched full at head `d098543d`; sidecar `Admin/ALogs/Governance_Charter_Changelog.md` 71,114 chars fetched full): checks 1–11 (VERIFIED CLEAN except as noted — 13=13=13 count parity recomputed from the sidecar's 21 GOV entries, the `Unknowns.md` active index, and File State; the 6/6 Spec Gates claim recomputed against live `Admin/Verification_Gates.md`; Highest Risk High = max open sidecar Risk (GOV-005/006/008); Ethical Anchor exact), findings F-CH-1 (MAJOR, record integrity: GOV-022 has no sidecar record — File State claims full Closure Events live in the sidecar Resolution Log only; the sidecar contains zero GOV-022 occurrences; the body's §GOV-022 annotation cites the sidecar at the nonexistent pre-relocation home `Archive/Logs/Governance_Charter_Changelog.md`; second instance of the AUDIT_01 F4 class), F-CH-2 (WARNING: four dangling body pointers to that pre-relocation home; the 2026-10-31 fix pass repointed three File State fields and missed all body occurrences; relocation-repair-miss recurrence), F-CH-3 (WARNING: X10 index-parity Status mismatch on GOV-009/GOV-010 — Unknowns index "In Progress" vs sidecar "Open"), F-CH-4 (WARNING: Aging Rule tripped on all 13 open entries, 102–171 days — systemic pattern instance 3), F-CH-5 (WARNING: the sidecar's dated "Duplicate heading removed 2026-10-27" note is contradicted by the `## Auditor Notes & Unknowns` heading still present twice), F-CH-6 (NOTE: the Highest Risk field's sidecar-only scope excludes the open High-risk dispute GOV-DS-001). Compound Drift Rule fired; the cluster is escalated in the deposit. Adversarial probes: fabrication clean on all cited IDs/paths except the GOV-022 sidecar record (SEC-002/007a/007b/009, EC-003/007/009/010, Gate_03_Reduction.md and the rest verified live); self-attestation clean; tamper N/A (no hash fields).
+  - `Archive/Audits/CAMPAIGN4_KICKOFF_2026-11-10_ADVERSARIAL_SWEEP_ADMIN.md` — tracker addendum appended (append-only; the kickoff's original text untouched): sweep item 3 marked DONE, resume point updated to Admin/Verification_Gates.md (CAMPAIGN4_AUDIT_04).
+
+**VibesSandbox, this commit:** this entry + MAINT_INDEX row 109 + STATE.md update (heads, Last updated, Campaign 4 progress line). No Intake Log entry (no external intake this pass).
+
+## Disclosures
+
+Event: (iii) harness defect — one harness-interface quirk this pass, none landed anything wrong: the sandbox filesystem read returned a non-string shape on its first call (TypeError), resolved by normalizing the return shape; content unaffected. The MAINT-91 defect classes did not recur: no sha256 dependency (no hash fields existed to recompute), no truncation (all fetches full via the GitHub API), no quoting shim in use. Post-push verification: both LF files fetched back at head `ef3e4662` and byte-compared against the local compose copies — exact match (15,451 and 6,950 chars); head/tail markers and the addendum's presence checked.
