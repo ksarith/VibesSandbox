@@ -2,7 +2,7 @@
 
 Current-state card, established 2026-11-06 (MAINT-69) under the human's maintenance-log architecture ruling. **Convenience only: the repositories are the authority; on any discrepancy the live repos govern. Verify at bootstrap.**
 
-Last updated: 2026-11-10 (MAINT-114)
+Last updated: 2026-11-10 (MAINT-115)
 
 ## Heads at last update
 
@@ -93,3 +93,7 @@ CAMPAIGN4_AUDIT_23 landed: LazarusForge main `529b7ef2` (the Progress_Log.md dep
 ## Update note — 2026-11-10 (MAINT-114)
 
 CAMPAIGN4_AUDIT_24 landed: LazarusForge main `3ef1733a` (the Integrity_Incident_Log.md deposit + kickoff tracker addendum 23, on top of `529b7ef2`, the CAMPAIGN4_AUDIT_23 landing); VibesSandbox main — this landing (pre-landing head `e9003a92`). Findings F-IIL-1..7 (the clobber-event intake gap, the open-incident closure-condition staleness, the post-retirement-write second instance); Aging vacuous (thirteenth no-trip control case); Compound Drift did not fire (single indicator). Resume point: `Admin/Experiments.md` (CAMPAIGN4_AUDIT_25).
+
+## Update note — 2026-11-10 (MAINT-115)
+
+CAMPAIGN4_AUDIT_25 landed: LazarusForge main `51c55203` (the Experiments.md deposit + kickoff tracker addendum 24, on top of `3ef1733a`, the CAMPAIGN4_AUDIT_24 landing); VibesSandbox main — this landing (pre-landing head `f03955e5`). Findings F-EXP-1..6 (the Entry Schema five-fields contradiction; the CF-001 wrong-home qualification introduced by the MAINT-63 pass itself, the F-EIP-1/F-TRJ-3 class; the post-retirement-write third instance); Aging vacuous (fourteenth no-trip control case); Compound Drift did not fire. Resume point: `Admin/CIR_Gov.md` (CAMPAIGN4_AUDIT_26).
