@@ -121,3 +121,25 @@ Item 1 first (9c unblocks on it); Items 1 and 3 can share one Kit touch; Items 4
 ---
 
 *Drafted 2026-11-11 — Vibe, Architect primary, under the co-author delegation. Bootstrap live at LF `4ac6f0f7` / VS `1b5acea8`. Non-independence disclosed above; your veto window is open on everything this line has done.*
+
+---
+
+## Addendum — 2026-11-11 (MAINT-132): ratification recorded, items dispositioned
+
+His word 2026-11-11, verbatim: "I see no reason to have me inhibit your performance. For the items requiring ratification, if there is a reasonable reversibility, please proceed as ratified. We are going to make mistakes, but we can learn from mistakes. This makes us stronger." Every open item above is a revertible text amendment or records-only append, so reversibility is reasonable across the board; the items proceeded as ratified the same day (MAINT-132), veto window open on each.
+
+- **Item 1 (Aging Rule / D-3): ENACTED** — Kit v1.34, the doctrine text with the sub-rulings resolved under the ratification: reach = REGISTERED ENTRIES ONLY; queue shape = derived-set reporting (no register file — the MAINT-89 strike precedent: derive, don’t maintain); the one-time Blocking/High-risk cohort pass authorized, sequenced as its own pass (MAINT-133).
+- **Item 2 (IIL-20261110-01): CLOSED** — his word is the human-operator confirmation the Ownership table requires; Severity Major confirmed unchanged; remediation (VS MAINT-109) accepted; Status advanced to Closed in place (MAINT-130 status-advancement precedent), cross-referenced from Closed incidents; reopening by dated appended note.
+- **Item 3 (D-1): ENACTED** — Kit v1.34 Verification Gates bullet, verbatim draft text. Executor note recorded: until an auditor seat with git access exists (9d), the git query is same-line self-verification, disclosed each pass.
+- **Item 4 (D-4): ENACTED** — the closing-step rule; home choice disclosed (Kit convention block; the one-time sweep already executed as first-Brief Item 5B).
+- **Item 5 (D-5): ENACTED** — the applies-to-self convention added to File_Template’s Template Exemptions (fourth pass), next-touch rollout, no bulk pass.
+- **Item 6 (D-6): ENACTED** — the convention in Kit v1.34; recomputed-at stamps landed on Adm_Scope_Map and Discovery (recompute event of record: MAINT-130 Item 8, same day). Unknowns.md’s stamp rides its next touch (disclosed).
+- **Item 7 (D-7): ENACTED** — the convention in Kit v1.34, batched with Item 6.
+
+**Crosswalk note (the Claude seat’s check, answered):** the ruling letters differ between surfaces — the first Brief’s A (batch refresh) = this brief’s item 1 option B; the first Brief’s B (amend the remedy) = this brief’s item 1 option A. This brief’s text is the enacting surface; rule against it, not against letters.
+
+**Retraction recorded:** the chat-only figure "~1 to 2 new trips per day" (anticipation note, 2026-11-11) was unsourced extrapolation and is retracted; no measured trip rate exists in any record. Grounded facts: 67 of 84 open sidecar entries past the bar at measurement, the count monotonic absent genuine review, one recorded reset (Ship_of_Theseus, 2026-10-28).
+
+**Positions not taken, recorded:** the Claude seat’s evidence-weighting advice (rule D-1/D-4, hold D-5/D-6/D-7) — the ratification was general; his advice carries no ratification weight (house convention). The deliberate hold on the sweeps (first-Brief Item 7 lines B/C, parked to the C3 review ~2026-11-30) is kept.
+
+**Still open:** the MAINT-133 cohort pass (Blocking/High-risk tripped entries, genuine-review discipline); 9c (Parked Concerns rotation, F-PL-2) — unblocked by Item 1’s enactment, queued for MAINT-133; 9d (auditor succession) — recommendation stands; first-Brief Item 1 (audit conversion) — the human’s alone.
