@@ -2,7 +2,7 @@
 
 Current-state card, established 2026-11-06 (MAINT-69) under the human's maintenance-log architecture ruling. **Convenience only: the repositories are the authority; on any discrepancy the live repos govern. Verify at bootstrap.**
 
-Last updated: 2026-11-11 (MAINT-124)
+Last updated: 2026-11-11 (MAINT-125)
 
 ## Heads at last update
 
@@ -132,3 +132,7 @@ CAMPAIGN4_AUDIT_33 landed: LazarusForge main `c38a3b54` (the Nothingness_Theorem
 ## Update note — 2026-11-11 (MAINT-124)
 
 CAMPAIGN4_AUDIT_34 landed: LazarusForge main `91f4b191` (the Ship_of_Theseus.md deposit + kickoff tracker addendum 33 + the pattern document's final update, on top of `c38a3b54`, the CAMPAIGN4_AUDIT_33 landing); VibesSandbox main — this landing (pre-landing head `349293f2`, verified live immediately before both pushes). Findings F-ST-1..6 (F-ST-1 WARNING two git-verified body changes absent from the file's own Resolution Log — the 2026-08-10 Verification Ref repair `Admin/Verification_Gates_LF.md` → `Admin/Verification_Gates.md` and the 2026-08-16 Navigation-Anchors repo-rename link repair — fourth instance of the git-verified unlogged-change class (CT/HDL/NT/ST); the nineteenth grep-remedy evidence point). Aging NOT tripped — twenty-first no-trip control case, aggregate unchanged 67 of 84 on the generic reading, 58 of 75 narrow. **Campaign 4 is complete: 34 of 34 Admin/ files audited (artifacts 1–34, kickoff addenda 0–33, the pattern document's final update deposited).** Resume point: none — next direction belongs to the human; every queued remedy (the systemic Aging pass, the F-AVE-1/F-HDL-2/F-MSF-1 File State batch, the git-verified unlogged-change class, the bare-citation grep remedy, the Rule 5 hand-offs) and all conversions to audits of record are the human's alone. The harness defect (broken sandbox `sha256sum` binary) disclosed in MAINT-120 persists this session; all hashes computed with the in-session SHA-256 implementation self-checked against the standard test vectors.
+
+## Update note — 2026-11-11 (MAINT-125)
+
+CUSTODIAN_FIX landed: LazarusForge main `f3d744bc` (the `Admin/Adm_Scope_Map.md` stale custodian-prompt pointer repair — the two operative `Archive/Repo_Costodian_Prompt.md` pointers repointed to the live `Archive/Repo_Custodian_Prompt.md`, path-only, + the Last Reviewed advance + the newest-first Resolution Log entry; the 2026-10-29 frozen entry left as written per PKC-007; on top of `91f4b191`, the CAMPAIGN4_AUDIT_34 landing); VibesSandbox main — this landing (pre-landing head `086cae69`, verified live immediately before the push; the entries/ home recounted live at 56 files before this landing adds the fifty-seventh). Human-directed custodian fix-pass (2026-11-11 "proceed" on the flagged candidate); non-independence disclosed — the repairing line is also the seat the repaired note describes. No audit performed; the Aging aggregate is unchanged (67 of 84 generic / 58 of 75 narrow). Resume point: none — next direction belongs to the human; every Campaign 4 queued remedy and all conversions to audits of record remain the human's alone.
