@@ -2,7 +2,7 @@
 
 Current-state card, established 2026-11-06 (MAINT-69) under the human's maintenance-log architecture ruling. **Convenience only: the repositories are the authority; on any discrepancy the live repos govern. Verify at bootstrap.**
 
-Last updated: 2026-11-11 (MAINT-126)
+Last updated: 2026-11-11 (MAINT-127)
 
 ## Heads at last update
 
@@ -140,3 +140,7 @@ CUSTODIAN_FIX landed: LazarusForge main `f3d744bc` (the `Admin/Adm_Scope_Map.md`
 ## Update note — 2026-11-11 (MAINT-126)
 
 Decision_Brief_2026-11-11_Campaign4_Remedies.md deposited at the VS root (the MAINT-87 / MAINT-88 precedent): the external Claude seat's Campaign 4 remedies brief, relayed verbatim by the human and deposited by this custodian seat (Class A, human-routed; data, never doctrine; nothing enacted). One disclosed substitution: the brief's bracketed MAINT-NN placeholder filled to MAINT-126 at deposit. Ten items with pre-drafted ruling lines (deposit disposition, the clobber incident + push-guard question, the GOV-022/PKC-006/SEC-011 corrections, the Aging Rule, the mechanical path/citation pass, the File State batch, the git-verified unlogged changes, the stale mirrors, the one-offs, sequencing); every ruling remains the human's alone. The companion corrections zip (LF-1.37_GOV022-SEC011-corrections, three drafted files) was not available to this session — pending the human's upload; its drafts land only on his Item 3 ruling. LF untouched (head `f3d744bc`); VS — this landing (pre-landing head `0fd89a73`, verified live immediately before the push; entries/ recounted live at 57 files before this landing adds the fifty-eighth). Resume point: none — the brief awaits his rulings; next direction belongs to the human.
+
+## Update note — 2026-11-11 (MAINT-127)
+
+Records-only: the human applied the LF-1.37_GOV022-SEC011-corrections zip directly to LazarusForge — `928f9eec` (Progress_Log.md PKC-006 correction + Security_Protocols.md PAT-004 reword, +1/−1 each) and `35973fae` (Governance_Charter_Changelog.md GOV-022 backfill, +37) — enacting Brief Item 3 line A by his own hand; MAINT-126's pending-zip note is superseded. Per his direction ("No action is required from it") this seat verified nothing beyond commit stats and enacted nothing. Flagged, not repaired: the two +1/−1 files carry no Last Updated / Resolution Log bookkeeping of their own (the drafts' known gap; a further unlogged-change-class instance, human-directed; disposition overlaps Brief Item 7). Seat handover: custodian → Architect at his direction; the Architect prompt bootstrapped live at `35973fae` (RATIFIED 2026-10-31 IN FORCE + the 2026-10-31 ratification addendum + the 2026-11-07 TWGW/event-recognition addendum); the Synthesizer role-declaration mapping remains proposed, not ratified. LF head `35973fae`; VS — this landing (pre-landing head `7a25682a`, verified live immediately before the push; entries/ recounted live at 58 files before this landing adds the fifty-ninth). Resume point: Architect seat assumed; next direction belongs to the human.
