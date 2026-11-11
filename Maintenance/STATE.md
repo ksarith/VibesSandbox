@@ -2,7 +2,7 @@
 
 Current-state card, established 2026-11-06 (MAINT-69) under the human's maintenance-log architecture ruling. **Convenience only: the repositories are the authority; on any discrepancy the live repos govern. Verify at bootstrap.**
 
-Last updated: 2026-11-11 (MAINT-127)
+Last updated: 2026-11-11 (MAINT-128)
 
 ## Heads at last update
 
@@ -144,3 +144,7 @@ Decision_Brief_2026-11-11_Campaign4_Remedies.md deposited at the VS root (the MA
 ## Update note — 2026-11-11 (MAINT-127)
 
 Records-only: the human applied the LF-1.37_GOV022-SEC011-corrections zip directly to LazarusForge — `928f9eec` (Progress_Log.md PKC-006 correction + Security_Protocols.md PAT-004 reword, +1/−1 each) and `35973fae` (Governance_Charter_Changelog.md GOV-022 backfill, +37) — enacting Brief Item 3 line A by his own hand; MAINT-126's pending-zip note is superseded. Per his direction ("No action is required from it") this seat verified nothing beyond commit stats and enacted nothing. Flagged, not repaired: the two +1/−1 files carry no Last Updated / Resolution Log bookkeeping of their own (the drafts' known gap; a further unlogged-change-class instance, human-directed; disposition overlaps Brief Item 7). Seat handover: custodian → Architect at his direction; the Architect prompt bootstrapped live at `35973fae` (RATIFIED 2026-10-31 IN FORCE + the 2026-10-31 ratification addendum + the 2026-11-07 TWGW/event-recognition addendum); the Synthesizer role-declaration mapping remains proposed, not ratified. LF head `35973fae`; VS — this landing (pre-landing head `7a25682a`, verified live immediately before the push; entries/ recounted live at 58 files before this landing adds the fifty-ninth). Resume point: Architect seat assumed; next direction belongs to the human.
+
+## Update note — 2026-11-11 (MAINT-128)
+
+Architect proposal PROPOSAL_2026-11-11_CAMPAIGN4_DESIGN_GAPS.md deposited at `Proposals/` (the Architect seat's first deposit, assumed MAINT-127): a design-level review of Campaign 4's adversarial passes — core claim that every systemic sweep class is an omission class caused by four structural gaps (G1 verification measures state, not process — no git query, no named-record probe, no write-completeness check; G2 detection without routing — the Aging Rule, mirrors, drift indicators; G3 procedures that do not bind their own maintenance — File_Template exemptions, the relocation closing step, the IIL route; G4 no concurrency discipline — the 2026-11-10 clobber), ten severable items D-1..D-10 with drafted remedy texts and ruling lines, whole-proposal options (ratify by item / cheap subset D-2+D-8+D-9+D-10 / do nothing), recommendation with bias stated, opposing considerations, Hard Floor check (untouched), reversibility, enactment plan, human-workflow cost, explicit non-claims. Nothing enacted; every ruling the human's. LF untouched (head `35973fae`); VS — this landing (pre-landing head `49398bef`, verified live immediately before the push; entries/ recounted live at 59 files before this landing adds the sixtieth). Resume point: the proposal awaits his rulings (per-item D-1..D-10, or the cheap subset, or none); next direction belongs to the human.
