@@ -2,7 +2,7 @@
 
 Current-state card, established 2026-11-06 (MAINT-69) under the human's maintenance-log architecture ruling. **Convenience only: the repositories are the authority; on any discrepancy the live repos govern. Verify at bootstrap.**
 
-Last updated: 2026-11-10 (MAINT-120)
+Last updated: 2026-11-10 (MAINT-121)
 
 ## Heads at last update
 
@@ -116,3 +116,7 @@ CAMPAIGN4_AUDIT_29 landed: LazarusForge main `bf90f0e5` (the Economics.md deposi
 ## Update note — 2026-11-10 (MAINT-120)
 
 CAMPAIGN4_AUDIT_30 landed: LazarusForge main `3e8b5604` (the Agent_Verification_Event.md deposit + kickoff tracker addendum 29, on top of `bf90f0e5`, the CAMPAIGN4_AUDIT_29 landing); VibesSandbox main — this landing (pre-landing head `43b55ea5`, verified live immediately before both pushes). Findings F-AVE-1..6 (F-AVE-1 WARNING File State missing three canonical §2 fields — Verification Ref, Active Disputes, Sidecar Link — against the file's own "File State completed" record; F-AVE-5 battery — the verifier-independence residual gap, "Human-directed script" admitted as verifier with `independent_of_speaker` self-asserted, logged for the human; the fifteenth grep-remedy evidence point). Aging NOT tripped — eighteenth no-trip control case, running aggregate 57 of 70. Resume point: `Admin/Hardware_Diversity_Ladder.md` (CAMPAIGN4_AUDIT_31); the pattern document's final update (files 29–34) due at campaign close. A harness defect (broken sandbox `sha256sum` binary) is disclosed in the MAINT-120 entry; all hashes computed with an in-session SHA-256 implementation self-checked against the standard test vectors.
+
+## Update note — 2026-11-10 (MAINT-121)
+
+CAMPAIGN4_AUDIT_31 landed: LazarusForge main `881fb066` (the Hardware_Diversity_Ladder.md deposit + kickoff tracker addendum 30, on top of `3e8b5604`, the CAMPAIGN4_AUDIT_30 landing); VibesSandbox main — this landing (pre-landing head `f98f0af4`, verified live immediately before both pushes). Findings F-HDL-1..6 (F-HDL-1 NOTE the X3 pass git-verified bumping the header 1.1 → 1.2 in `ddc5ceb7` while its own RL entry says "Citation-form-only; no content change" — second instance of the Canonical_Terms unlogged-X3-bump class (CAMPAIGN2_AUDIT_77 F1, PKC-039 precedent), discharging CAMPAIGN4_AUDIT_10's out-of-scope deferral and locating the aggregate A-F1 enacting pass `879153f1`; F-HDL-2 WARNING File State missing two canonical §2 fields — Active Disputes, Sidecar Link — against the file's own "File State completed" record, F-AVE-1 class second instance; the sixteenth grep-remedy evidence point). Aging vacuous (0 open unknowns) — nineteenth no-trip control case, aggregate unchanged 57 of 70. Resume point: item 32 of 34, `Admin/Metrics_Scaffold.md` (CAMPAIGN4_AUDIT_32); the pattern document's final update (files 29–34) due at campaign close. The harness defect (broken sandbox `sha256sum` binary) disclosed in MAINT-120 persists this session; all hashes computed with the in-session SHA-256 implementation self-checked against the standard test vectors.
