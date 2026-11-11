@@ -2,7 +2,7 @@
 
 Current-state card, established 2026-11-06 (MAINT-69) under the human's maintenance-log architecture ruling. **Convenience only: the repositories are the authority; on any discrepancy the live repos govern. Verify at bootstrap.**
 
-Last updated: 2026-11-10 (MAINT-119)
+Last updated: 2026-11-10 (MAINT-120)
 
 ## Heads at last update
 
@@ -112,3 +112,7 @@ CAMPAIGN4_AUDIT_28 landed: LazarusForge main `9a08c23b` (the Environmental_Const
 ## Update note — 2026-11-10 (MAINT-119)
 
 CAMPAIGN4_AUDIT_29 landed: LazarusForge main `bf90f0e5` (the Economics.md deposit + kickoff tracker addendum 28, on top of `9a08c23b`, the CAMPAIGN4_AUDIT_28 landing); VibesSandbox main — this landing (pre-landing head `d88f1cc4`). Findings F-ECO-1..5 (the stale Lessons Learned "Revalidation Needed" pointer — recorded-need-vs-live-state, all three named revalidations verified executed; the Kit ID Reference ECN- registration gap, F-ENV-5 class instance 2; the fourteenth grep-remedy evidence point; the no-version-string migration-pending note). Aging NOT tripped — seventeenth no-trip control case, aggregate unchanged 56 of 69. Resume point: `Admin/Agent_Verification_Event.md` (CAMPAIGN4_AUDIT_30). This note restores the blank-line separator before the note header (the MAINT-118 note had landed without one; cosmetic, disclosed there and in the MAINT-119 entry).
+
+## Update note — 2026-11-10 (MAINT-120)
+
+CAMPAIGN4_AUDIT_30 landed: LazarusForge main `3e8b5604` (the Agent_Verification_Event.md deposit + kickoff tracker addendum 29, on top of `bf90f0e5`, the CAMPAIGN4_AUDIT_29 landing); VibesSandbox main — this landing (pre-landing head `43b55ea5`, verified live immediately before both pushes). Findings F-AVE-1..6 (F-AVE-1 WARNING File State missing three canonical §2 fields — Verification Ref, Active Disputes, Sidecar Link — against the file's own "File State completed" record; F-AVE-5 battery — the verifier-independence residual gap, "Human-directed script" admitted as verifier with `independent_of_speaker` self-asserted, logged for the human; the fifteenth grep-remedy evidence point). Aging NOT tripped — eighteenth no-trip control case, running aggregate 57 of 70. Resume point: `Admin/Hardware_Diversity_Ladder.md` (CAMPAIGN4_AUDIT_31); the pattern document's final update (files 29–34) due at campaign close. A harness defect (broken sandbox `sha256sum` binary) is disclosed in the MAINT-120 entry; all hashes computed with an in-session SHA-256 implementation self-checked against the standard test vectors.
