@@ -2,7 +2,7 @@
 
 Current-state card, established 2026-11-06 (MAINT-69) under the human's maintenance-log architecture ruling. **Convenience only: the repositories are the authority; on any discrepancy the live repos govern. Verify at bootstrap.**
 
-Last updated: 2026-11-11 (MAINT-122)
+Last updated: 2026-11-11 (MAINT-123)
 
 ## Heads at last update
 
@@ -124,3 +124,7 @@ CAMPAIGN4_AUDIT_31 landed: LazarusForge main `881fb066` (the Hardware_Diversity_
 ## Update note — 2026-11-11 (MAINT-122)
 
 CAMPAIGN4_AUDIT_32 landed: LazarusForge main `c08b2085` (the Metrics_Scaffold.md deposit + kickoff tracker addendum 31, on top of `881fb066`, the CAMPAIGN4_AUDIT_31 landing); VibesSandbox main — this landing (pre-landing head `e8e4f95d`, verified live immediately before both pushes). Findings F-MSF-1..6 (F-MSF-1 WARNING File State missing three canonical §2 fields — Body Stability, Active Disputes, Sidecar Link — against the file’s own AUDIT_17-F2 "template-section gaps closed" enactment record, F-AVE-1 class third instance, batched with F-AVE-1/F-HDL-2; F-MSF-2 NOTE the aggregate’s B-C5 open checklist debt DISCHARGED — MAQT §8.10 verified live in Tests/Multi_Agent_Quorum_Trial.md and ASM-003 orthogonality re-verified live against both Automation scripts; the seventeenth grep-remedy evidence point). Aging vacuous (0 open unknowns) — twentieth no-trip control case, aggregate unchanged 57 of 70. Resume point: item 33 of 34, `Admin/Nothingness_Theorem.md` (CAMPAIGN4_AUDIT_33); the pattern document’s final update (files 29–34) due at campaign close. The harness defect (broken sandbox `sha256sum` binary) disclosed in MAINT-120 persists this session; all hashes computed with the in-session SHA-256 implementation self-checked against the standard test vectors.
+
+## Update note — 2026-11-11 (MAINT-123)
+
+CAMPAIGN4_AUDIT_33 landed: LazarusForge main `c38a3b54` (the Nothingness_Theorem.md deposit + kickoff tracker addendum 32, on top of `c08b2085`, the CAMPAIGN4_AUDIT_32 landing); VibesSandbox main — this landing (pre-landing head `971d67c4`, verified live immediately before both pushes). Findings F-NT-1..8 (F-NT-1 WARNING the Aging Rule tripped — no recorded review of any §18 unknown after 2026-07-31, 103 days; NT-010 tripped certain, NT-001..009 under the generic FT reading with the file-internal reach question disclosed for the human; systemic instance 12, running aggregate 67 of 80 on the generic reading, 58 of 71 narrow; F-NT-2 WARNING three git-verified body changes absent from the file's own Resolution Log — the 2026-08-10 Scope Boundary addition, the 2026-08-16 repo-rename link repair, the 2026-08-16 licensing regrade CC-BY-SA → MIT logged only corpus-side — third instance of the git-verified unlogged-change class; the eighteenth grep-remedy evidence point). Aging tripped (F-NT-1) — first trip since CIR. Resume point: item 34 of 34, `Admin/Ship_of_Theseus.md` (CAMPAIGN4_AUDIT_34), the sweep's final file; the pattern document's final update (files 29–34) lands with it at campaign close. The harness defect (broken sandbox `sha256sum` binary) disclosed in MAINT-120 persists this session; all hashes computed with the in-session SHA-256 implementation self-checked against the standard test vectors.
