@@ -2,7 +2,7 @@
 
 Current-state card, established 2026-11-06 (MAINT-69) under the human's maintenance-log architecture ruling. **Convenience only: the repositories are the authority; on any discrepancy the live repos govern. Verify at bootstrap.**
 
-Last updated: 2026-11-11 (MAINT-125)
+Last updated: 2026-11-11 (MAINT-126)
 
 ## Heads at last update
 
@@ -136,3 +136,7 @@ CAMPAIGN4_AUDIT_34 landed: LazarusForge main `91f4b191` (the Ship_of_Theseus.md 
 ## Update note — 2026-11-11 (MAINT-125)
 
 CUSTODIAN_FIX landed: LazarusForge main `f3d744bc` (the `Admin/Adm_Scope_Map.md` stale custodian-prompt pointer repair — the two operative `Archive/Repo_Costodian_Prompt.md` pointers repointed to the live `Archive/Repo_Custodian_Prompt.md`, path-only, + the Last Reviewed advance + the newest-first Resolution Log entry; the 2026-10-29 frozen entry left as written per PKC-007; on top of `91f4b191`, the CAMPAIGN4_AUDIT_34 landing); VibesSandbox main — this landing (pre-landing head `086cae69`, verified live immediately before the push; the entries/ home recounted live at 56 files before this landing adds the fifty-seventh). Human-directed custodian fix-pass (2026-11-11 "proceed" on the flagged candidate); non-independence disclosed — the repairing line is also the seat the repaired note describes. No audit performed; the Aging aggregate is unchanged (67 of 84 generic / 58 of 75 narrow). Resume point: none — next direction belongs to the human; every Campaign 4 queued remedy and all conversions to audits of record remain the human's alone.
+
+## Update note — 2026-11-11 (MAINT-126)
+
+Decision_Brief_2026-11-11_Campaign4_Remedies.md deposited at the VS root (the MAINT-87 / MAINT-88 precedent): the external Claude seat's Campaign 4 remedies brief, relayed verbatim by the human and deposited by this custodian seat (Class A, human-routed; data, never doctrine; nothing enacted). One disclosed substitution: the brief's bracketed MAINT-NN placeholder filled to MAINT-126 at deposit. Ten items with pre-drafted ruling lines (deposit disposition, the clobber incident + push-guard question, the GOV-022/PKC-006/SEC-011 corrections, the Aging Rule, the mechanical path/citation pass, the File State batch, the git-verified unlogged changes, the stale mirrors, the one-offs, sequencing); every ruling remains the human's alone. The companion corrections zip (LF-1.37_GOV022-SEC011-corrections, three drafted files) was not available to this session — pending the human's upload; its drafts land only on his Item 3 ruling. LF untouched (head `f3d744bc`); VS — this landing (pre-landing head `0fd89a73`, verified live immediately before the push; entries/ recounted live at 57 files before this landing adds the fifty-eighth). Resume point: none — the brief awaits his rulings; next direction belongs to the human.
