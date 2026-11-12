@@ -42,3 +42,7 @@ R-1a is implemented as a separate Size Census Pass with its own `SIZE_CENSUS` ca
 - R-6b (split log homes accepted) and R-7(iii) (STATE.md as-is): revisit at the C3 review ~2026-11-30.
 - Unchanged opens: the `contribution` label (his direct GitHub action); VP-002 + the UNK-007 split; the derived-set recount at the next battery run; 9d; first-Brief Item 1.
 - Next IDs: MAINT-137 / Intake Log entry 22 (Intake Log untouched this pass). Next direction belongs to the human.
+
+## Post-push verification addendum (2026-11-12)
+
+VS bookkeeping landed as `206614c7` (the MAINT-136 entry + MAINT_INDEX row 112 + the STATE update; pre-landing head `7807e1b0`, head-guard verified live immediately before the push). Post-push verification at `206614c7`, all counts derived from the fetched strings at the new head, never carried: this entry present verbatim with all eleven sections; the abort ledger carries exactly two (iii)-class events and one (ii)-class event; MAINT_INDEX carries the MAINT-136 row once, the count line reads "15 LOG-1028 rows + 70 LOG-1029-range rows (incl. the MAINT-46 gap row) + 68 entries/ rows = 153 rows", and the recount line "Recounted live this pass (MAINT-136): MAINT-69.md through MAINT-136.md present (sixty-eight files)." is present; STATE reads "Last updated: 2026-11-12 (MAINT-136)" with the MAINT-136 head line at the top of the heads list, the File_Template bootstrap line at 2026-11-12 (R8 fifth pass), and the MAINT-136 update paragraph. Non-independent same-line verification, disclosed; veto window open.
