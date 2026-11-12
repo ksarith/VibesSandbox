@@ -1,0 +1,44 @@
+# MAINT-136 — R-1a executed: the derived Size Census Pass in integrity_check.py v0.4 (LF commits D/E)
+
+## Summary
+R-1a of the 2026-11-12 reduction-review ruling set executed (the ruling act verbatim: "Can I have you begin the cleanup?"; this pass authorized by his "Please continue" on the MAINT-135 report — R-1a was the queued next touch): `Automation/integrity_check.py` v0.3 → v0.4 adds the Size Census Pass, a derived T1 split-queue roster (every run measures each trackable file and self-reports the queue heaviest-first, log homes classed per R-6b), reported under the new category `SIZE_CENSUS`; fixture coverage landed at `Tests/Automation/test_size_census.py`; Routing registers the test and demotes the MAINT-135 narrative. Executed under the co-author delegation (2026-11-04 mandate, extended 2026-11-11); non-independent, disclosed; human veto window open. Genesis Phase, Q-2.
+
+## Item 1 — commit D `134de57b`: checker v0.4 + fixture test + README
+`Automation/integrity_check.py` (+81/−2): six exactly-once anchors edited — the passes list gains "8. Size Census Pass — T1 split-queue roster, derived per run (R-1a, 2026-11-12 ruling set)" with Output renumbered 9; TOOL_VERSION "0.3" → "0.4" with a history comment; a new block before `def run(root):` carrying `T1_BYTES = 100_000` (with the SI-reading comment), `LOG_HOME_DIR_RE = re.compile(r"(?:^|/)[A-Za-z_]*Logs/")` (directory-based log-home classification comment), and `def size_census_pass(root, all_files, findings):` (measures os.path.getsize per trackable file, sorts heaviest-first, one WARNING per over-bar file with log-home (R-6b accepted) vs split-queue (R8 queued) message classes, returns the census dict with an authority field); the run() call inserted between the Pattern A and Unknowns summaries; the report key `"size_census"`; the health category `("SIZE_CENSUS", "T1 size census (R-1a derived roster)")`. `Tests/Automation/test_size_census.py` (+99): eight unittest cases on a synthetic temp tree with exact byte counts (bar constant; over-bar warns as split queue; bar inclusive; under-bar silent; log home classed per R-6b; tracked scope and counts 5/3/3/1/2; roster heaviest-first; extensionless under-bar unflagged); its docstring discloses it validates the census logic, not the live roster. `Automation/README.md` (+2/−2): the integrity_check row gains the v0.4 census phrase; the Offline-tests bullet gains the synthetic-roster check.
+
+## Item 2 — commit E `1fc45fe8`: Routing registration + narrative rotation
+`Routing.md`: the MAINT-135 current narrative demoted verbatim to `Logs/Routing_Log.md`; a new MAINT-136 current narrative prepended (records the R-1a execution, the SIZE_CENSUS category, the SI disclosure, the fixture registration, the first-live-run debt, "No history rewritten"); the pass-history pointer line kept exactly once; the `Tests/Automation/test_size_census.py` row registered after the `Tests/Automation/test_harness_prompt.py` row (URL-table rows 399 → 400, Explicit). `Logs/Routing_Log.md`: the demoted MAINT-135 narrative inserted as the newest Prior (Prior lines 64 → 65); the contents block gains the dated demotion sentence.
+
+## Placement note (disclosed)
+R-1a is implemented as a separate Size Census Pass with its own `SIZE_CENSUS` category, not as a new C-number: the File_Template C-table is Pattern-A-scoped and C7/C8 are reserved-deferred until a RELEASES register exists. The delivered function is identical to the ruling's intent (the queue self-reports every run, derived). If the human wants a FT C-table row for it, that is a one-line follow-up. File_Template itself is untouched this pass.
+
+## T1 reading disclosure
+`T1_BYTES = 100_000` (SI): the File_Template §Log-Split Rule reads "the file measures ≥ 100 KB", and the 2026-11-12 census's own arithmetic used the SI reading (Canonical_Terms.md at 100,570 bytes is in the roster; a 102,400-byte binary reading would exclude it). The choice is disclosed in the checker source and the Routing narrative; one constant, derived everywhere — if the human rules the bar differently, it changes in one place.
+
+## Verification (every count derived from fetched strings, never memory)
+- Twin validation of the census logic ran in-program before any push, on a synthetic size set: files_measured 5, over-bar 3, log homes 1, split queue 2, roster order heaviest-first (`Logs/home_Log.md`, `over.md`, `at_bar.md`) — passed exactly.
+- Live census reconciliation at `f27af8a3` (GitHub-reported dir sizes, root + Admin + Architecture + Admin/ALogs + Archive/Logs): 15 over-bar files, 3 log homes, total 2,331,510 bytes. The first compose run's gate caught the hand-derived expectation (2,331,404) drifting by exactly the 106-byte `Unknowns.md` route-phrase growth from MAINT-135 commit C; reconciled: 2,386,944 − 186,953 (old Routing) + 131,015 (new Routing) − 192,297 + 192,695 (Archive changelog) + 106 (Unknowns route phrase) = 2,331,510. Derived correction: the roster total at the post-phase-1 head is 2,331,510 bytes (2.33 MB).
+- Post-push at `1fc45fe8`: checker TOOL_VERSION "0.4" once, `size_census_pass` def once, SIZE_CENSUS category once; the test file present with eight test methods and the T1_BYTES import; README v0.4 phrase once and `test_size_census.py` mention once; Routing MAINT-136 narrative once, pointer once, test row once, `**Prior` count 0; Routing_Log Prior count 65, the demoted MAINT-135 narrative once, the dated contents line once.
+
+## Abort ledger
+- Event: (iii) harness defect — the first compose run aborted at the live-roster reconciliation gate: the hand-derived expected census total (2,331,404) omitted `Unknowns.md`'s own 106-byte commit-C growth. The gate held; nothing was pushed under a failing check. The expectation was re-derived from fetched strings (the reconciliation above) and passed on the re-run. The derived census caught its first expectation drift before its own first live run — the argument for R-1a in miniature.
+- Event: (iii) harness defect — commit E's first attempt aborted pre-push on this line's own `test_row_once` assert, which counted the backtick path `Tests/Automation/test_size_census.py` in both the new narrative and the table row (2 occurrences, not 1). The composed content was correct; the assert was corrected to (row line once, path mentions exactly 2). Nothing was pushed under the failing check; commit D had already landed and was unaffected.
+- Event: (ii) recurrence — output-loss: the first compose run's terminal result (including commit D's push sha) was lost before it could be recorded. The landing was never assumed: sha D was recovered from `get_commit` at the post-D head and the landing verified by fresh head-guarded fetches (checker TOOL_VERSION "0.4" at head).
+
+## Landing
+- LF: two commits on top of `f27af8a3` (the MAINT-135 phase-1 head): D `134de57b` (`Automation/integrity_check.py` +81/−2, `Tests/Automation/test_size_census.py` +99, `Automation/README.md` +2/−2); E `1fc45fe8` (`Routing.md`, `Logs/Routing_Log.md`). LF head after this pass: `1fc45fe8`. Parlay untouched (`4899e1ba`).
+- VS: this landing (pre-landing head `7807e1b0`, the MAINT-135 addendum, verified live immediately before the push; entries/ recounted live at sixty-seven files, MAINT-69 through MAINT-135, before this landing adds the sixty-eighth; this commit's sha recorded in the post-push verification addendum appended below).
+
+## Disclosures
+- Non-independent: the same line drafted the counter-leans, received the ruling set, executed R-1a, and verified the landings (the auditor seat is vacant, 9d open; MAINT-26 / AP-032 same-line self-verification posture). Human veto window open. Genesis Phase, Q-2 invoked.
+- First live run of v0.4 against the real tree is owed at the next battery run (this session's sandbox has no Python; the fixture suite validates the logic offline on synthetic trees).
+- The gate never weakened: two failing checks aborted their pushes; the corrected expectations were re-derived from fetched strings, not relaxed.
+- The MAINT-85 charter-row Routing link defect remains disclosed, not repaired (his call); F-SEC-1 and F-CT-3 remain live, his calls.
+- No Spec Gate advanced; no unknown opened or closed; no doctrine enacted beyond the ruling set; Tier 1 / FROZEN / Hard Floor untouched.
+
+## Resume point
+- R-5a: the MAINT-56 Last Audit retirement (one-line cells = date + seat + RL pointer), next-touch rollout, heaviest first — the nine F-FAK-1-class files plus the three MAINT-132/133 regrowth files.
+- R-3: HELD pending PKC-002 (GMP maintain-or-retire).
+- R-6b (split log homes accepted) and R-7(iii) (STATE.md as-is): revisit at the C3 review ~2026-11-30.
+- Unchanged opens: the `contribution` label (his direct GitHub action); VP-002 + the UNK-007 split; the derived-set recount at the next battery run; 9d; first-Brief Item 1.
+- Next IDs: MAINT-137 / Intake Log entry 22 (Intake Log untouched this pass). Next direction belongs to the human.
