@@ -45,3 +45,7 @@ His ruling act 2026-11-12, verbatim: "Can I have you begin the cleanup?" — his
 - R-6b (split log homes accepted) and R-7(iii) (STATE.md as-is): revisit at the C3 review ~2026-11-30.
 - Unchanged opens: the `contribution` label (his direct GitHub action); VP-002 + the UNK-007 split; the derived-set recount at the next battery run; 9d; first-Brief Item 1.
 - Next IDs: MAINT-136 / Intake Log entry 22 (Intake Log untouched this phase). Next direction belongs to the human.
+
+## Post-push verification addendum (2026-11-12)
+
+VS bookkeeping landed as `117f436c` (the MAINT-135 entry + MAINT_INDEX row 111 + the STATE update; pre-landing head `3a16bbdb`, head-guard verified live immediately before the push). Post-push verification at `117f436c`, all counts derived from the fetched strings at the new head, never carried: this entry present verbatim with all ten sections; MAINT_INDEX carries the MAINT-135 row once, the count line reads "15 LOG-1028 rows + 70 LOG-1029-range rows (incl. the MAINT-46 gap row) + 67 entries/ rows = 152 rows", and the recount line "Recounted live this pass (MAINT-135): MAINT-69.md through MAINT-135.md present (sixty-seven files)." is present; STATE reads "Last updated: 2026-11-12 (MAINT-135)" with the MAINT-135 head line at the top of the heads list, the File_Template bootstrap line at 2026-11-12 (R8 fifth pass), the card-refresh line, and the MAINT-135 update paragraph. Non-independent same-line verification, disclosed; veto window open.
