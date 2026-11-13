@@ -41,3 +41,9 @@ Lean: **Line 1 RATIFY (consolidated) + Line 3 CARRY.** Bias: consolidation minim
 ## Resume point
 
 Each line closes only on his spoken ruling line; nothing here enacts itself. Next IDs: MAINT-141 / Intake Log entry 22 (Intake Log untouched this pass). Next direction belongs to the human.
+
+---
+
+## Post-landing verification (2026-11-13, MAINT-140 — additive; the text above stands as deposited)
+
+Bookkeeping landed as `4eb82204`; verified live at that head by fresh fetches, never assumed: the brief, the MAINT-140 entry, MAINT_INDEX and STATE all byte-present at `4eb82204` (27 asserts green — head pins on all four fetches, exactly-once anchors on every composed element, row order 139 → 140, the old Last updated line gone, both file tails intact). entries/ recounted live at `4eb82204`: MAINT-69.md through MAINT-140.md present, seventy-two files, no gaps. LF untouched at `7b6c0fb6`. Zero aborts this pass. Awaiting his ruling lines on Lines 1–3; next IDs MAINT-141 / Intake Log entry 22.
