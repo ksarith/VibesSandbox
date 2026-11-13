@@ -64,3 +64,18 @@ Within A1, F-SEC-1 (the SEC-011 routing claim false against live Trajectories, A
 ## Resume point
 
 Each item closes only on his spoken ruling line; nothing here enacts itself. Next IDs: MAINT-139 / Intake Log entry 22 (Intake Log untouched this pass). Next direction belongs to the human.
+
+---
+
+## Correction (2026-11-13, MAINT-139 — additive; the text above stands as deposited)
+
+Section A1's premise was stale as deposited: it presented the mechanical remedy families as queued under the campaign close record's "zero dispositions executed" wording. In fact the mechanical families were executed on 2026-11-11 by MAINT-130's execution of the Decision Brief 2026-11-11 queue — a pass this brief's composition did not check. Verified live this pass at LF head `7b6c0fb6`, every count derived from fetched strings:
+
+- **A1b (the File State fields batch):** landed by MAINT-130 batch 2 `ea655868` — live now: AVE carries Verification Ref (`Admin/Verification_Gates.md`), Active Disputes (0) and Sidecar Link (the in-file anchor); HDL carries Active Disputes (0) and Sidecar Link ("none — no sidecar"); MSF carries Body Stability, Active Disputes (0) and Sidecar Link (in-file); File_Template gained the class-10/11 field-boundary paragraph.
+- **A1c (the git-verified unlogged-change backfills):** landed by batch 3 `a801a048` — reconstructed log lines live in HDL (the `ddc5ceb7` 1.1 → 1.2 bump), NT (three changes: `59117983`, `182a2319`, `89a494b6`) and ST (two changes: `59117983`, `182a2319`); CT's instance was already the remedied precedent (CAMPAIGN2_AUDIT_77 F1, recorded 2026-10-31).
+- **A1d (the bare-citation grep remedy):** landed by batches 4a–4j — all nineteen evidence points.
+- **A1e (the relocation-repair-miss sweep):** operative pointers repointed across batches 4a–4f (including the Kit's F-FAK-2 disposition, batch 4c); MAINT-130's corpus grep closed with zero operative dangling citations remaining.
+- **A1f (the GOV-022 cluster):** the sidecar backfill was landed by the human's own corrections zip (MAINT-127, upload commit `928f9eec`; verified landed per MAINT-130's Item 3 rider).
+- **A1g (the mirror recompute):** landed by Item 8 `4ac6f0f7`.
+
+Still open exactly as Section A recorded: A1a (the systemic Aging pass — aggregate unchanged at 67 of 84 generic / 58 of 75 narrow), A1h (conversion to audits of record), A2–A12, and all of Section B. The error was the navigation map's, not the repositories': no repository state changed in reliance on it. Derived from MAINT-130's entry, fetched live this pass. Non-independent same-line correction, disclosed; veto window open.
