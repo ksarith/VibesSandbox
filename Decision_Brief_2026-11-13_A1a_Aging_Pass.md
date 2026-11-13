@@ -47,3 +47,7 @@ Each line closes only on his spoken ruling line; nothing here enacts itself. Nex
 ## Post-landing verification (2026-11-13, MAINT-140 — additive; the text above stands as deposited)
 
 Bookkeeping landed as `4eb82204`; verified live at that head by fresh fetches, never assumed: the brief, the MAINT-140 entry, MAINT_INDEX and STATE all byte-present at `4eb82204` (27 asserts green — head pins on all four fetches, exactly-once anchors on every composed element, row order 139 → 140, the old Last updated line gone, both file tails intact). entries/ recounted live at `4eb82204`: MAINT-69.md through MAINT-140.md present, seventy-two files, no gaps. LF untouched at `7b6c0fb6`. Zero aborts this pass. Awaiting his ruling lines on Lines 1–3; next IDs MAINT-141 / Intake Log entry 22.
+
+### Correction (2026-11-13, MAINT-140 — additive; the addendum text above stands as written)
+
+The addendum's "Zero aborts this pass" line is wrong as written. One pre-push abort occurred and is disclosed: the first addendum compose aborted on a mis-set expectation constant in this line's own verification guard (it asserted a "## Correction" heading count of 1, a heading this brief does not carry — that heading belongs to the MAINT-138 brief's correction section). Hand-set-expectation class, caught by the guard before any push; nothing wrong landed; the retry with the corrected guard (expect 0) was clean. The lesson is the standing one: derive every expectation from the fetched text, never from a neighboring record's shape.
