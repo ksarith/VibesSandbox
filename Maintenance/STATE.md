@@ -2,8 +2,12 @@
 
 Current-state card, established 2026-11-06 (MAINT-69) under the human's maintenance-log architecture ruling. **Convenience only: the repositories are the authority; on any discrepancy the live repos govern. Verify at bootstrap.**
 
-Last updated: 2026-11-18 (MAINT-151/152)
+Last updated: 2026-11-18 (MAINT-153 CRC)
 ## Heads at last update
+
+- VibesSandbox main — last verified pre-landing head: `04b8e87c` (the MAINT-151/152 bookkeeping head, verified live at the MAINT-153 CRC bootstrap; this pass's bookkeeping lands above it; at the next bootstrap fetch live).
+
+- LazarusForge main — last verified pre-landing head: `808f137a` (unchanged, live-verified at the MAINT-153 CRC bootstrap; no LF commit owed this pass).
 
 - VibesSandbox main — last verified pre-landing head: `8e6a5fbfdb5224da` (the MAINT-149/150 bookkeeping head, verified live twice at the MAINT-151/152 compose; this pass lands above it; at the next bootstrap fetch live).
 
@@ -93,3 +97,5 @@ MAINT-150 update (2026-11-17): MAINT-144 ratified and executed at his word ("Rat
 MAINT-151 update (2026-11-18): AuditBot set executed at his rulings — V0.0.3 recorded as the standing package; the V0.0.2 retirement verified already complete (the zip was absent from the live tree; no commit owed); F-3 fail-closed default stands with his veto window; fixture-layout pin recorded closed in V0.0.2; the independent-lineage check of V0.0.3 and the CHARTER/MIGRATION-vs-LF comparison staged for a different lineage (brief line V1); the Co-Author elevation anchored in LF `Archive/Co_Author_Mandate.md` (commit `808f137a`) and the VS working record. Entry `Maintenance/entries/MAINT-151.md`.
 
 MAINT-152 update (2026-11-18): STATE.md split per his commission — the older head bullets, the Repair/Update-note sections, and the pre-MAINT-148 update paragraphs moved verbatim to the new sibling `Maintenance/STATE_History.md`; this card keeps the two most recent head bullets, the bootstrap versions, the held queue, Where things live (now carrying the landing-guard and AuditBot standing-package lines), and update blocks from MAINT-148 on. Entry `Maintenance/entries/MAINT-152.md`.
+
+MAINT-153 update (2026-11-18): the CRC v1 cycle ran per `Maintenance/CUSTODIAN_CYCLE_PROMPT.md` — five-repo bootstrap (Parlay's 2026-11-17 uploads and CogitoEngine's 2026-11-14 uploads observed-not-acted), entries recount 84 files contiguous (MAINT-69..152), open parked rows recounted 8 (same IDs), T1 census swept, the dead-link class scan clean on the touched files, the registration repair landed (`Maintenance/STATE_History.md` in the README Maintenance records), the Astroid-miner re-snapshot trigger checked NOT fired, zero aborts. Entry `Maintenance/entries/MAINT-153.md`.

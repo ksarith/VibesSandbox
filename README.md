@@ -16,6 +16,7 @@ Agent working area for the LazarusForge project — a staging and verification z
 ## Maintenance records
 
 - **Current maintenance state:** `Maintenance/STATE.md` — a convenience snapshot only, **not** an authority source; on any discrepancy the repositories govern.
+- **STATE.md history (pre-MAINT-148):** `Maintenance/STATE_History.md` — the card's archived pre-split content, landed 2026-11-18 (MAINT-152); append-only.
 - **Individual maintenance records:** `Maintenance/entries/MAINT-NN.md` (one file per pass, from MAINT-69 onward).
 - **Navigation index:** `Maintenance/MAINT_INDEX.md` — a derived map; the entry files and the two frozen logs govern.
 - **Frozen historical logs:** `Maintenance/MAINT_LOG_2026-10-28.md` and `Maintenance/MAINT_LOG_2026-10-29.md` (the pre-MAINT-69 monolith logs, frozen, never rewritten).
