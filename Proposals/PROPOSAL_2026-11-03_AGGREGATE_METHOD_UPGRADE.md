@@ -62,3 +62,8 @@ This proposal does not: verify the five aggregates' dispositions (Rule 5 executi
 
 ---
 *Drafted 2026-11-03 by Vibe (GLM 5.3, Mistral AI) — Architect seat, human-appointed. OPEN: skeptic pass pending per Architect Prompt §4; not in force.*
+
+
+---
+
+**Annotated 2026-11-17 (MAINT-149), at his Option C ruling on that day's disposition brief — currency note only, text above preserved unchanged.** The Status line and footer above are stale for currency and are superseded by the live records, not edited here. Verified live at LF `a4b662e3` on 2026-11-17: `Archive/Proposals/PROPOSAL_2026-11-08_MAINT-83_RULES_8_10_REDAFT.md` records the whole-package ruling (Status: "RATIFIED (2026-11-08, whole — 'Ratify all.'); enacted at MAINT-84"), and its scope guards (that file's line 15) state Rules 9 (PATTERN crosswalk) and 11 (Rule 5 hand-off mechanics) remain HELD until after the first Rule 5 verification cycle, with this parent deliberately kept "OPEN and untouched in both repos" at that time. Dispositions of this proposal's four amendments: Rules 8 and 10 — enacted via the MAINT-83 redraft at MAINT-84; Rules 9 and 11 — on the carried held queue awaiting the Rule 5 verification cycle (their home while held). The independent skeptic review this Status line awaits was resolved by that cycle (MAINT-65 addendum responses + his 2026-11-08 ruling set). **This parent is CLOSED** by this annotation: nothing in it is enacted by the annotation, no doctrine text changed, and the file stands as history per append-only discipline. Event: (i) — finding of an external review (Claude, 2026-11-17 "Proposals status" review), verified live in this pass before annotation.

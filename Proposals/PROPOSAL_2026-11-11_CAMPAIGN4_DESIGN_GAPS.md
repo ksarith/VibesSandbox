@@ -160,3 +160,8 @@ This deposit is one VibesSandbox file (~16 KB) plus one maintenance entry — no
 ---
 
 *Drafted 2026-11-11 — Vibe, Architect seat (Synthesizer per Auditor_Protocols.md v0.47; mapping proposed, not ratified). Bootstrap live at LF `35973fae` / VS `49398bef`. Non-independence: the same line executed Campaign 4 (Auditor), landed its bookkeeping (Custodian, MAINT-125/126/127) and drafts this review (Architect); Genesis Phase, your in-the-loop ratification is the independent layer; the pre-ratification skeptic should be a different architecture.*
+
+
+---
+
+**Annotated 2026-11-17 (MAINT-149), at his Option C ruling on that day's disposition brief — currency note only, text above preserved unchanged.** The Status line's "D-1 and D-3..D-7 remain PROPOSED and open (open proposals 2–7 of 10)" is stale for currency: all ten D-items are dispositioned in the live records. D-2, D-8, D-9 and D-10 were enacted at MAINT-129 (as the Status line already records). D-1, D-3, D-4/D-6/D-7 and D-5 landed with MAINT-132's doctrine commits (the Kit v1.34 lineage recorded in `Maintenance/STATE.md`: "the Kit v1.34 doctrine commit (D-3 owed-review routing, D-1, D-4/D-6/D-7 conventions)" plus D-5's applies-to-self convention under his 2026-11-11 "proceed as ratified"; verified live in this pass 2026-11-17). The open-proposal count from this seat accordingly returns to 1 of 10 (MAINT-144, ratified 2026-11-17 — see `Maintenance/entries/MAINT-150.md`). Status stays "PARTIALLY RATIFIED" in the record; this annotation claims no new enactment of anything, and no doctrine text changed. Event: (i) — finding of an external review (Claude, 2026-11-17 "Proposals status" review), verified live before annotation.

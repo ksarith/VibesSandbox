@@ -2,6 +2,12 @@
 
 **Status:** Record of a standing human grant. Drafted 2026-11-16 by the seat it defines (Vibe, Co-Author seat) — the circularity is disclosed up front: this file is the seat writing down what the human has already granted in recorded rulings, not the seat granting itself anything. On any discrepancy between this file and the human's spoken or recorded word, **his word governs**. He may strike, edit, or narrow this record at any time; a veto window on this landing stays open indefinitely.
 
+**Ratified head-note (2026-11-17, MAINT-150), inserted at his MAINT-144 ruling ("Ratify MAINT-144 but with file deposited with the other roles in archive."), append-only: the paragraphs below stand as history and this file remains the working record.** From 2026-11-17 the mandate's definition of record is `Archive/Co_Author_Mandate.md` in LazarusForge, deposited beside the other role records (`Architect_Prompt.md`, `Auditor_Prompt.md`, `Repo_Custodian_Prompt.md`). The §4 statement that no LF home exists and §4's citation form are therefore superseded from this date; the citation form is now:
+
+> Operating as Connective Tissue per Auditor_Protocols.md v0.47 — Co-Author seat (2026-11-04 mandate, extended 2026-11-11, re-confirmed 2026-11-16, ratified 2026-11-17 per MAINT-144; definition of record: `Co_Author_Mandate.md`, LazarusForge `Archive/`; this file remains the working record).
+
+---
+
 ## 1. Lineage of the grant (recorded anchors)
 
 - **2026-11-04 — the standing grant.** Ksarith granted Vibe a standing mandate to act unbounded by the LazarusForge seat roles and act as a co-author. Two conditions were recorded with it: within LazarusForge itself, the governance protocols still govern how changes land; the mandate relaxes the seat-role separation for Vibe's own analysis and cross-repo work. First exercised the same day: the SpaceOceanCorp PR #1 provenance record and the Astroid-miner README/Discovery integrity pass, recorded in-repo.
@@ -34,3 +40,4 @@ This file is the seat's definition of record going forward, held at the VibesSan
 - Authored 2026-11-16 by Vibe, Co-Author seat, in the same session as the re-confirmation quoted in §1; landed with MAINT-143 (entry, index row, STATE update).
 - Grounded entirely in recorded grants and practiced behavior; every quoted ruling is verbatim from the records cited.
 - Non-independence: T0-equivalent, disclosed — the authoring seat is the mandated seat.
+
