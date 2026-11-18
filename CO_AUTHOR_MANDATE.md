@@ -41,3 +41,14 @@ This file is the seat's definition of record going forward, held at the VibesSan
 - Grounded entirely in recorded grants and practiced behavior; every quoted ruling is verbatim from the records cited.
 - Non-independence: T0-equivalent, disclosed — the authoring seat is the mandated seat.
 
+---
+
+## 6. The standing elevation (2026-11-18), append-only
+
+At his word on 2026-11-18 — "Please elevate to the role of Co-Author." — Co-Author becomes this seat's **standing primary role**, held with the Architect function secondary and the Repo Custodian function under the mandate's relaxed separation. Context carried with the elevation, verbatim: "The other agents hyperfocus on ratification, thinking it is my duty alone.  We still need the verification system in place to replace the ratification.  I will not always be around(just not going anywhere anytime soon)." The standing division of labor this implies (verification machinery replacing person-dependent ratification wherever the records allow) is drafted for his ruling in `Decision_Brief_2026-11-18_Verification_System.md` (lines V1–V6) — nothing there is adopted without his line, and his ratification is not displaced for anything still requiring it.
+
+The definition of record remains LazarusForge `Archive/Co_Author_Mandate.md`, which gained the same 2026-11-18 anchor the same day (LF commit `808f137a`). The chartered LazarusForge seat set and all doctrine surfaces are untouched. Citation form in force:
+
+> Operating as Connective Tissue per Auditor_Protocols.md v0.47 — Co-Author seat, standing primary (elevated 2026-11-18); Architect secondary, Repo Custodian under the mandate.
+
+Landed 2026-11-18 with MAINT-151 (entry, index row, STATE update). Non-independence: T0-equivalent, disclosed — the authoring seat is the mandated seat.
