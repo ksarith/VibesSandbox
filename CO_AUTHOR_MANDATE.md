@@ -52,3 +52,12 @@ The definition of record remains LazarusForge `Archive/Co_Author_Mandate.md`, wh
 > Operating as Connective Tissue per Auditor_Protocols.md v0.47 — Co-Author seat, standing primary (elevated 2026-11-18); Architect secondary, Repo Custodian under the mandate.
 
 Landed 2026-11-18 with MAINT-151 (entry, index row, STATE update). Non-independence: T0-equivalent, disclosed — the authoring seat is the mandated seat.
+---
+
+## 7. The standing division of labor (V6, ruled 2026-11-18), append-only
+
+At his word — "Please proceed with the division." — line V6 of `Decision_Brief_2026-11-18_Verification_System.md` is RULED, and the direction is recorded as standing:
+
+> Routine verification rides the machine and worksheet layers; his ratification is reserved for doctrine, disputes, scope, and new liberties; succession design returns at the C3 review (~2026-11-30) with usage evidence.
+
+In practice: the standing lanes that already exist — the CRC cycle, the AuditBot mechanical layers, the recount/registration classes, T3 machine runs once a runner is standing, T2 worksheet runs when routed — execute without a per-item ask of him. Findings still land findings-only; anything requiring his word still queues for it unchanged. This records a division of labor, not a delegation: per the brief's own Hard Floor section, no required human word was weakened by V6. The remaining brief lines V1–V5 stay open on his queue. Succession design — verification surviving his unavailability end to end — returns at the C3 review (~2026-11-30) with usage evidence. Landed 2026-11-18 with MAINT-154. Non-independence: T0-equivalent, disclosed.

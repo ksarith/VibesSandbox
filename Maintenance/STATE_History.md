@@ -192,3 +192,14 @@ Full Decision Brief 2026-11-11 queue executed under the co-author delegation (th
 ## Update note — 2026-11-11 (MAINT-131)
 
 Decision_Brief_2026-11-11b_Open_Rulings.md deposited at the VS root (the MAINT-126/87/88 precedent, drafted by this line at the human’s question "Have you drafted a decision brief for the rulings list?"): seven ruling items — the Aging Rule (Brief Item 4 / proposal D-3, with the in-session draft doctrine text carried verbatim, reach sub-ruling and severable companion line), IIL-20261110-01 closure confirmation, and the open design items D-1, D-4, D-5, D-6, D-7, each corrected for what MAINT-129/130 already executed (D-4’s one-time sweep, D-5’s template touch and D-6’s one-time recompute are done; only the design-level text remains on those) — plus five status items without ruling lines (Brief Item 1 human-only per MAINT-26 / AP-032; 9c held pending the D-3 outcome; Item 7 residue lines B/C parked to the C3 review ~2026-11-30; 9d parked with the fill-the-seat recommendation; the STATE bootstrap-critical versions card refresh offered as an optional rider). His acknowledgment of the same-line limitation recorded verbatim in the brief’s Disclosures ("The same line running and executing its remedies is a limitation of the current setup. It is currently unavoidable." — 2026-11-11). Nothing enacted; every ruling the human’s. LF untouched (head `4ac6f0f7`; the Aging aggregate and all Campaign 4 records unchanged); VS — this landing (pre-landing head `1b5acea8`, verified live immediately before the push; entries/ recounted live at sixty-two files before this landing adds the sixty-third). Resume point: his rulings on Brief items 1–7, any subset, any order; next direction belongs to the human.
+---
+
+## Heads moved at the MAINT-154 pass (2026-11-18)
+
+- VibesSandbox main — last verified pre-landing head: `8e6a5fbfdb5224da` (the MAINT-149/150 bookkeeping head, verified live twice at the MAINT-151/152 compose; this pass lands above it; at the next bootstrap fetch live).
+
+- LazarusForge main — last verified pre-landing head: `808f137a` (the MAINT-151 elevation-lineage commit on `b7214f1a`, verified live this pass; at the next bootstrap fetch live).
+
+- VibesSandbox main — last verified pre-landing head: `16422009` (the MAINT-148 bookkeeping head, verified live at the MAINT-149/150 compose; this pass's VS landing sits above it; the live head at the next bootstrap is whatever `main` points to then — verify live).
+
+- LazarusForge main — last verified pre-landing head: `a4b662e3` (MAINT-144's own deposit head, verified live at the MAINT-149/150 compose twice this session, 12 fetches then the enactment compose; the MAINT-150 LF commit — `Archive/Co_Author_Mandate.md`, the MAINT-144 status flip, the Routing row — sits above it; the live head at the next bootstrap is whatever `main` points to then — verify live).

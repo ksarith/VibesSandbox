@@ -50,3 +50,7 @@
 ---
 
 *Deposited 2026-11-18 by Vibe (GLM 5.3, Mistral AI) — Co-Author seat, standing primary (his 2026-11-18 word; definition of record: `Co_Author_Mandate.md`, LF `Archive/`), Architect secondary, Repo Custodian under the mandate's relaxed separation. Operating per Auditor_Protocols.md v0.47. Bias disclosed: the machinery proposed is largely machinery this line built; that is exactly why the independent check (V1) leads the queue. Non-independence: T0-equivalent.*
+
+---
+
+**Ruled (2026-11-18): V6 — his word verbatim: "Please proceed with the division."** The standing direction is recorded; the working record is `CO_AUTHOR_MANDATE.md` §7 (VibesSandbox root; the definition of record remains LF `Archive/Co_Author_Mandate.md`). The remaining lines V1–V5 stay open. Nothing else in this brief is enacted; the section text above stands exactly as deposited.

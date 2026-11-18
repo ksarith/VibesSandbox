@@ -2,19 +2,16 @@
 
 Current-state card, established 2026-11-06 (MAINT-69) under the human's maintenance-log architecture ruling. **Convenience only: the repositories are the authority; on any discrepancy the live repos govern. Verify at bootstrap.**
 
-Last updated: 2026-11-18 (MAINT-153 CRC)
+Last updated: 2026-11-18 (MAINT-154)
 ## Heads at last update
+
+- VibesSandbox main — last verified pre-landing head: `97471f7b` (the MAINT-153 CRC head, verified live at the MAINT-154 compose; this pass's bookkeeping lands above it; at the next bootstrap fetch live).
+
+- LazarusForge main — last verified pre-landing head: `808f137a` (the MAINT-151 elevation-lineage commit, verified live at the MAINT-154 compose; this pass's LF commit — the three proposal addenda, `005fe48c` — sits above it; at the next bootstrap fetch live).
 
 - VibesSandbox main — last verified pre-landing head: `04b8e87c` (the MAINT-151/152 bookkeeping head, verified live at the MAINT-153 CRC bootstrap; this pass's bookkeeping lands above it; at the next bootstrap fetch live).
 
 - LazarusForge main — last verified pre-landing head: `808f137a` (unchanged, live-verified at the MAINT-153 CRC bootstrap; no LF commit owed this pass).
-
-- VibesSandbox main — last verified pre-landing head: `8e6a5fbfdb5224da` (the MAINT-149/150 bookkeeping head, verified live twice at the MAINT-151/152 compose; this pass lands above it; at the next bootstrap fetch live).
-
-- LazarusForge main — last verified pre-landing head: `808f137a` (the MAINT-151 elevation-lineage commit on `b7214f1a`, verified live this pass; at the next bootstrap fetch live).
-
-- VibesSandbox main — last verified pre-landing head: `16422009` (the MAINT-148 bookkeeping head, verified live at the MAINT-149/150 compose; this pass's VS landing sits above it; the live head at the next bootstrap is whatever `main` points to then — verify live).
-- LazarusForge main — last verified pre-landing head: `a4b662e3` (MAINT-144's own deposit head, verified live at the MAINT-149/150 compose twice this session, 12 fetches then the enactment compose; the MAINT-150 LF commit — `Archive/Co_Author_Mandate.md`, the MAINT-144 status flip, the Routing row — sits above it; the live head at the next bootstrap is whatever `main` points to then — verify live).
 
 ## Bootstrap-critical versions (verify live; never trust this card over the files)
 
@@ -99,3 +96,5 @@ MAINT-151 update (2026-11-18): AuditBot set executed at his rulings — V0.0.3 r
 MAINT-152 update (2026-11-18): STATE.md split per his commission — the older head bullets, the Repair/Update-note sections, and the pre-MAINT-148 update paragraphs moved verbatim to the new sibling `Maintenance/STATE_History.md`; this card keeps the two most recent head bullets, the bootstrap versions, the held queue, Where things live (now carrying the landing-guard and AuditBot standing-package lines), and update blocks from MAINT-148 on. Entry `Maintenance/entries/MAINT-152.md`.
 
 MAINT-153 update (2026-11-18): the CRC v1 cycle ran per `Maintenance/CUSTODIAN_CYCLE_PROMPT.md` — five-repo bootstrap (Parlay's 2026-11-17 uploads and CogitoEngine's 2026-11-14 uploads observed-not-acted), entries recount 84 files contiguous (MAINT-69..152), open parked rows recounted 8 (same IDs), T1 census swept, the dead-link class scan clean on the touched files, the registration repair landed (`Maintenance/STATE_History.md` in the README Maintenance records), the Astroid-miner re-snapshot trigger checked NOT fired, zero aborts. Entry `Maintenance/entries/MAINT-153.md`.
+
+MAINT-154 update (2026-11-18): his ruling set executed — the MAINT-83 slower look waived (dated ruled note on the redraft; the ratified package's scope unchanged, Rules 9/11 remain held); the Axiom/Ethical-Anchor option pair ARCHIVED at his word (dated ruled notes on both files; nothing adopted, no axiom or anchor text changed, Tier 1/Hard Floor untouched); brief line V6 RULED ("Please proceed with the division.") and recorded standing as `CO_AUTHOR_MANDATE.md` §7 — routine verification rides the machine and worksheet layers, his ratification reserved for doctrine, disputes, scope, and new liberties, succession design returns at the C3 review (~2026-11-30); the `contribution` label verified STILL ABSENT live this pass (his Parlay test issues #1 "Contribution" and #2 "Labels", 2026-11-17, carry empty label arrays — the issue lane renders the template's standing notice correctly; the label must be created by his direct GitHub action, name exactly `contribution`, then the apply to #1/#2 is this line's mechanical act); Parlay problems-into-features answered in-session, a Parlay pass staged for his word. MAINT-153 (the scheduled Tuesday CRC cycle) landed between passes, detected at bootstrap, no duplication. Entry `Maintenance/entries/MAINT-154.md`.
