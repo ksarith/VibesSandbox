@@ -1,3 +1,22 @@
+# VibesSandbox V.0.0.8 — Validator-Hardened Package
+
+This is a **validator-hardened** packaging of VibesSandbox V.0.0.8.
+
+Added for machine readability and integrity checking:
+- `registry.yaml` — structural inventory
+- `tools/validate_sandbox.py` — structural validation gate (exit 0 = clean)
+- `tests/test_sandbox_structure.py` — basic automated checks
+
+Run validation:
+```bash
+python3 tools/validate_sandbox.py
+python3 tests/test_sandbox_structure.py
+```
+
+Original content and governance boundary are unchanged. Nothing in this package is LazarusForge doctrine.
+
+---
+
 # VibesSandbox
 
 Agent working area for the LazarusForge project — a staging and verification zone, **not** LazarusForge doctrine.
@@ -22,7 +41,7 @@ Agent working area for the LazarusForge project — a staging and verification z
 - **Frozen historical logs:** `Maintenance/MAINT_LOG_2026-10-28.md` and `Maintenance/MAINT_LOG_2026-10-29.md` (the pre-MAINT-69 monolith logs, frozen, never rewritten).
 - **Decision briefs:** the `Decision_Brief_*.md` files at this repo's root.
 - **Verification reports and audit deposits:** `Audits/`.
-- **Archived project snapshots:** `Astroid-miner-AstroidMinerV0.07/` (working-tree copy; the canonical archive lives in LazarusForge — see the MAINT-71 records and the pending de-duplication ruling) and the `LazarusForge-1.33.Alpha.zip` / `LazarusForge-1.34.Alpha.zip` release archives under `Maintenance/`.
+- **Archived project snapshots:** `Astroid-miner-AstroidMinerV0.07/` (working-tree copy; the canonical archive lives in LazarusForge — see the MAINT-71 records and the pending de-duplication ruling) and the `LazarusForge-1.38.Alpha.zip` release archive under `Maintenance/` (earlier 1.33 and 1.34 archives superseded).
 
 *(Section added 2026-11-08, MAINT-82, executing intake-16 P1 of the human-ruled MAINT-81 ruling set.)*
 

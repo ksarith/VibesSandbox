@@ -1,0 +1,56 @@
+# VibesSandbox V.0.0.9 — structural registry (hardened package)
+# This is a convenience inventory for machine readers and validators.
+# It does not confer doctrine status. See README.md governance boundary.
+
+package:
+  name: VibesSandbox
+  version: V.0.0.9
+  hardened: true
+  hardened_date: "2026-11-20"
+  description: >
+    Agent working area / staging & verification zone for LazarusForge.
+    Not doctrine. Human-governed.
+
+top_level:
+  - README.md
+  - PKC_Ruling_List.md
+  - CO_AUTHOR_MANDATE.md
+  - Baseline_Pull_2026-10-26.md
+  - COLD_READER_P-1_P3_DRAFT.md
+  - Review_2026-11-16_AuditBot_V0.0.1.md
+
+directories:
+  Audits: "Verification reports, session status addenda, and audit deposits"
+  Maintenance: "STATE.md, MAINT_INDEX.md, per-entry MAINT-*.md records, nested release ZIPs"
+  Proposals: "Design proposals and RESET_EVENT design iterations"
+  Astroid-miner-AstroidMinerV0.07: "Working-tree snapshot of AstroidMiner (canonical archive lives in LazarusForge)"
+  tools: "validate_sandbox.py and supporting scripts"
+  tests: "Structural integrity tests"
+
+key_artifacts:
+  - path: Maintenance/STATE.md
+    role: convenience snapshot of current maintenance state
+  - path: Maintenance/MAINT_INDEX.md
+    role: derived navigation index
+  - path: Maintenance/STATE_History.md
+    role: pre-split history archive
+  - path: Maintenance/LazarusForge-1.38.Alpha.zip
+    role: nested release archive
+  - path: Maintenance/AcquisitionsAnalysis-V_0_0_3.zip
+    role: nested project archive
+  - path: Maintenance/AuditBot-V_0_0_3.zip
+    role: nested project archive
+  - path: Maintenance/CogitoEngine-V.0.0.4.zip
+    role: nested project archive
+  - path: Maintenance/DealIntegrity-V.0.1.0.zip
+    role: nested project archive
+  - path: Maintenance/Parlay-V.0.0.2.zip
+    role: nested project archive
+  - path: Maintenance/idea-generator-2-000.1.zip
+    role: nested project archive
+  - path: Astroid-miner-AstroidMinerV0.07/registry.yaml
+    role: nested project registry
+
+validation:
+  primary: tools/validate_sandbox.py
+  tests: tests/test_sandbox_structure.py
