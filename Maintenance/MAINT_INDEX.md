@@ -199,6 +199,7 @@ Established 2026-11-06 by MAINT-69 under the human governing authority's mainten
 | MAINT-155 | entries/ | 2026-11-21 | CRC v1 custodian review-and-corrections cycle: five-repo bootstrap (9 unrecorded VS human commits observed-not-acted: the hardened registry/validator/test package + Maintenance zips) + the eight-item checklist + bookkeeping; Astroid-miner re-snapshot trigger NOT fired; dead-link scan clean on the touched files; event-tag rate falling; zero aborts |
 | MAINT-156 | entries/ | 2026-11-23 | CRC v2 Monday scope: CogitoEngine review-and-observe (read-only, no CE landing); five-repo bootstrap; entries recount 87 contiguous pre-landing; parked rows recount 8; CE zero T1-census hits, Unknowns all-Open; Astroid-miner trigger NOT fired; bookkeeping only |
 | MAINT-157 | entries/ | 2026-11-24 | CRC v2 Tuesday scope (VibesSandbox full standing lane): five-repo bootstrap (LF `892926ff` = MAINT-156 batch 1/4 conformance commit, 2026-11-23, observed-not-acted with the human veto window open) + the eight-item checklist + bookkeeping; AP verified live at v0.47; entries recount 88 contiguous pre-landing; parked rows recount 8 (same IDs); MAINT_INDEX T1 watch ~91 percent; dead-link scan clean; Astroid-miner trigger NOT fired; PL-002 blocking verified standing; no non-mechanical defect, zero aborts; no landing-time event |
+| MAINT-158 | entries/ | 2026-11-25 | CRC v2 Wednesday scope — Parlay governance lifecycle (VP-002 Verification Pass recorded; no enactment; VS bookkeeping only) |
 
 ## Count convention
 
