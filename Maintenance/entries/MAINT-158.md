@@ -18,4 +18,5 @@
 
 **Open Parked Concerns rows: 8** (recounted live this pass from `Admin/Progress_Log.md`: PKC-009, -010, -021, -023, -026, -043, -044, -045).
 
+- **Same-session correction (MAINT-41a precedent, self-caused, disclosed):** the first push carried the MAINT-158 index row but omitted the X10 recount line the entry's Files-touched list claims; the recount line lands in this same-session correction commit, disclose-nothing-silent.
 - **Disclosures:** Event: (i) candidate — one, disclosed above: the full-tree T1 census fetch was rate-blocked this pass (the same unfetchable-check class as MAINT-155's brief event, disclosed, not silently skipped); no (ii)/(iii).
