@@ -36,13 +36,17 @@ key_artifacts:
     role: pre-split history archive
   - path: Maintenance/LazarusForge-1.38.Alpha.zip
     role: nested release archive
+  - path: Maintenance/LazarusForge-1.39.Alpha.zip
+    role: nested release archive
   - path: Maintenance/AcquisitionsAnalysis-V_0_0_3.zip
     role: nested project archive
   - path: Maintenance/AuditBot-V_0_0_3.zip
     role: nested project archive
   - path: Maintenance/CogitoEngine-V.0.0.4.zip
     role: nested project archive
-  - path: Maintenance/DealIntegrity-V.0.1.0.zip
+  - path: Maintenance/DealIntegrity-V.0.1.1-clean.zip
+    role: nested project archive
+  - path: Maintenance/DealIntegrity-V_0_1_1_update.zip
     role: nested project archive
   - path: Maintenance/Parlay-V.0.0.2.zip
     role: nested project archive
