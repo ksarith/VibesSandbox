@@ -2,8 +2,10 @@
 
 Current-state card, established 2026-11-06 (MAINT-69) under the human's maintenance-log architecture ruling. **Convenience only: the repositories are the authority; on any discrepancy the live repos govern. Verify at bootstrap.**
 
-Last updated: 2026-11-27 (MAINT-160)
+Last updated: 2026-11-28 (MAINT-161)
 ## Heads at last update
+
+- VibesSandbox main — last verified pre-landing head: `77c93114` (the MAINT-160 Friday bookkeeping head, live-verified at the MAINT-161 bootstrap; this pass's bookkeeping lands above it; at the next bootstrap fetch live).
 
 - VibesSandbox main — last verified pre-landing head: `0eb829c5` (the MAINT-159 Thursday bookkeeping head, live-verified at the MAINT-160 bootstrap; one unrecorded human upload above it — `3f19e5a6`, "Add files via upload", 2026-11-26, adding `Maintenance/LazarusForge-1.39.Alpha.zip`, observed-not-acted and registered in `registry.yaml` this pass; this pass's bookkeeping lands above it; at the next bootstrap fetch live).
 
